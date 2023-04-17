@@ -81,7 +81,7 @@ def parse_vlq(segment):
     return values
 
 
-def parse_sourcemap(f, line_starts, webpack_name):
+def parse_sourcemap(f, line_starts, dir_name):
     smap = json.load(f)
     sources = smap['sources']
     mappings = smap['mappings']
@@ -112,20 +112,20 @@ def parse_sourcemap(f, line_starts, webpack_name):
                 src_col += parse[3]
 
             if src in our_sources:
-                norm_src = os.path.normpath(src.replace(f"webpack://{webpack_name}/", ""))
+                norm_src = os.path.normpath(os.path.join(dir_name, src))
                 our_map.append((line_starts[dst_line] + dst_col, norm_src, src_line))
 
     return our_map
 
 
 class DistFile:
-    def __init__(self, path, webpack_name):
+    def __init__(self, path):
         line_starts = [0]
         with open(path, newline='') as f:
             for line in f.readlines():
                 line_starts.append(line_starts[-1] + len(line))
         with open(path + ".map") as f:
-            self.smap = parse_sourcemap(f, line_starts, webpack_name)
+            self.smap = parse_sourcemap(f, line_starts, os.path.relpath(os.path.dirname(path), BASE_DIR))
 
     def find_sources_slow(self, start, end):
         res = []
@@ -158,7 +158,7 @@ def get_dist_map(package):
     return dmap
 
 
-def get_distfile(url, dist_map, webpack_name):
+def get_distfile(url, dist_map):
     parts = url.split("/")
     if len(parts) < 3 or "cockpit" not in parts:
         return None
@@ -172,7 +172,7 @@ def get_distfile(url, dist_map, webpack_name):
     else:
         path = f"{BASE_DIR}/dist/" + base + "/" + file
     if os.path.exists(path) and os.path.exists(path + ".map"):
-        return DistFile(path, webpack_name)
+        return DistFile(path)
     else:
         sys.stderr.write(f"SKIP {url} -> {path}\n")
         return None
@@ -367,7 +367,7 @@ def write_lcov(covdata, outlabel):
     # from each mention.
 
     for script in covdata:
-        distfile = get_distfile(script['url'], dist_map, package["name"])
+        distfile = get_distfile(script['url'], dist_map)
         if distfile:
             ranges = sorted(covranges(script['functions']),
                             key=lambda r: r['endOffset'] - r['startOffset'], reverse=True)
@@ -444,12 +444,9 @@ def get_review_comments(diff_info_file):
 def prepare_for_code_coverage():
     # This gives us a convenient link at the top of the logs, see link-patterns.json
     print("Code coverage report in Coverage/index.html")
-    try:
-        os.makedirs("lcov", exist_ok=True)
-        with open("lcov/github-pr.diff", "w") as f:
-            subprocess.check_call(["git", "-c", "diff.noprefix=false", "diff", "--patience", "main"], stdout=f)
-    except subprocess.CalledProcessError:
-        pass
+    os.makedirs("lcov", exist_ok=True)
+    with open("lcov/github-pr.diff", "w") as f:
+        subprocess.check_call(["git", "-c", "diff.noprefix=false", "diff", "--patience", "main"], stdout=f)
 
 
 def create_coverage_report():
@@ -460,36 +457,33 @@ def create_coverage_report():
     except subprocess.CalledProcessError:
         title = "?"
     if len(lcov_files) > 0:
-        try:
-            all_file = f"{BASE_DIR}/lcov/all.info"
-            diff_file = f"{BASE_DIR}/lcov/diff.info"
-            subprocess.check_call(["lcov", "--quiet", "--output", all_file] +
-                                  sum(map(lambda f: ["--add", f], lcov_files), []))
-            subprocess.check_call(["lcov", "--quiet", "--output", diff_file,
-                                   "--extract", all_file, "*/github-pr.diff"])
-            summary = subprocess.check_output(["genhtml", "--no-function-coverage",
-                                               "--prefix", os.getcwd(),
-                                               "--title", title,
-                                               "--output-dir", f"{output}/Coverage", all_file]).decode()
+        all_file = f"{BASE_DIR}/lcov/all.info"
+        diff_file = f"{BASE_DIR}/lcov/diff.info"
+        subprocess.check_call(["lcov", "--quiet", "--output", all_file] +
+                              sum(map(lambda f: ["--add", f], lcov_files), []))
+        subprocess.check_call(["lcov", "--quiet", "--output", diff_file,
+                               "--extract", all_file, "*/github-pr.diff"])
+        summary = subprocess.check_output(["genhtml", "--no-function-coverage",
+                                           "--prefix", os.getcwd(),
+                                           "--title", title,
+                                           "--output-dir", f"{output}/Coverage", all_file]).decode()
 
-            coverage = summary.split("\n")[-2]
-            match = re.search(r".*lines\.*:\s*([\d\.]*%).*", coverage)
-            if match:
-                print("Overall line coverage:", match.group(1))
+        coverage = summary.split("\n")[-2]
+        match = re.search(r".*lines\.*:\s*([\d\.]*%).*", coverage)
+        if match:
+            print("Overall line coverage:", match.group(1))
 
-            comments = get_review_comments(diff_file)
-            rev = os.environ.get("TEST_REVISION", None)
-            pull = os.environ.get("TEST_PULL", None)
-            if rev and pull:
-                api = github.GitHub()
-                old_comments = api.get(f"pulls/{pull}/comments?sort=created&direction=desc&per_page=100") or []
-                for oc in old_comments:
-                    if ("body" in oc and "path" in oc and "line" in oc and
-                       "not executed by any test." in oc["body"]):
-                        api.delete(f"pulls/comments/{oc['id']}")
-                if len(comments) > 0:
-                    api.post(f"pulls/{pull}/reviews",
-                             {"commit_id": rev, "event": "COMMENT",
-                              "comments": comments})
-        except subprocess.CalledProcessError as e:
-            print(f"Failed to create coverage report: {e}")
+        comments = get_review_comments(diff_file)
+        rev = os.environ.get("TEST_REVISION", None)
+        pull = os.environ.get("TEST_PULL", None)
+        if rev and pull:
+            api = github.GitHub()
+            old_comments = api.get(f"pulls/{pull}/comments?sort=created&direction=desc&per_page=100") or []
+            for oc in old_comments:
+                if ("body" in oc and "path" in oc and "line" in oc and
+                   "not executed by any test." in oc["body"]):
+                    api.delete(f"pulls/comments/{oc['id']}")
+            if len(comments) > 0:
+                api.post(f"pulls/{pull}/reviews",
+                         {"commit_id": rev, "event": "COMMENT",
+                          "comments": comments})

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-23 02:48+0000\n"
-"PO-Revision-Date: 2023-03-23 14:08+0000\n"
+"POT-Creation-Date: 2023-04-10 02:47+0000\n"
+"PO-Revision-Date: 2023-04-06 11:43+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "main/tr/>\n"
@@ -34,7 +34,7 @@ msgstr "Kullanıcı sayısı"
 msgid "$0 (encrypted)"
 msgstr "$0 (şifrelenmiş)"
 
-#: pkg/metrics/metrics.jsx:590
+#: pkg/metrics/metrics.jsx:589
 msgid "$0 CPU"
 msgid_plural "$0 CPUs"
 msgstr[0] "$0 CPU"
@@ -54,7 +54,7 @@ msgid_plural "$0 active zones"
 msgstr[0] "$0 etkin bölge"
 msgstr[1] "$0 etkin bölge"
 
-#: pkg/metrics/metrics.jsx:613 pkg/metrics/metrics.jsx:761
+#: pkg/metrics/metrics.jsx:612 pkg/metrics/metrics.jsx:760
 msgid "$0 available"
 msgstr "$0 kullanılabilir"
 
@@ -90,8 +90,8 @@ msgid_plural "$0 days"
 msgstr[0] "$0 gün"
 msgstr[1] "$0 gün"
 
-#: pkg/playground/translate.js:26 pkg/playground/translate.js:29
-#: pkg/storaged/mdraid-details.jsx:206
+#: pkg/storaged/mdraid-details.jsx:206 pkg/playground/translate.js:26
+#: pkg/playground/translate.js:29
 msgid "$0 disk is missing"
 msgid_plural "$0 disks are missing"
 msgstr[0] "$0 disk eksik"
@@ -147,7 +147,7 @@ msgstr "$0 dosya sistemleri küçültülemez."
 msgid "$0 filesystems can not be resized here."
 msgstr "$0 dosya sistemleri burada yeniden boyutlandırılamaz."
 
-#: pkg/metrics/metrics.jsx:805
+#: pkg/metrics/metrics.jsx:804
 msgid "$0 free"
 msgstr "$0 boş"
 
@@ -163,12 +163,16 @@ msgid_plural "$0 hits, including important"
 msgstr[0] "$0 önemli sonuç"
 msgstr[1] "$0 sonuç, önemli olanlar dahil"
 
-#: pkg/storaged/content-views.jsx:381 pkg/storaged/content-views.jsx:689
-#: pkg/storaged/stratis-details.jsx:240 pkg/storaged/stratis-details.jsx:585
+#: pkg/users/account-create-dialog.js:385
+msgid "$0 is an existing file"
+msgstr "$0 varolan bir dosyadır"
+
 #: pkg/storaged/vdo-details.jsx:129 pkg/storaged/vdo-details.jsx:163
-#: pkg/storaged/vgroup-details.jsx:186 pkg/storaged/lvol-tabs.jsx:227
-#: pkg/storaged/lvol-tabs.jsx:294 pkg/storaged/format-dialog.jsx:237
+#: pkg/storaged/format-dialog.jsx:236 pkg/storaged/vgroup-details.jsx:186
+#: pkg/storaged/lvol-tabs.jsx:227 pkg/storaged/lvol-tabs.jsx:294
+#: pkg/storaged/content-views.jsx:381 pkg/storaged/content-views.jsx:689
 #: pkg/storaged/mdraid-details.jsx:228 pkg/storaged/mdraid-details.jsx:283
+#: pkg/storaged/stratis-details.jsx:240 pkg/storaged/stratis-details.jsx:585
 msgid "$0 is in use"
 msgstr "$0 kullanımda"
 
@@ -177,7 +181,7 @@ msgstr "$0 kullanımda"
 msgid "$0 is not available from any repository."
 msgstr "$0, hiçbir depoda yok."
 
-#: pkg/shell/hosts_dialog.jsx:456 pkg/static/login.js:757
+#: pkg/shell/hosts_dialog.jsx:457 pkg/static/login.js:757
 msgid "$0 key changed"
 msgstr "$0 anahtarı değişti"
 
@@ -223,7 +227,7 @@ msgid_plural "$0 packages"
 msgstr[0] "$0 paket"
 msgstr[1] "$0 paket"
 
-#: pkg/packagekit/updates.jsx:700 pkg/packagekit/updates.jsx:815
+#: pkg/packagekit/updates.jsx:701 pkg/packagekit/updates.jsx:816
 msgid "$0 package needs a system reboot"
 msgid_plural "$0 packages need a system reboot"
 msgstr[0] "$0 paketin, sistemin yeniden başlatılmasına ihtiyacı var"
@@ -235,19 +239,19 @@ msgid_plural "$0 pages"
 msgstr[0] "$0 sayfa"
 msgstr[1] "$0 sayfa"
 
-#: pkg/packagekit/updates.jsx:787
+#: pkg/packagekit/updates.jsx:788
 msgid "$0 security fix available"
 msgid_plural "$0 security fixes available"
 msgstr[0] "$0 güvenlik düzeltmesi mevcut"
 msgstr[1] "$0 güvenlik düzeltmesi mevcut"
 
-#: pkg/systemd/services.jsx:605
+#: pkg/systemd/services.jsx:600
 msgid "$0 service has failed"
 msgid_plural "$0 services have failed"
 msgstr[0] "$0 hizmet başarısız oldu"
 msgstr[1] "$0 hizmet başarısız oldu"
 
-#: pkg/packagekit/updates.jsx:717 pkg/packagekit/updates.jsx:827
+#: pkg/packagekit/updates.jsx:718 pkg/packagekit/updates.jsx:828
 msgid "$0 service needs to be restarted"
 msgid_plural "$0 services need to be restarted"
 msgstr[0] "$0 hizmetin yeniden başlatılması gerekiyor"
@@ -259,18 +263,18 @@ msgid_plural "$0 slots remain"
 msgstr[0] "$0 yuva kaldı"
 msgstr[1] "$0 yuva kaldı"
 
-#: pkg/metrics/metrics.jsx:1171
+#: pkg/metrics/metrics.jsx:1170
 msgid "$0 spike"
 msgid_plural "$0 spikes"
 msgstr[0] "$0 sıçrama"
 msgstr[1] "$0 sıçrama"
 
-#: pkg/metrics/metrics.jsx:605 pkg/metrics/metrics.jsx:752
-#: pkg/metrics/metrics.jsx:813
+#: pkg/metrics/metrics.jsx:604 pkg/metrics/metrics.jsx:751
+#: pkg/metrics/metrics.jsx:812
 msgid "$0 total"
 msgstr "$0 toplam"
 
-#: pkg/packagekit/updates.jsx:795
+#: pkg/packagekit/updates.jsx:796
 msgid "$0 update available"
 msgid_plural "$0 updates available"
 msgstr[0] "$0 güncelleme mevcut"
@@ -312,11 +316,11 @@ msgstr "$0: $1 tarihinde çökme"
 msgid "$name (from $host)"
 msgstr "$name ($host cihazından)"
 
-#: pkg/storaged/format-dialog.jsx:198 pkg/storaged/format-dialog.jsx:215
+#: pkg/storaged/format-dialog.jsx:197 pkg/storaged/format-dialog.jsx:214
 msgid "(recommended)"
 msgstr "(önerilir)"
 
-#: pkg/packagekit/updates.jsx:797
+#: pkg/packagekit/updates.jsx:798
 msgid ", including $1 security fix"
 msgid_plural ", including $1 security fixes"
 msgstr[0] ", $1 güvenlik düzeltmesi dahil"
@@ -334,7 +338,7 @@ msgstr "1 gün"
 msgid "1 hour"
 msgstr "1 saat"
 
-#: pkg/metrics/metrics.jsx:725
+#: pkg/metrics/metrics.jsx:724
 msgid "1 min"
 msgstr "1 dak"
 
@@ -370,7 +374,7 @@ msgstr "13."
 msgid "14th"
 msgstr "14."
 
-#: pkg/metrics/metrics.jsx:727
+#: pkg/metrics/metrics.jsx:726
 msgid "15 min"
 msgstr "15 dak"
 
@@ -482,7 +486,7 @@ msgstr "40 dakika"
 msgid "4th"
 msgstr "4."
 
-#: pkg/metrics/metrics.jsx:726
+#: pkg/metrics/metrics.jsx:725
 msgid "5 min"
 msgstr "5 dak"
 
@@ -539,7 +543,7 @@ msgstr "8."
 msgid "9th"
 msgstr "9."
 
-#: pkg/shell/hosts_dialog.jsx:85
+#: pkg/shell/hosts_dialog.jsx:86
 msgid "A compatible version of Cockpit is not installed on $0."
 msgstr "$0 üzerinde uyumlu bir Cockpit sürümü yüklü değil."
 
@@ -565,7 +569,7 @@ msgstr ""
 "Bir ağ birleştirmesi (bond), birden çok ağ arayüzünü daha yüksek aktarım "
 "hızı veya yedeklilik ile tek bir mantıksal arayüzde birleştirir."
 
-#: pkg/shell/hosts_dialog.jsx:780
+#: pkg/shell/hosts_dialog.jsx:781
 msgid ""
 "A new SSH key at $0 will be created for $1 on $2 and it will be added to the "
 "$3 file of $4 on $5."
@@ -573,7 +577,7 @@ msgstr ""
 "$2 üzerinde $1 için $0 konumunda yeni bir SSH anahtarı oluşturulacak ve $5 "
 "üzerindeki $4 kullanıcısının $3 dosyasına eklenecektir."
 
-#: pkg/packagekit/updates.jsx:1515
+#: pkg/packagekit/updates.jsx:1517
 msgid "A package needs a system reboot for the updates to take effect:"
 msgid_plural ""
 "Some packages need a system reboot for the updates to take effect:"
@@ -588,7 +592,7 @@ msgstr[1] ""
 msgid "A pool with this name exists already."
 msgstr "Bu adda bir havuz zaten var."
 
-#: pkg/packagekit/updates.jsx:1519
+#: pkg/packagekit/updates.jsx:1521
 msgid "A service needs to be restarted for the updates to take effect:"
 msgid_plural ""
 "Some services need to be restarted for the updates to take effect:"
@@ -620,11 +624,11 @@ msgstr "ARP ping"
 msgid "About Web Console"
 msgstr "Web Konsolu Hakkında"
 
-#: pkg/lib/machine-info.js:247 pkg/systemd/hw-detect.js:114
+#: pkg/systemd/hw-detect.js:114 pkg/lib/machine-info.js:247
 msgid "Absent"
 msgstr "Yok"
 
-#: pkg/shell/hosts_dialog.jsx:457
+#: pkg/shell/hosts_dialog.jsx:458
 msgid "Accept key and connect"
 msgstr "Anahtarı kabul et ve bağlan"
 
@@ -632,7 +636,7 @@ msgstr "Anahtarı kabul et ve bağlan"
 msgid "Accept key and log in"
 msgstr "Anahtarı kabul et ve oturum aç"
 
-#: pkg/users/expiration-dialogs.js:108
+#: pkg/users/expiration-dialogs.js:110
 msgid "Account expiration"
 msgstr "Hesap süresinin dolması"
 
@@ -640,16 +644,16 @@ msgstr "Hesap süresinin dolması"
 msgid "Account not available or cannot be edited."
 msgstr "Hesap kullanılabilir değil ya da düzenlenemez."
 
-#: pkg/users/account-details.js:237 pkg/users/accounts-list.js:241
-#: pkg/users/accounts-list.js:459 pkg/users/manifest.json:0
+#: pkg/users/accounts-list.js:241 pkg/users/accounts-list.js:459
+#: pkg/users/account-details.js:237 pkg/users/manifest.json:0
 msgid "Accounts"
 msgstr "Hesaplar"
 
-#: pkg/storaged/dialog.jsx:1142
+#: pkg/storaged/dialog.jsx:1141
 msgid "Action"
 msgstr "Eylem"
 
-#: pkg/apps/application-list.jsx:82
+#: pkg/apps/application-list.jsx:86
 msgid "Actions"
 msgstr "Eylemler"
 
@@ -678,8 +682,8 @@ msgstr "Etkin sayfalar"
 msgid "Active since "
 msgstr "Etkin olma başlangıcı "
 
-#: pkg/systemd/services.jsx:832 pkg/systemd/services.jsx:833
-#: pkg/systemd/services.jsx:840
+#: pkg/systemd/services.jsx:827 pkg/systemd/services.jsx:828
+#: pkg/systemd/services.jsx:835
 msgid "Active state"
 msgstr "Etkin durum"
 
@@ -691,14 +695,14 @@ msgstr "Uyarlanabilir yük dengeleme"
 msgid "Adaptive transmit load balancing"
 msgstr "Uyarlanabilir iletim yükü dengeleme"
 
-#: pkg/users/authorized-keys-panel.js:69 pkg/systemd/timer-dialog.jsx:373
-#: pkg/shell/credentials.jsx:184 pkg/shell/hosts_dialog.jsx:246
-#: pkg/storaged/stratis-details.jsx:147 pkg/storaged/nfs-panel.jsx:65
-#: pkg/storaged/iscsi-panel.jsx:136 pkg/storaged/iscsi-panel.jsx:160
-#: pkg/storaged/iscsi-panel.jsx:255 pkg/storaged/vgroup-details.jsx:74
-#: pkg/storaged/vgroup-details.jsx:125 pkg/storaged/nfs-details.jsx:181
-#: pkg/storaged/mdraid-details.jsx:72 pkg/storaged/mdraid-details.jsx:155
-#: pkg/storaged/crypto-keyslots.jsx:509 pkg/storaged/crypto-keyslots.jsx:845
+#: pkg/systemd/timer-dialog.jsx:373 pkg/shell/hosts_dialog.jsx:247
+#: pkg/shell/credentials.jsx:184 pkg/users/authorized-keys-panel.js:69
+#: pkg/storaged/vgroup-details.jsx:74 pkg/storaged/vgroup-details.jsx:125
+#: pkg/storaged/nfs-details.jsx:181 pkg/storaged/mdraid-details.jsx:72
+#: pkg/storaged/mdraid-details.jsx:155 pkg/storaged/iscsi-panel.jsx:136
+#: pkg/storaged/iscsi-panel.jsx:160 pkg/storaged/iscsi-panel.jsx:255
+#: pkg/storaged/nfs-panel.jsx:65 pkg/storaged/crypto-keyslots.jsx:509
+#: pkg/storaged/crypto-keyslots.jsx:845 pkg/storaged/stratis-details.jsx:147
 msgid "Add"
 msgstr "Ekle"
 
@@ -746,7 +750,7 @@ msgstr "iSCSI portalı ekle"
 msgid "Add item"
 msgstr "Öğe ekle"
 
-#: pkg/users/authorized-keys-panel.js:119 pkg/shell/credentials.jsx:90
+#: pkg/shell/credentials.jsx:90 pkg/users/authorized-keys-panel.js:119
 #: pkg/storaged/crypto-keyslots.jsx:475
 msgid "Add key"
 msgstr "Anahtar ekle"
@@ -755,7 +759,7 @@ msgstr "Anahtar ekle"
 msgid "Add member"
 msgstr "Üye ekle"
 
-#: pkg/shell/hosts.jsx:204 pkg/shell/hosts_dialog.jsx:245
+#: pkg/shell/hosts_dialog.jsx:246 pkg/shell/hosts.jsx:204
 msgid "Add new host"
 msgstr "Yeni anamakine ekle"
 
@@ -856,8 +860,8 @@ msgstr "Ek paketler:"
 msgid "Additional ports"
 msgstr "Ek bağlantı noktaları"
 
-#: pkg/networkmanager/ip-settings.jsx:184
-#: pkg/networkmanager/ip-settings.jsx:335 pkg/storaged/iscsi-panel.jsx:127
+#: pkg/storaged/iscsi-panel.jsx:127 pkg/networkmanager/ip-settings.jsx:184
+#: pkg/networkmanager/ip-settings.jsx:335
 msgid "Address"
 msgstr "Adres"
 
@@ -925,7 +929,7 @@ msgstr "Uyarı"
 msgid "Alert and above"
 msgstr "Uyarı ve üstü"
 
-#: pkg/systemd/services.jsx:254
+#: pkg/systemd/services.jsx:249
 msgid "Alias"
 msgstr "Kod adı"
 
@@ -974,12 +978,12 @@ msgstr ""
 msgid "Appearance"
 msgstr "Görünüm"
 
-#: pkg/apps/index.html:23 pkg/apps/application-list.jsx:142
+#: pkg/apps/index.html:23 pkg/apps/application-list.jsx:146
 #: pkg/apps/application.jsx:150 pkg/apps/manifest.json:0
 msgid "Applications"
 msgstr "Uygulamalar"
 
-#: pkg/apps/application-list.jsx:155
+#: pkg/apps/application-list.jsx:159
 msgid "Applications list"
 msgstr "Uygulamalar listesi"
 
@@ -1003,15 +1007,15 @@ msgstr "Yeni ilke uygulanıyor... Bu işlem birkaç dakika sürebilir."
 msgid "Applying solution..."
 msgstr "Çözüm uygulanıyor..."
 
-#: pkg/packagekit/updates.jsx:99
+#: pkg/packagekit/updates.jsx:100
 msgid "Applying updates"
 msgstr "Güncellemeler uygulanıyor"
 
-#: pkg/packagekit/updates.jsx:100
+#: pkg/packagekit/updates.jsx:101
 msgid "Applying updates failed"
 msgstr "Güncellemeleri uygulama başarısız oldu"
 
-#: pkg/storaged/format-dialog.jsx:108
+#: pkg/storaged/format-dialog.jsx:107
 msgid "Appropriate for critical mounts, such as /var"
 msgstr "/var gibi önemli bağlamalar için uygun"
 
@@ -1028,8 +1032,8 @@ msgstr "Değerlendirme"
 msgid "Asset tag"
 msgstr "Demirbaş etiketi"
 
+#: pkg/storaged/format-dialog.jsx:362 pkg/storaged/fsys-tab.jsx:347
 #: pkg/storaged/stratis-details.jsx:382 pkg/storaged/stratis-details.jsx:533
-#: pkg/storaged/fsys-tab.jsx:347 pkg/storaged/format-dialog.jsx:363
 msgid "At boot"
 msgstr "Önyüklemede"
 
@@ -1043,8 +1047,8 @@ msgstr[1] "En az $0 disk gerekli."
 msgid "At least one block device is needed."
 msgstr "En az bir blok aygıtı gerekli."
 
-#: pkg/storaged/stratis-details.jsx:141 pkg/storaged/vgroup-details.jsx:68
-#: pkg/storaged/mdraid-details.jsx:66 pkg/storaged/vgroups-panel.jsx:83
+#: pkg/storaged/vgroup-details.jsx:68 pkg/storaged/mdraid-details.jsx:66
+#: pkg/storaged/vgroups-panel.jsx:83 pkg/storaged/stratis-details.jsx:141
 msgid "At least one disk is needed."
 msgstr "En az bir disk gerekli."
 
@@ -1076,7 +1080,7 @@ msgstr "Kimlik doğrula"
 msgid "Authenticating"
 msgstr "Kimlik doğrulanıyor"
 
-#: pkg/users/account-create-dialog.js:74 pkg/shell/hosts_dialog.jsx:820
+#: pkg/shell/hosts_dialog.jsx:821 pkg/users/account-create-dialog.js:118
 msgid "Authentication"
 msgstr "Kimlik doğrulama"
 
@@ -1100,7 +1104,7 @@ msgstr ""
 msgid "Authentication required"
 msgstr "Kimlik doğrulaması gerekli"
 
-#: pkg/shell/hosts_dialog.jsx:806
+#: pkg/shell/hosts_dialog.jsx:807
 msgid "Authorize SSH key"
 msgstr "SSH anahtarını yetkilendir"
 
@@ -1124,7 +1128,7 @@ msgstr "Otomatik (Sadece DHCP)"
 msgid "Automatic (DHCP)"
 msgstr "Otomatik (DHCP)"
 
-#: pkg/shell/hosts_dialog.jsx:846
+#: pkg/shell/hosts_dialog.jsx:847
 msgid "Automatic login"
 msgstr "Otomatik oturum açma"
 
@@ -1156,7 +1160,7 @@ msgstr "Otomatikleştirme betiği"
 msgid "Available targets on $0"
 msgstr "$0 üzerindeki kullanılabilir hedefler"
 
-#: pkg/packagekit/updates.jsx:444 pkg/packagekit/updates.jsx:924
+#: pkg/packagekit/updates.jsx:445 pkg/packagekit/updates.jsx:925
 msgid "Available updates"
 msgstr "Mevcut güncellemeler"
 
@@ -1180,11 +1184,11 @@ msgstr "Hesaplara geri dön"
 msgid "Backing device"
 msgstr "Yedeklenen aygıt"
 
-#: pkg/systemd/services.jsx:262
+#: pkg/systemd/services.jsx:257
 msgid "Bad"
 msgstr "Hatalı"
 
-#: pkg/systemd/services.jsx:228
+#: pkg/systemd/services.jsx:223
 msgid "Bad setting"
 msgstr "Hatalı ayar"
 
@@ -1225,8 +1229,8 @@ msgstr "Blok"
 msgid "Block device for filesystems"
 msgstr "Dosya sistemleri için blok aygıtı"
 
-#: pkg/storaged/stratis-details.jsx:136 pkg/storaged/stratis-details.jsx:215
-#: pkg/storaged/stratis-details.jsx:792 pkg/storaged/stratis-panel.jsx:159
+#: pkg/storaged/stratis-panel.jsx:159 pkg/storaged/stratis-details.jsx:136
+#: pkg/storaged/stratis-details.jsx:215 pkg/storaged/stratis-details.jsx:792
 msgid "Block devices"
 msgstr "Blok aygıtlar"
 
@@ -1248,12 +1252,12 @@ msgstr "Birleştirme ayarları"
 msgid "Boot"
 msgstr "Önyükleme"
 
-#: pkg/storaged/format-dialog.jsx:111
+#: pkg/storaged/format-dialog.jsx:110
 msgid "Boot fails if filesystem does not mount, preventing remote access"
 msgstr ""
 "Dosya sistemi bağlanmazsa önyükleme başarısız olur ve uzaktan erişim önlenir"
 
-#: pkg/storaged/format-dialog.jsx:122 pkg/storaged/format-dialog.jsx:133
+#: pkg/storaged/format-dialog.jsx:121 pkg/storaged/format-dialog.jsx:132
 msgid "Boot still succeeds when filesystem does not mount"
 msgstr "Dosya sistemi bağlanmadığında önyükleme hala başarılı olur"
 
@@ -1288,11 +1292,11 @@ msgstr "Yayınlama"
 msgid "Broken configuration"
 msgstr "Bozuk yapılandırma"
 
-#: pkg/packagekit/updates.jsx:1425
+#: pkg/packagekit/updates.jsx:1426
 msgid "Bug fix updates available"
 msgstr "Hata düzeltme güncellemeleri mevcut"
 
-#: pkg/packagekit/updates.jsx:386
+#: pkg/packagekit/updates.jsx:387
 msgid "Bugs"
 msgstr "Hatalar"
 
@@ -1300,7 +1304,7 @@ msgstr "Hatalar"
 msgid "Bus expansion chassis"
 msgstr "Veri yolu genişletme kasası"
 
-#: pkg/shell/hosts_dialog.jsx:794
+#: pkg/shell/hosts_dialog.jsx:795
 msgid ""
 "By changing the password of the SSH key $0 to the login password of $1 on "
 "$2, the key will be automatically made available and you can log in to $3 "
@@ -1310,9 +1314,9 @@ msgstr ""
 "parolasıyla değiştirdiğinizde, anahtar otomatik olarak kullanılabilir hale "
 "getirilecek ve gelecekte parola olmadan $3 üzerinde oturum açabileceksiniz."
 
-#: pkg/systemd/hwinfo.jsx:116 pkg/systemd/overview-cards/usageCard.jsx:132
-#: pkg/metrics/metrics.jsx:108 pkg/metrics/metrics.jsx:693
-#: pkg/metrics/metrics.jsx:1410 pkg/metrics/metrics.jsx:1774
+#: pkg/metrics/metrics.jsx:108 pkg/metrics/metrics.jsx:692
+#: pkg/metrics/metrics.jsx:1409 pkg/metrics/metrics.jsx:1773
+#: pkg/systemd/overview-cards/usageCard.jsx:132 pkg/systemd/hwinfo.jsx:116
 msgid "CPU"
 msgstr "CPU"
 
@@ -1328,11 +1332,11 @@ msgstr "CPU güvenlik geçişleri"
 msgid "CPU usage"
 msgstr "CPU kullanımı"
 
-#: pkg/metrics/metrics.jsx:1764
+#: pkg/metrics/metrics.jsx:1763
 msgid "CPU usage/load"
 msgstr "CPU kullanımı/yükü"
 
-#: pkg/packagekit/updates.jsx:368
+#: pkg/packagekit/updates.jsx:369
 msgid "CVE"
 msgstr "CVE"
 
@@ -1340,7 +1344,7 @@ msgstr "CVE"
 msgid "Cache"
 msgstr "Önbellek"
 
-#: pkg/shell/hosts_dialog.jsx:249
+#: pkg/shell/hosts_dialog.jsx:250
 msgid "Can be a hostname, IP address, alias name, or ssh:// URI"
 msgstr "Bir anamakine adı, IP adresi, kod adı veya ssh:// URI olabilir"
 
@@ -1349,27 +1353,28 @@ msgid "Can not find any logs using the current combination of filters."
 msgstr ""
 "Şu anki süzgeçlerin birleşimi kullanılarak herhangi bir günlük bulunamıyor."
 
-#: pkg/playground/translate.html:39 pkg/static/login.html:148
-#: pkg/kdump/kdump-view.jsx:155 pkg/lib/cockpit-components-dialog.jsx:131
-#: pkg/lib/cockpit-components-shutdown.jsx:192 pkg/systemd/hwinfo.jsx:239
+#: pkg/static/login.html:148 pkg/playground/translate.html:39
+#: pkg/metrics/metrics.jsx:1318 pkg/systemd/timer-dialog.jsx:150
+#: pkg/systemd/reporting.jsx:424 pkg/systemd/service-details.jsx:85
+#: pkg/systemd/service-details.jsx:720
 #: pkg/systemd/overview-cards/motdCard.jsx:65
-#: pkg/systemd/overview-cards/tuned-dialog.jsx:314
-#: pkg/systemd/overview-cards/configurationCard.jsx:283
 #: pkg/systemd/overview-cards/cryptoPolicies.jsx:194
-#: pkg/systemd/overview-cards/realmd.jsx:418 pkg/systemd/timer-dialog.jsx:150
-#: pkg/systemd/service-details.jsx:85 pkg/systemd/service-details.jsx:720
-#: pkg/systemd/reporting.jsx:424 pkg/shell/superuser.jsx:182
+#: pkg/systemd/overview-cards/realmd.jsx:418
+#: pkg/systemd/overview-cards/configurationCard.jsx:284
+#: pkg/systemd/overview-cards/tuned-dialog.jsx:314 pkg/systemd/hwinfo.jsx:239
+#: pkg/shell/shell-modals.jsx:112 pkg/shell/hosts_dialog.jsx:279
+#: pkg/shell/hosts_dialog.jsx:376 pkg/shell/hosts_dialog.jsx:500
+#: pkg/shell/hosts_dialog.jsx:868 pkg/shell/credentials.jsx:313
+#: pkg/shell/active-pages-modal.jsx:100 pkg/shell/superuser.jsx:182
 #: pkg/shell/superuser.jsx:220 pkg/shell/superuser.jsx:265
-#: pkg/shell/shell-modals.jsx:112 pkg/shell/credentials.jsx:313
-#: pkg/shell/active-pages-modal.jsx:100 pkg/shell/hosts_dialog.jsx:278
-#: pkg/shell/hosts_dialog.jsx:375 pkg/shell/hosts_dialog.jsx:499
-#: pkg/shell/hosts_dialog.jsx:867 pkg/networkmanager/dialogs-common.jsx:159
+#: pkg/lib/cockpit-components-shutdown.jsx:192
+#: pkg/lib/cockpit-components-dialog.jsx:131 pkg/sosreport/sosreport.jsx:277
+#: pkg/sosreport/sosreport.jsx:362 pkg/apps/utils.jsx:69
+#: pkg/storaged/jobs-panel.jsx:137 pkg/networkmanager/dialogs-common.jsx:159
 #: pkg/networkmanager/firewall.jsx:611 pkg/networkmanager/firewall.jsx:815
-#: pkg/networkmanager/firewall.jsx:910 pkg/storaged/jobs-panel.jsx:137
+#: pkg/networkmanager/firewall.jsx:910 pkg/kdump/kdump-view.jsx:155
+#: pkg/packagekit/updates.jsx:540 pkg/packagekit/updates.jsx:578
 #: pkg/packagekit/kpatch.jsx:312 pkg/packagekit/autoupdates.jsx:266
-#: pkg/packagekit/updates.jsx:539 pkg/packagekit/updates.jsx:577
-#: pkg/metrics/metrics.jsx:1319 pkg/apps/utils.jsx:69
-#: pkg/sosreport/sosreport.jsx:277 pkg/sosreport/sosreport.jsx:362
 msgid "Cancel"
 msgstr "İptal"
 
@@ -1412,10 +1417,9 @@ msgstr "Kapasite"
 msgid "Carrier"
 msgstr "Taşıyıcı"
 
-#: pkg/lib/serverTime.js:748 pkg/users/expiration-dialogs.js:115
-#: pkg/users/expiration-dialogs.js:220
-#: pkg/systemd/overview-cards/configurationCard.jsx:282
-#: pkg/storaged/iscsi-panel.jsx:187
+#: pkg/systemd/overview-cards/configurationCard.jsx:283
+#: pkg/lib/serverTime.js:748 pkg/users/expiration-dialogs.js:117
+#: pkg/users/expiration-dialogs.js:222 pkg/storaged/iscsi-panel.jsx:187
 msgid "Change"
 msgstr "Değiştir"
 
@@ -1423,7 +1427,7 @@ msgstr "Değiştir"
 msgid "Change crypto policy"
 msgstr "Şifreleme ilkesini değiştir"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:280
+#: pkg/systemd/overview-cards/configurationCard.jsx:281
 msgid "Change host name"
 msgstr "Anamakine adını değiştir"
 
@@ -1451,7 +1455,7 @@ msgstr "Profili değiştir"
 msgid "Change system time"
 msgstr "Sistem saatini değiştir"
 
-#: pkg/shell/hosts_dialog.jsx:792
+#: pkg/shell/hosts_dialog.jsx:793
 msgid "Change the password of $0"
 msgstr "$0 parolasını değiştir"
 
@@ -1459,7 +1463,7 @@ msgstr "$0 parolasını değiştir"
 msgid "Change the settings"
 msgstr "Ayarları değiştir"
 
-#: pkg/static/login.html:88 pkg/shell/hosts_dialog.jsx:464
+#: pkg/static/login.html:88 pkg/shell/hosts_dialog.jsx:465
 msgid ""
 "Changed keys are often the result of an operating system reinstallation. "
 "However, an unexpected change may indicate a third-party attempt to "
@@ -1477,7 +1481,7 @@ msgstr ""
 "Ayarların değiştirilmesi sunucuyla bağlantıyı kesecek ve yönetim kullanıcı "
 "arayüzünü kullanılamaz hale getirecektir."
 
-#: pkg/packagekit/updates.jsx:906
+#: pkg/packagekit/updates.jsx:907
 msgid "Check for updates"
 msgstr "Güncellemeleri denetle"
 
@@ -1505,11 +1509,11 @@ msgstr "$0 paketi denetleniyor"
 msgid "Checking for NBDE support in the initrd"
 msgstr "initrd'de NBDE desteği denetleniyor"
 
-#: pkg/apps/application-list.jsx:120
+#: pkg/apps/application-list.jsx:124
 msgid "Checking for new applications"
 msgstr "Yeni uygulamalar denetleniyor"
 
-#: pkg/packagekit/updates.jsx:1377
+#: pkg/packagekit/updates.jsx:1378
 msgid "Checking for package updates..."
 msgstr "Paket güncellemeleri denetleniyor..."
 
@@ -1518,11 +1522,11 @@ msgstr "Paket güncellemeleri denetleniyor..."
 msgid "Checking installed software"
 msgstr "Yüklü yazılımlar denetleniyor"
 
-#: pkg/storaged/fsys-tab.jsx:475 pkg/storaged/dialog.jsx:1151
+#: pkg/storaged/dialog.jsx:1150 pkg/storaged/fsys-tab.jsx:475
 msgid "Checking related processes"
 msgstr "İlgili işlemler denetleniyor"
 
-#: pkg/packagekit/updates.jsx:1387
+#: pkg/packagekit/updates.jsx:1388
 msgid "Checking software status"
 msgstr "Yazılım durumu denetleniyor"
 
@@ -1562,14 +1566,14 @@ msgstr "Metin temizleme aygıtı"
 msgid "Client software"
 msgstr "İstemci yazılımı"
 
-#: pkg/lib/cockpit-components-modifications.jsx:80
-#: pkg/lib/cockpit-components-terminal.jsx:216 pkg/users/dialog-utils.js:58
-#: pkg/systemd/overview-cards/configurationCard.jsx:197
-#: pkg/systemd/overview-cards/realmd.jsx:262 pkg/shell/superuser.jsx:190
-#: pkg/shell/superuser.jsx:198 pkg/shell/shell-modals.jsx:168
-#: pkg/shell/credentials.jsx:81 pkg/shell/hosts_dialog.jsx:79
-#: pkg/networkmanager/interfaces.js:43 pkg/storaged/dialog.jsx:451
-#: pkg/apps/utils.jsx:87
+#: pkg/systemd/overview-cards/realmd.jsx:262
+#: pkg/systemd/overview-cards/configurationCard.jsx:198
+#: pkg/shell/shell-modals.jsx:168 pkg/shell/hosts_dialog.jsx:80
+#: pkg/shell/credentials.jsx:81 pkg/shell/superuser.jsx:190
+#: pkg/shell/superuser.jsx:198 pkg/lib/cockpit-components-terminal.jsx:216
+#: pkg/lib/cockpit-components-modifications.jsx:80 pkg/apps/utils.jsx:87
+#: pkg/users/dialog-utils.js:58 pkg/storaged/dialog.jsx:451
+#: pkg/networkmanager/interfaces.js:43
 msgid "Close"
 msgstr "Kapat"
 
@@ -1619,7 +1623,7 @@ msgstr "Cockpit, etkileşimli bir Linux sunucu yönetim arayüzüdür."
 msgid "Cockpit is not compatible with the software on the system."
 msgstr "Cockpit, sistemdeki yazılımla uyumlu değil."
 
-#: pkg/shell/hosts_dialog.jsx:76
+#: pkg/shell/hosts_dialog.jsx:77
 msgid "Cockpit is not installed"
 msgstr "Cockpit yüklü değil"
 
@@ -1653,11 +1657,11 @@ msgstr "Tanılama ve destek verilerini topla ve paketle"
 msgid "Collect kernel crash dumps"
 msgstr "Çekirdek çökme dökümlerini topla"
 
-#: pkg/metrics/metrics.jsx:1332
+#: pkg/metrics/metrics.jsx:1331
 msgid "Collect metrics"
 msgstr "Ölçümleri topla"
 
-#: pkg/shell/hosts_dialog.jsx:262
+#: pkg/shell/hosts_dialog.jsx:263
 msgid "Color"
 msgstr "Renk"
 
@@ -1666,8 +1670,8 @@ msgid "Comma-separated ports, ranges, and services are accepted"
 msgstr ""
 "Virgülle ayrılmış bağlantı noktaları, aralıklar ve hizmetler kabul edilir"
 
-#: pkg/systemd/timer-dialog.jsx:174 pkg/storaged/dialog.jsx:1212
-#: pkg/storaged/dialog.jsx:1231
+#: pkg/systemd/timer-dialog.jsx:174 pkg/storaged/dialog.jsx:1211
+#: pkg/storaged/dialog.jsx:1230
 msgid "Command"
 msgstr "Komut"
 
@@ -1695,12 +1699,12 @@ msgstr "Tüm sistem ve aygıtlarla uyumlu (MBR)"
 msgid "Compatible with modern system and hard disks > 2TB (GPT)"
 msgstr "Modern sistem ve 2TB'tan büyük sabit disklerle uyumlu (GPT)"
 
-#: pkg/kdump/kdump-view.jsx:240
+#: pkg/kdump/kdump-view.jsx:241
 msgid "Compress crash dumps to save space"
 msgstr "Yer kazanmak için çökme dökümlerini sıkıştır"
 
-#: pkg/kdump/kdump-view.jsx:235 pkg/storaged/content-views.jsx:970
 #: pkg/storaged/vdo-details.jsx:321 pkg/storaged/lvol-tabs.jsx:558
+#: pkg/storaged/content-views.jsx:970 pkg/kdump/kdump-view.jsx:236
 msgid "Compression"
 msgstr "Sıkıştırma"
 
@@ -1712,7 +1716,7 @@ msgstr "$0=$1 koşulu karşılanmadı"
 msgid "Condition failed"
 msgstr "Koşul başarısız oldu"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:61
+#: pkg/systemd/overview-cards/configurationCard.jsx:62
 msgid "Configuration"
 msgstr "Yapılandırma"
 
@@ -1732,8 +1736,7 @@ msgstr "kdump yapılandırma"
 msgid "Configuring system settings"
 msgstr "Sistem ayarlarını yapılandırma"
 
-#: pkg/users/account-create-dialog.js:102 pkg/storaged/format-dialog.jsx:329
-#: pkg/storaged/stratis-panel.jsx:149
+#: pkg/storaged/format-dialog.jsx:328 pkg/storaged/stratis-panel.jsx:149
 msgid "Confirm"
 msgstr "Onayla"
 
@@ -1741,11 +1744,11 @@ msgstr "Onayla"
 msgid "Confirm deletion of $0"
 msgstr "$0 aygıtının silinmesini onayla"
 
-#: pkg/shell/hosts_dialog.jsx:785
+#: pkg/shell/hosts_dialog.jsx:786
 msgid "Confirm key password"
 msgstr "Anahtar parolasını onayla"
 
-#: pkg/shell/hosts_dialog.jsx:799
+#: pkg/shell/hosts_dialog.jsx:800
 msgid "Confirm new key password"
 msgstr "Yeni anahtar parolasını onayla"
 
@@ -1753,7 +1756,7 @@ msgstr "Yeni anahtar parolasını onayla"
 msgid "Confirm new password"
 msgstr "Yeni parolayı onayla"
 
-#: pkg/shell/credentials.jsx:268
+#: pkg/shell/credentials.jsx:268 pkg/users/account-create-dialog.js:146
 msgid "Confirm password"
 msgstr "Parolayı onayla"
 
@@ -1793,7 +1796,7 @@ msgstr "Şuna bağlan:"
 msgid "Connecting to SETroubleshoot daemon..."
 msgstr "SETroubleshoot arka plan programına bağlanılıyor..."
 
-#: pkg/systemd/services.jsx:296
+#: pkg/systemd/services.jsx:291
 msgid "Connecting to dbus failed: $0"
 msgstr "Dbus'a bağlanma başarısız oldu: $0"
 
@@ -1833,7 +1836,7 @@ msgstr "İçerdikleri:"
 msgid "Content"
 msgstr "İçerik"
 
-#: pkg/packagekit/updates.jsx:761
+#: pkg/packagekit/updates.jsx:762
 msgid "Continue"
 msgstr "Devam"
 
@@ -1858,29 +1861,33 @@ msgstr "Denetleyici"
 msgid "Convertible"
 msgstr "Dönüştürülebilir"
 
+#: pkg/shell/hosts_dialog.jsx:467 pkg/shell/hosts_dialog.jsx:470
+#: pkg/shell/hosts_dialog.jsx:478 pkg/shell/hosts_dialog.jsx:481
 #: pkg/shell/failures.jsx:44 pkg/shell/credentials.jsx:212
 msgid "Copied"
 msgstr "Kopyalandı"
 
-#: pkg/lib/cockpit-components-context-menu.jsx:104 pkg/shell/failures.jsx:44
-#: pkg/shell/credentials.jsx:212
+#: pkg/shell/hosts_dialog.jsx:467 pkg/shell/hosts_dialog.jsx:470
+#: pkg/shell/hosts_dialog.jsx:478 pkg/shell/hosts_dialog.jsx:481
+#: pkg/shell/failures.jsx:44 pkg/shell/credentials.jsx:212
+#: pkg/lib/cockpit-components-context-menu.jsx:104
 msgid "Copy"
 msgstr "Kopyala"
 
-#: pkg/lib/cockpit-components-modifications.jsx:77 pkg/systemd/logs.jsx:416
+#: pkg/systemd/logs.jsx:416 pkg/lib/cockpit-components-modifications.jsx:77
 #: pkg/storaged/crypto-keyslots.jsx:603
 msgid "Copy to clipboard"
 msgstr "Panoya kopyala"
 
-#: pkg/metrics/metrics.jsx:627
+#: pkg/metrics/metrics.jsx:626
 msgid "Core $0"
 msgstr "Çekirdek $0"
 
-#: pkg/shell/hosts_dialog.jsx:349
+#: pkg/shell/hosts_dialog.jsx:350
 msgid "Could not contact $0"
 msgstr "$0 ile iletişim kurulamadı"
 
-#: pkg/kdump/kdump-view.jsx:141 pkg/kdump/kdump-view.jsx:489
+#: pkg/kdump/kdump-view.jsx:141 pkg/kdump/kdump-view.jsx:478
 msgid "Crash dump location"
 msgstr "Çökme dökümü konumu"
 
@@ -1888,15 +1895,15 @@ msgstr "Çökme dökümü konumu"
 msgid "Crash reporting"
 msgstr "Çökme bildirimi"
 
-#: pkg/kdump/kdump-view.jsx:285
+#: pkg/kdump/kdump-view.jsx:280
 msgid "Crash system"
 msgstr "Sistemi çöktür"
 
-#: pkg/lib/cockpit-components-file-autocomplete.jsx:187
-#: pkg/users/group-create-dialog.js:142 pkg/users/account-create-dialog.js:365
-#: pkg/storaged/content-views.jsx:206 pkg/storaged/content-views.jsx:321
-#: pkg/storaged/content-views.jsx:986 pkg/storaged/stratis-panel.jsx:170
-#: pkg/storaged/vgroups-panel.jsx:89 pkg/storaged/mdraids-panel.jsx:139
+#: pkg/lib/cockpit-components-file-autocomplete.jsx:191
+#: pkg/users/account-create-dialog.js:488 pkg/users/group-create-dialog.js:142
+#: pkg/storaged/mdraids-panel.jsx:139 pkg/storaged/content-views.jsx:206
+#: pkg/storaged/content-views.jsx:321 pkg/storaged/content-views.jsx:986
+#: pkg/storaged/stratis-panel.jsx:170 pkg/storaged/vgroups-panel.jsx:89
 msgid "Create"
 msgstr "Oluştur"
 
@@ -1904,7 +1911,7 @@ msgstr "Oluştur"
 msgid "Create LVM2 volume group"
 msgstr "LVM2 birim grubu oluştur"
 
-#: pkg/storaged/things-panel.jsx:78 pkg/storaged/mdraids-panel.jsx:72
+#: pkg/storaged/mdraids-panel.jsx:72 pkg/storaged/things-panel.jsx:78
 msgid "Create RAID device"
 msgstr "RAID aygıtı oluştur"
 
@@ -1912,7 +1919,7 @@ msgstr "RAID aygıtı oluştur"
 msgid "Create Stratis pool"
 msgstr "Stratis havuzu oluştur"
 
-#: pkg/shell/hosts_dialog.jsx:778
+#: pkg/shell/hosts_dialog.jsx:779
 msgid "Create a new SSH key and authorize it"
 msgstr "Yeni bir SSH anahtarı oluştur ve yetkilendir"
 
@@ -1920,17 +1927,19 @@ msgstr "Yeni bir SSH anahtarı oluştur ve yetkilendir"
 msgid "Create a snapshot of filesystem $0"
 msgstr "$0 dosya sistemi için anlık görüntü oluştur"
 
-#: pkg/users/account-create-dialog.js:416
-#, fuzzy
-#| msgid "Create account with weak password"
+#: pkg/users/account-create-dialog.js:564
 msgid "Create account with non-unique UID"
-msgstr "Zayıf parola ile hesap oluştur"
+msgstr "Benzersiz olmayan UID ile hesap oluştur"
 
-#: pkg/users/account-create-dialog.js:391
+#: pkg/users/account-create-dialog.js:539
 msgid "Create account with weak password"
 msgstr "Zayıf parola ile hesap oluştur"
 
-#: pkg/storaged/stratis-details.jsx:411 pkg/storaged/format-dialog.jsx:405
+#: pkg/users/account-create-dialog.js:514
+msgid "Create and change ownership of home directory"
+msgstr "Ana dizin sahipliğini oluştur ve değiştir"
+
+#: pkg/storaged/format-dialog.jsx:404 pkg/storaged/stratis-details.jsx:411
 msgid "Create and mount"
 msgstr "Oluştur ve bağla"
 
@@ -1950,7 +1959,7 @@ msgstr "Oluştur"
 msgid "Create logical volume"
 msgstr "Mantıksal birim oluştur"
 
-#: pkg/users/account-create-dialog.js:350 pkg/users/accounts-list.js:446
+#: pkg/users/account-create-dialog.js:473 pkg/users/accounts-list.js:446
 msgid "Create new account"
 msgstr "Yeni hesap oluştur"
 
@@ -1958,7 +1967,7 @@ msgstr "Yeni hesap oluştur"
 msgid "Create new filesystem"
 msgstr "Yeni dosya sistemi oluştur"
 
-#: pkg/users/group-create-dialog.js:135 pkg/users/accounts-list.js:306
+#: pkg/users/accounts-list.js:306 pkg/users/group-create-dialog.js:135
 msgid "Create new group"
 msgstr "Yeni grup oluştur"
 
@@ -1970,7 +1979,7 @@ msgstr "Yeni mantıksal birim oluştur"
 msgid "Create new task file with this content."
 msgstr "Bu içerikle yeni görev dosyası oluştur."
 
-#: pkg/storaged/stratis-details.jsx:412 pkg/storaged/format-dialog.jsx:407
+#: pkg/storaged/format-dialog.jsx:406 pkg/storaged/stratis-details.jsx:412
 msgid "Create only"
 msgstr "Sadece oluştur"
 
@@ -1978,7 +1987,7 @@ msgstr "Sadece oluştur"
 msgid "Create partition"
 msgstr "Bölüm oluştur"
 
-#: pkg/storaged/format-dialog.jsx:182
+#: pkg/storaged/format-dialog.jsx:181
 msgid "Create partition on $0"
 msgstr "$0 üzerinde bölüm oluştur"
 
@@ -2083,11 +2092,11 @@ msgstr "Ctrl-Shift-J"
 msgid "Current boot"
 msgstr "Şu anki önyükleme"
 
-#: pkg/metrics/metrics.jsx:640
+#: pkg/metrics/metrics.jsx:639
 msgid "Current top CPU usage"
 msgstr "Şu anki en yüksek CPU kullanımı"
 
-#: pkg/storaged/dialog.jsx:1106
+#: pkg/storaged/dialog.jsx:1105
 msgid "Currently in use"
 msgstr "Şu an kullanımda"
 
@@ -2095,9 +2104,9 @@ msgstr "Şu an kullanımda"
 msgid "Custom crypto policy"
 msgstr "Özel şifreleme ilkesi"
 
-#: pkg/storaged/stratis-details.jsx:379 pkg/storaged/stratis-details.jsx:530
-#: pkg/storaged/fsys-tab.jsx:344 pkg/storaged/nfs-details.jsx:166
-#: pkg/storaged/format-dialog.jsx:396
+#: pkg/storaged/format-dialog.jsx:395 pkg/storaged/nfs-details.jsx:166
+#: pkg/storaged/fsys-tab.jsx:344 pkg/storaged/stratis-details.jsx:379
+#: pkg/storaged/stratis-details.jsx:530
 msgid "Custom mount options"
 msgstr "Özel bağlama seçenekleri"
 
@@ -2133,7 +2142,7 @@ msgstr "DNS arama etki alanları $val"
 msgid "Daily"
 msgstr "Günlük"
 
-#: pkg/packagekit/updates.jsx:931
+#: pkg/packagekit/updates.jsx:932
 msgid "Danger alert:"
 msgstr "Tehlike uyarısı:"
 
@@ -2181,8 +2190,8 @@ msgstr "Hata ayıklama ve üstü"
 msgid "Decrease by one"
 msgstr "Bir azalt"
 
-#: pkg/storaged/content-views.jsx:975 pkg/storaged/vdo-details.jsx:330
-#: pkg/storaged/lvol-tabs.jsx:565
+#: pkg/storaged/vdo-details.jsx:330 pkg/storaged/lvol-tabs.jsx:565
+#: pkg/storaged/content-views.jsx:975
 msgid "Deduplication"
 msgstr "Tekilleştirme"
 
@@ -2190,8 +2199,8 @@ msgstr "Tekilleştirme"
 msgid "Default"
 msgstr "Öntanımlı"
 
-#: pkg/lib/cockpit-components-shutdown.jsx:200 pkg/systemd/timer-dialog.jsx:200
-#: pkg/systemd/timer-dialog.jsx:211
+#: pkg/systemd/timer-dialog.jsx:200 pkg/systemd/timer-dialog.jsx:211
+#: pkg/lib/cockpit-components-shutdown.jsx:200
 msgid "Delay"
 msgstr "Gecikme"
 
@@ -2199,19 +2208,19 @@ msgstr "Gecikme"
 msgid "Delay must be a number"
 msgstr "Gecikme bir sayı olmak zorundadır"
 
-#: pkg/users/delete-group-dialog.js:51 pkg/users/account-details.js:254
-#: pkg/users/delete-account-dialog.js:60 pkg/systemd/service-details.jsx:151
-#: pkg/systemd/service-details.jsx:718 pkg/systemd/abrtLog.jsx:291
+#: pkg/systemd/abrtLog.jsx:291 pkg/systemd/service-details.jsx:151
+#: pkg/systemd/service-details.jsx:718 pkg/sosreport/sosreport.jsx:356
+#: pkg/sosreport/sosreport.jsx:468 pkg/users/delete-group-dialog.js:51
+#: pkg/users/delete-account-dialog.js:60 pkg/users/account-details.js:254
+#: pkg/storaged/vdo-details.jsx:201 pkg/storaged/vdo-details.jsx:267
+#: pkg/storaged/vgroup-details.jsx:198 pkg/storaged/vgroup-details.jsx:224
+#: pkg/storaged/content-views.jsx:392 pkg/storaged/content-views.jsx:419
+#: pkg/storaged/mdraid-details.jsx:293 pkg/storaged/mdraid-details.jsx:319
+#: pkg/storaged/stratis-details.jsx:252 pkg/storaged/stratis-details.jsx:441
+#: pkg/storaged/stratis-details.jsx:597 pkg/storaged/stratis-details.jsx:645
 #: pkg/networkmanager/firewall.jsx:120 pkg/networkmanager/firewall.jsx:181
 #: pkg/networkmanager/firewall.jsx:907
 #: pkg/networkmanager/network-interface.jsx:722
-#: pkg/storaged/content-views.jsx:392 pkg/storaged/content-views.jsx:419
-#: pkg/storaged/stratis-details.jsx:252 pkg/storaged/stratis-details.jsx:441
-#: pkg/storaged/stratis-details.jsx:597 pkg/storaged/stratis-details.jsx:645
-#: pkg/storaged/vdo-details.jsx:201 pkg/storaged/vdo-details.jsx:267
-#: pkg/storaged/vgroup-details.jsx:198 pkg/storaged/vgroup-details.jsx:224
-#: pkg/storaged/mdraid-details.jsx:293 pkg/storaged/mdraid-details.jsx:319
-#: pkg/sosreport/sosreport.jsx:356 pkg/sosreport/sosreport.jsx:468
 msgid "Delete"
 msgstr "Sil"
 
@@ -2284,8 +2293,8 @@ msgstr "Silme, bir birim grubu üzerindeki tüm verileri siler."
 msgid "Deletion will remove the following files:"
 msgstr "Silme işlemi aşağıdaki dosyaları kaldıracak:"
 
-#: pkg/systemd/timer-dialog.jsx:165 pkg/networkmanager/firewall.jsx:703
-#: pkg/networkmanager/firewall.jsx:847 pkg/storaged/dialog.jsx:1232
+#: pkg/systemd/timer-dialog.jsx:165 pkg/storaged/dialog.jsx:1231
+#: pkg/networkmanager/firewall.jsx:703 pkg/networkmanager/firewall.jsx:847
 msgid "Description"
 msgstr "Açıklama"
 
@@ -2298,7 +2307,7 @@ msgid "Detachable"
 msgstr "Ayrılabilir"
 
 #: pkg/systemd/overview-cards/realmd.jsx:400 pkg/shell/credentials.jsx:109
-#: pkg/packagekit/updates.jsx:450
+#: pkg/packagekit/updates.jsx:451
 msgid "Details"
 msgstr "Ayrıntılar"
 
@@ -2306,8 +2315,8 @@ msgstr "Ayrıntılar"
 msgid "Development"
 msgstr "Geliştirme"
 
-#: pkg/storaged/dialog.jsx:1062 pkg/storaged/dialog.jsx:1140
-#: pkg/storaged/crypto-panel.jsx:85 pkg/metrics/metrics.jsx:674
+#: pkg/metrics/metrics.jsx:673 pkg/storaged/crypto-panel.jsx:85
+#: pkg/storaged/dialog.jsx:1061 pkg/storaged/dialog.jsx:1139
 msgid "Device"
 msgstr "Aygıt"
 
@@ -2338,8 +2347,8 @@ msgstr "Aygıtlar"
 msgid "Diagnostic reports"
 msgstr "Tanılama raporları"
 
-#: pkg/kdump/kdump-view.jsx:175 pkg/kdump/kdump-view.jsx:196
-#: pkg/kdump/kdump-view.jsx:224
+#: pkg/kdump/kdump-view.jsx:176 pkg/kdump/kdump-view.jsx:197
+#: pkg/kdump/kdump-view.jsx:225
 msgid "Directory"
 msgstr "Dizin"
 
@@ -2359,11 +2368,11 @@ msgstr "Güvenlik duvarını etkisizleştir"
 msgid "Disable tuned"
 msgstr "tuned'i etkisizleştir"
 
-#: pkg/kdump/kdump-view.jsx:463 pkg/systemd/services.jsx:251
-#: pkg/systemd/services.jsx:691 pkg/systemd/service-details.jsx:443
-#: pkg/networkmanager/ip-settings.jsx:44 pkg/networkmanager/ip-settings.jsx:55
-#: pkg/networkmanager/firewall-switch.jsx:80 pkg/packagekit/kpatch.jsx:250
-#: pkg/packagekit/autoupdates.jsx:336
+#: pkg/systemd/service-details.jsx:443 pkg/systemd/services.jsx:246
+#: pkg/systemd/services.jsx:686 pkg/networkmanager/ip-settings.jsx:44
+#: pkg/networkmanager/ip-settings.jsx:55
+#: pkg/networkmanager/firewall-switch.jsx:80 pkg/kdump/kdump-view.jsx:452
+#: pkg/packagekit/kpatch.jsx:250 pkg/packagekit/autoupdates.jsx:336
 msgid "Disabled"
 msgstr "Etkisizleştirildi"
 
@@ -2371,7 +2380,7 @@ msgstr "Etkisizleştirildi"
 msgid "Disallow interactive password"
 msgstr "Etkileşimli parolaya izin verme"
 
-#: pkg/users/account-create-dialog.js:89
+#: pkg/users/account-create-dialog.js:133
 msgid "Disallow password authentication"
 msgstr "Parola ile kimlik doğrulamaya izin verme"
 
@@ -2384,8 +2393,8 @@ msgid "Disconnected"
 msgstr "Bağlantı kesildi"
 
 #: pkg/metrics/metrics.jsx:136 pkg/metrics/metrics.jsx:137
-#: pkg/metrics/metrics.jsx:1410 pkg/metrics/metrics.jsx:1764
-#: pkg/metrics/metrics.jsx:1776
+#: pkg/metrics/metrics.jsx:1409 pkg/metrics/metrics.jsx:1763
+#: pkg/metrics/metrics.jsx:1775
 msgid "Disk I/O"
 msgstr "Disk okuma/yazma"
 
@@ -2401,13 +2410,13 @@ msgstr "Disk bozuluyor"
 msgid "Disk passphrase"
 msgstr "Disk parolası"
 
+#: pkg/metrics/metrics.jsx:780 pkg/storaged/mdraids-panel.jsx:126
 #: pkg/storaged/vgroup-details.jsx:63 pkg/storaged/mdraid-details.jsx:61
 #: pkg/storaged/mdraid-details.jsx:159 pkg/storaged/vgroups-panel.jsx:78
-#: pkg/storaged/mdraids-panel.jsx:126 pkg/metrics/metrics.jsx:781
 msgid "Disks"
 msgstr "Diskler"
 
-#: pkg/metrics/metrics.jsx:673
+#: pkg/metrics/metrics.jsx:672
 msgid "Disks usage"
 msgstr "Disk kullanımı"
 
@@ -2421,12 +2430,12 @@ msgstr[1] "$0 uyarıyı yoksay"
 msgid "Dismiss selected alerts"
 msgstr "Seçilen uyarıları yoksay"
 
-#: pkg/shell/topnav.jsx:198 pkg/shell/shell-modals.jsx:109
+#: pkg/shell/shell-modals.jsx:109 pkg/shell/topnav.jsx:198
 msgid "Display language"
 msgstr "Görüntüleme dili"
 
+#: pkg/storaged/format-dialog.jsx:382 pkg/storaged/fsys-tab.jsx:366
 #: pkg/storaged/stratis-details.jsx:401 pkg/storaged/stratis-details.jsx:552
-#: pkg/storaged/fsys-tab.jsx:366 pkg/storaged/format-dialog.jsx:383
 msgid "Do not mount"
 msgstr "Bağlama"
 
@@ -2442,12 +2451,12 @@ msgstr "Kenetleme istasyonu"
 msgid "Does not automatically start"
 msgstr "Otomatik olarak başlamaz"
 
-#: pkg/storaged/format-dialog.jsx:141
+#: pkg/storaged/format-dialog.jsx:140
 msgid "Does not mount during boot"
 msgstr "Önyükleme sırasında bağlamaz"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:79
 #: pkg/systemd/overview-cards/realmd.jsx:268
+#: pkg/systemd/overview-cards/configurationCard.jsx:80
 msgid "Domain"
 msgstr "Etki alanı"
 
@@ -2488,11 +2497,11 @@ msgstr "İndir"
 msgid "Download a new browser for free"
 msgstr "Ücretsiz olarak yeni bir tarayıcı indir"
 
-#: pkg/packagekit/updates.jsx:109
+#: pkg/packagekit/updates.jsx:110
 msgid "Downloaded"
 msgstr "İndirildi"
 
-#: pkg/packagekit/updates.jsx:103
+#: pkg/packagekit/updates.jsx:104
 msgid "Downloading"
 msgstr "İndiriliyor"
 
@@ -2509,13 +2518,13 @@ msgstr "Sürücü"
 msgid "Drives"
 msgstr "Sürücüler"
 
-#: pkg/lib/machine-info.js:240 pkg/systemd/hw-detect.js:92
+#: pkg/systemd/hw-detect.js:92 pkg/lib/machine-info.js:240
 msgid "Dual rank"
 msgstr "Çift sıra"
 
 #: pkg/shell/hosts.jsx:167 pkg/shell/indexes.jsx:352
-#: pkg/networkmanager/firewall.jsx:118 pkg/storaged/iscsi-panel.jsx:251
-#: pkg/storaged/nfs-details.jsx:300 pkg/storaged/crypto-keyslots.jsx:795
+#: pkg/storaged/nfs-details.jsx:300 pkg/storaged/iscsi-panel.jsx:251
+#: pkg/storaged/crypto-keyslots.jsx:795 pkg/networkmanager/firewall.jsx:118
 #: pkg/packagekit/kpatch.jsx:231 pkg/packagekit/autoupdates.jsx:399
 msgid "Edit"
 msgstr "Düzenle"
@@ -2532,7 +2541,7 @@ msgstr "Tang anahtar sunucusunu düzenle"
 msgid "Edit custom service in $0 zone"
 msgstr "$0 bölgesinde özel hizmeti düzenle"
 
-#: pkg/shell/hosts_dialog.jsx:245
+#: pkg/shell/hosts_dialog.jsx:246
 msgid "Edit host"
 msgstr "Anamakineyi düzenle"
 
@@ -2582,6 +2591,10 @@ msgctxt "verb"
 msgid "Empty"
 msgstr "Boşalt"
 
+#: pkg/users/account-create-dialog.js:207
+msgid "Empty password"
+msgstr "Boş parola"
+
 #: pkg/storaged/jobs-panel.jsx:80
 msgid "Emptying $target"
 msgstr "$target boşaltılıyor"
@@ -2602,9 +2615,9 @@ msgstr "Hizmeti etkinleştir"
 msgid "Enable the firewall"
 msgstr "Güvenlik duvarını etkinleştir"
 
-#: pkg/kdump/kdump-view.jsx:463 pkg/systemd/services.jsx:249
-#: pkg/systemd/services.jsx:250 pkg/systemd/services.jsx:690
-#: pkg/networkmanager/firewall-switch.jsx:80 pkg/packagekit/kpatch.jsx:253
+#: pkg/systemd/services.jsx:244 pkg/systemd/services.jsx:245
+#: pkg/systemd/services.jsx:685 pkg/networkmanager/firewall-switch.jsx:80
+#: pkg/kdump/kdump-view.jsx:452 pkg/packagekit/kpatch.jsx:253
 msgid "Enabled"
 msgstr "Etkinleştirildi"
 
@@ -2646,11 +2659,11 @@ msgstr ""
 "Şifrelenmiş birimlerin yeniden boyutlandırılabilmeleri için kilidinin "
 "açılması gerekir."
 
-#: pkg/storaged/content-views.jsx:248 pkg/storaged/format-dialog.jsx:315
+#: pkg/storaged/format-dialog.jsx:314 pkg/storaged/content-views.jsx:248
 msgid "Encryption"
 msgstr "Şifreleme"
 
-#: pkg/storaged/crypto-tab.jsx:194 pkg/storaged/format-dialog.jsx:356
+#: pkg/storaged/format-dialog.jsx:355 pkg/storaged/crypto-tab.jsx:194
 msgid "Encryption options"
 msgstr "Şifreleme seçenekleri"
 
@@ -2670,7 +2683,7 @@ msgstr "Bitti"
 msgid "Enforcing"
 msgstr "Zorunlu (enforcing)"
 
-#: pkg/packagekit/updates.jsx:1427
+#: pkg/packagekit/updates.jsx:1428
 msgid "Enhancement updates available"
 msgstr "İyileştirme güncellemeleri mevcut"
 
@@ -2690,15 +2703,15 @@ msgstr "$0 tarihindeki giriş"
 msgid "Erasing $target"
 msgstr "$target siliniyor"
 
-#: pkg/packagekit/updates.jsx:380
+#: pkg/packagekit/updates.jsx:381
 msgid "Errata"
 msgstr "Düzeltme"
 
-#: pkg/systemd/services.jsx:229 pkg/systemd/service-details.jsx:281
-#: pkg/storaged/stratis-details.jsx:720 pkg/storaged/multipath.jsx:59
-#: pkg/storaged/things-panel.jsx:57 pkg/storaged/storage-controls.jsx:88
-#: pkg/storaged/storage-controls.jsx:165 pkg/apps/utils.jsx:81
-#: pkg/sosreport/sosreport.jsx:379
+#: pkg/systemd/service-details.jsx:281 pkg/systemd/services.jsx:224
+#: pkg/sosreport/sosreport.jsx:379 pkg/apps/utils.jsx:81
+#: pkg/storaged/things-panel.jsx:57 pkg/storaged/multipath.jsx:59
+#: pkg/storaged/stratis-details.jsx:720 pkg/storaged/storage-controls.jsx:88
+#: pkg/storaged/storage-controls.jsx:165
 msgid "Error"
 msgstr "Hata"
 
@@ -2706,12 +2719,12 @@ msgstr "Hata"
 msgid "Error and above"
 msgstr "Hata ve üstü"
 
-#: pkg/metrics/metrics.jsx:1675
+#: pkg/metrics/metrics.jsx:1674
 msgid "Error has occurred"
 msgstr "Hata meydana geldi"
 
+#: pkg/systemd/overview-cards/configurationCard.jsx:176
 #: pkg/selinux/setroubleshoot-view.jsx:416
-#: pkg/systemd/overview-cards/configurationCard.jsx:175
 msgid "Error message"
 msgstr "Hata iletisi"
 
@@ -2752,7 +2765,7 @@ msgstr "Örnek: 22,ssh,8080,5900-5910"
 msgid "Example: 88,2019,nfs,rsync"
 msgstr "Örnek: 88,2019,nfs,rsync"
 
-#: pkg/lib/cockpit-components-password.jsx:40
+#: pkg/lib/cockpit-components-password.jsx:41
 msgid "Excellent password"
 msgstr "Mükemmel parola"
 
@@ -2760,7 +2773,7 @@ msgstr "Mükemmel parola"
 msgid "Expansion chassis"
 msgstr "Genişletme kasası"
 
-#: pkg/users/expiration-dialogs.js:72
+#: pkg/users/expiration-dialogs.js:73
 msgid "Expire account on"
 msgstr "Hesap süresi dolma zamanı"
 
@@ -2768,11 +2781,11 @@ msgstr "Hesap süresi dolma zamanı"
 msgid "Expire account on $0"
 msgstr "$0 tarihinde hesap süresi doluyor"
 
-#: pkg/kdump/kdump-view.jsx:191
+#: pkg/kdump/kdump-view.jsx:192
 msgid "Export"
 msgstr "Dışa Aktar"
 
-#: pkg/metrics/metrics.jsx:1349
+#: pkg/metrics/metrics.jsx:1348
 msgid "Export to network"
 msgstr "Ağa aktar"
 
@@ -2780,7 +2793,7 @@ msgstr "Ağa aktar"
 msgid "Extended information"
 msgstr "Genişletilmiş bilgiler"
 
-#: pkg/storaged/content-views.jsx:637 pkg/storaged/format-dialog.jsx:204
+#: pkg/storaged/format-dialog.jsx:203 pkg/storaged/content-views.jsx:637
 msgid "Extended partition"
 msgstr "Genişletilmiş bölüm"
 
@@ -2792,11 +2805,11 @@ msgstr "FIPS düzgün şekilde etkinleştirilmedi"
 msgid "FIPS with further Common Criteria restrictions."
 msgstr "Daha fazla Ortak Ölçüt kısıtlamasına sahip FIPS."
 
-#: pkg/networkmanager/interfaces.js:755 pkg/storaged/mdraid-details.jsx:107
+#: pkg/storaged/mdraid-details.jsx:107 pkg/networkmanager/interfaces.js:755
 msgid "Failed"
 msgstr "Başarısız oldu"
 
-#: pkg/shell/hosts_dialog.jsx:213
+#: pkg/shell/hosts_dialog.jsx:214
 msgid "Failed to add machine: $0"
 msgstr "Makine ekleme başarısız oldu: $0"
 
@@ -2817,7 +2830,7 @@ msgstr "Bölge ekleme başarısız oldu"
 msgid "Failed to change password"
 msgstr "Parolayı değiştirme başarısız oldu"
 
-#: pkg/metrics/metrics.jsx:1325
+#: pkg/metrics/metrics.jsx:1324
 msgid "Failed to configure PCP"
 msgstr "PCP yapılandırma başarısız oldu"
 
@@ -2833,7 +2846,7 @@ msgstr "tuned etkisizleştirme başarısız oldu"
 msgid "Failed to disable tuned profile"
 msgstr "tuned profilini etkisizleştirmesi başarısız oldu"
 
-#: pkg/shell/hosts_dialog.jsx:330
+#: pkg/shell/hosts_dialog.jsx:331
 msgid "Failed to edit machine: $0"
 msgstr "Şu makineyi düzenleme başarısız oldu: $0"
 
@@ -2870,7 +2883,7 @@ msgstr ""
 "ayrıştırma başarısız oldu. Lütfen otomatik güncellemeleri yapılandırmak için "
 "özel geçersiz kılmaları kaldırın."
 
-#: pkg/packagekit/updates.jsx:497
+#: pkg/packagekit/updates.jsx:498
 msgid "Failed to restart service"
 msgstr "Hizmeti yeniden başlatma başarısız oldu"
 
@@ -2882,7 +2895,7 @@ msgstr "/etc/motd içinde değişiklikleri kaydetme başarısız oldu"
 msgid "Failed to save settings"
 msgstr "Ayarları kaydetme başarısız oldu"
 
-#: pkg/systemd/services.jsx:240 pkg/systemd/service-details.jsx:452
+#: pkg/systemd/service-details.jsx:452 pkg/systemd/services.jsx:235
 msgid "Failed to start"
 msgstr "Başlatılamadı"
 
@@ -2890,8 +2903,8 @@ msgstr "Başlatılamadı"
 msgid "Failed to switch profile"
 msgstr "Profil değiştirme başarısız oldu"
 
-#: pkg/systemd/services.jsx:848 pkg/systemd/services.jsx:849
-#: pkg/systemd/services.jsx:856
+#: pkg/systemd/services.jsx:843 pkg/systemd/services.jsx:844
+#: pkg/systemd/services.jsx:851
 msgid "File state"
 msgstr "Dosya durumu"
 
@@ -2913,13 +2926,13 @@ msgstr "Dosya sistemi kilitli"
 msgid "Filesystem name"
 msgstr "Dosya sistemi adı"
 
+#: pkg/storaged/fsys-panel.jsx:170 pkg/storaged/fsys-panel.jsx:173
 #: pkg/storaged/stratis-details.jsx:689 pkg/storaged/stratis-details.jsx:696
 #: pkg/storaged/stratis-details.jsx:825 pkg/storaged/stratis-details.jsx:829
-#: pkg/storaged/fsys-panel.jsx:170 pkg/storaged/fsys-panel.jsx:173
 msgid "Filesystems"
 msgstr "Dosya sistemleri"
 
-#: pkg/systemd/services.jsx:824
+#: pkg/systemd/services.jsx:819
 msgid "Filter by name or description"
 msgstr "Ada veya açıklamaya göre süz"
 
@@ -2935,12 +2948,12 @@ msgstr "Hizmetleri süz"
 msgid "Filters"
 msgstr "Süzgeçler"
 
-#: pkg/users/authorized-keys-panel.js:131 pkg/shell/credentials.jsx:203
+#: pkg/shell/credentials.jsx:203 pkg/users/authorized-keys-panel.js:131
 msgid "Fingerprint"
 msgstr "Parmak izi"
 
-#: pkg/networkmanager/firewall.html:22 pkg/networkmanager/firewall.jsx:1052
-#: pkg/networkmanager/firewall.jsx:1059 pkg/networkmanager/network-main.jsx:150
+#: pkg/networkmanager/firewall.html:22 pkg/networkmanager/network-main.jsx:150
+#: pkg/networkmanager/firewall.jsx:1052 pkg/networkmanager/firewall.jsx:1059
 msgid "Firewall"
 msgstr "Güvenlik duvarı"
 
@@ -2981,19 +2994,19 @@ msgstr "Parola değiştirmeye zorla"
 msgid "Format"
 msgstr "Biçimlendir"
 
-#: pkg/storaged/format-dialog.jsx:184
+#: pkg/storaged/format-dialog.jsx:183
 msgid "Format $0"
 msgstr "$0 biçimlendir"
 
-#: pkg/storaged/format-dialog.jsx:405
+#: pkg/storaged/format-dialog.jsx:404
 msgid "Format and mount"
 msgstr "Biçimlendir ve bağla"
 
-#: pkg/storaged/format-dialog.jsx:407
+#: pkg/storaged/format-dialog.jsx:406
 msgid "Format only"
 msgstr "Sadece biçimlendir"
 
-#: pkg/storaged/format-dialog.jsx:406
+#: pkg/storaged/format-dialog.jsx:405
 msgid "Formatting erases all data on a storage device."
 msgstr "Biçimlendirme, depolama aygıtı üzerindeki tüm verileri siler."
 
@@ -3033,8 +3046,8 @@ msgstr "Cuma günleri"
 msgid "From"
 msgstr "Nereden"
 
-#: pkg/users/account-create-dialog.js:47 pkg/users/account-details.js:261
-#: pkg/users/accounts-list.js:392
+#: pkg/users/account-create-dialog.js:67 pkg/users/accounts-list.js:392
+#: pkg/users/account-details.js:261
 msgid "Full name"
 msgstr "Ad soyad"
 
@@ -3047,7 +3060,7 @@ msgstr "Ağ geçidi"
 msgid "General"
 msgstr "Genel"
 
-#: pkg/systemd/services.jsx:260
+#: pkg/systemd/services.jsx:255
 msgid "Generated"
 msgstr "Oluşturuldu"
 
@@ -3063,11 +3076,11 @@ msgstr "Uygulamaya git"
 msgid "Go to now"
 msgstr "Şimdiye git"
 
-#: pkg/metrics/metrics.jsx:1758
+#: pkg/metrics/metrics.jsx:1757
 msgid "Graph visibility"
 msgstr "Grafik görünürlüğü"
 
-#: pkg/metrics/metrics.jsx:1746
+#: pkg/metrics/metrics.jsx:1745
 msgid "Graph visibility options menu"
 msgstr "Grafik görünürlüğü seçenekleri menüsü"
 
@@ -3079,8 +3092,8 @@ msgstr "Grup"
 msgid "Group name"
 msgstr "Grup adı"
 
-#: pkg/users/account-details.js:457 pkg/users/accounts-list.js:322
-#: pkg/users/accounts-list.js:326
+#: pkg/users/accounts-list.js:322 pkg/users/accounts-list.js:326
+#: pkg/users/account-details.js:457
 msgid "Groups"
 msgstr "Gruplar"
 
@@ -3130,8 +3143,8 @@ msgstr "Sağlık"
 msgid "Hello time $hello_time"
 msgstr "Merhaba süresi $hello_time"
 
-#: pkg/systemd/overview-cards/tuned-dialog.jsx:295
-#: pkg/systemd/overview-cards/cryptoPolicies.jsx:168 pkg/shell/topnav.jsx:248
+#: pkg/systemd/overview-cards/cryptoPolicies.jsx:168
+#: pkg/systemd/overview-cards/tuned-dialog.jsx:295 pkg/shell/topnav.jsx:248
 msgid "Help"
 msgstr "Yardım"
 
@@ -3147,11 +3160,11 @@ msgstr "Artan saldırı yüzeyi pahasına daha yüksek birlikte çalışabilirli
 msgid "History package count"
 msgstr "Geçmiş paket sayısı"
 
-#: pkg/users/account-details.js:339
+#: pkg/users/account-create-dialog.js:85 pkg/users/account-details.js:339
 msgid "Home directory"
 msgstr "Ana dizin"
 
-#: pkg/shell/hosts.jsx:190 pkg/shell/hosts_dialog.jsx:249
+#: pkg/shell/hosts_dialog.jsx:250 pkg/shell/hosts.jsx:190
 msgid "Host"
 msgstr "Anamakine"
 
@@ -3159,7 +3172,7 @@ msgstr "Anamakine"
 msgid "Host key is incorrect"
 msgstr "Anamakine anahtarı yanlış"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:66
+#: pkg/systemd/overview-cards/configurationCard.jsx:67
 msgid "Hostname"
 msgstr "Anamakine adı"
 
@@ -3175,8 +3188,8 @@ msgstr "Saatlik"
 msgid "Hours"
 msgstr "Saat"
 
-#: pkg/users/group-create-dialog.js:47 pkg/users/accounts-list.js:239
-#: pkg/users/accounts-list.js:393 pkg/systemd/hwinfo.jsx:307
+#: pkg/systemd/hwinfo.jsx:307 pkg/users/accounts-list.js:239
+#: pkg/users/accounts-list.js:393 pkg/users/group-create-dialog.js:47
 #: pkg/networkmanager/firewall.jsx:698
 msgid "ID"
 msgstr "Kimlik"
@@ -3234,7 +3247,7 @@ msgstr ""
 "Eğer parmak izi eşleşirse, \"Anahtarı kabul et ve oturum aç\"a tıklayın. "
 "Aksi takdirde, oturum açmayın ve yöneticinize başvurun."
 
-#: pkg/shell/hosts_dialog.jsx:471 pkg/shell/hosts_dialog.jsx:482
+#: pkg/shell/hosts_dialog.jsx:472 pkg/shell/hosts_dialog.jsx:483
 msgid ""
 "If the fingerprint matches, click 'Accept key and connect'. Otherwise, do "
 "not connect and contact your administrator."
@@ -3242,16 +3255,16 @@ msgstr ""
 "Eğer parmak izi eşleşirse, 'Anahtarı kabul et ve bağlan'a tıklayın. Aksi "
 "takdirde, bağlanmayın ve yöneticinize başvurun."
 
-#: pkg/networkmanager/ip-settings.jsx:53 pkg/packagekit/updates.jsx:683
-#: pkg/packagekit/updates.jsx:760
+#: pkg/networkmanager/ip-settings.jsx:53 pkg/packagekit/updates.jsx:684
+#: pkg/packagekit/updates.jsx:761
 msgid "Ignore"
 msgstr "Yoksay"
 
-#: pkg/metrics/metrics.jsx:835
+#: pkg/metrics/metrics.jsx:834
 msgid "In"
 msgstr "Gelen"
 
-#: pkg/shell/hosts_dialog.jsx:789 pkg/shell/hosts_dialog.jsx:803
+#: pkg/shell/hosts_dialog.jsx:790 pkg/shell/hosts_dialog.jsx:804
 msgid ""
 "In order to allow log in to $0 as $1 without password in the future, use the "
 "login password of $2 on $3 as the key password, or leave the key password "
@@ -3265,9 +3278,9 @@ msgstr ""
 msgid "In sync"
 msgstr "Eşitleme durumunda"
 
-#: pkg/networkmanager/network-interface.jsx:257
 #: pkg/networkmanager/interfaces.js:737 pkg/networkmanager/interfaces.js:1297
 #: pkg/networkmanager/interfaces.js:1304
+#: pkg/networkmanager/network-interface.jsx:257
 msgid "Inactive"
 msgstr "Etkin değil"
 
@@ -3297,11 +3310,11 @@ msgstr "Bir artır"
 msgid "Index memory"
 msgstr "İndeks belleği"
 
-#: pkg/systemd/services.jsx:259
+#: pkg/systemd/services.jsx:254
 msgid "Indirect"
 msgstr "Dolaylı"
 
-#: pkg/packagekit/updates.jsx:752
+#: pkg/packagekit/updates.jsx:753
 msgid "Info"
 msgstr "Bilgi"
 
@@ -3321,7 +3334,7 @@ msgstr "$0 diskini başlat"
 msgid "Initializing erases all data on a disk."
 msgstr "Başlatma, disk üzerindeki tüm verileri siler."
 
-#: pkg/packagekit/updates.jsx:581
+#: pkg/packagekit/updates.jsx:582
 msgid "Initializing..."
 msgstr "Başlatılıyor..."
 
@@ -3330,7 +3343,7 @@ msgid "Insights: "
 msgstr "Insights: "
 
 #: pkg/lib/cockpit-components-install-dialog.jsx:124
-#: pkg/packagekit/kpatch.jsx:247 pkg/apps/application.jsx:52
+#: pkg/apps/application.jsx:52 pkg/packagekit/kpatch.jsx:247
 msgid "Install"
 msgstr "Yükle"
 
@@ -3342,19 +3355,23 @@ msgstr "NFS desteğini yükle"
 msgid "Install Stratis support"
 msgstr "Stratis desteğini yükle"
 
-#: pkg/packagekit/updates.jsx:1404
+#: pkg/packagekit/updates.jsx:1405
 msgid "Install all updates"
 msgstr "Tüm güncellemeleri yükle"
 
-#: pkg/metrics/metrics.jsx:1643
+#: pkg/metrics/metrics.jsx:1642
 msgid "Install cockpit-pcp"
 msgstr "cockpit-pcp'yi yükle"
 
-#: pkg/packagekit/updates.jsx:1417
+#: pkg/packagekit/updates.jsx:1418
 msgid "Install kpatch updates"
 msgstr "kpatch güncellemelerini yükle"
 
-#: pkg/packagekit/updates.jsx:1403 pkg/packagekit/updates.jsx:1410
+#: pkg/systemd/overview-cards/realmd.jsx:448
+msgid "Install realmd support"
+msgstr "realmd desteğini yükle"
+
+#: pkg/packagekit/updates.jsx:1404 pkg/packagekit/updates.jsx:1411
 msgid "Install security updates"
 msgstr "Güvenlik güncellemelerini yükle"
 
@@ -3368,11 +3385,11 @@ msgstr ""
 msgid "Install software"
 msgstr "Yazılım yükle"
 
-#: pkg/packagekit/updates.jsx:110
+#: pkg/packagekit/updates.jsx:111
 msgid "Installed"
 msgstr "Yüklendi"
 
-#: pkg/packagekit/updates.jsx:104 pkg/apps/application.jsx:40
+#: pkg/apps/application.jsx:40 pkg/packagekit/updates.jsx:105
 msgid "Installing"
 msgstr "Yükleniyor"
 
@@ -3389,7 +3406,7 @@ msgstr "$0 paketini yüklemek $1 paketini kaldırır."
 msgid "Installing packages"
 msgstr "Paketler yükleniyor"
 
-#: pkg/networkmanager/firewall.jsx:198 pkg/metrics/metrics.jsx:835
+#: pkg/metrics/metrics.jsx:834 pkg/networkmanager/firewall.jsx:198
 msgid "Interface"
 msgid_plural "Interfaces"
 msgstr[0] "Arayüz"
@@ -3400,9 +3417,9 @@ msgstr[1] "Arayüzler"
 msgid "Interface members"
 msgstr "Arayüz üyeleri"
 
-#: pkg/networkmanager/bond.jsx:164 pkg/networkmanager/firewall.jsx:860
-#: pkg/networkmanager/network-main.jsx:172
+#: pkg/networkmanager/network-main.jsx:172 pkg/networkmanager/firewall.jsx:860
 #: pkg/networkmanager/network-interface-members.jsx:216
+#: pkg/networkmanager/bond.jsx:164
 msgid "Interfaces"
 msgstr "Arayüzler"
 
@@ -3414,7 +3431,7 @@ msgstr "Dahili hata"
 msgid "Internal error: Invalid challenge header"
 msgstr "İç hata: Geçersiz sınama üstbilgisi"
 
-#: pkg/systemd/services.jsx:258
+#: pkg/systemd/services.jsx:253
 msgid "Invalid"
 msgstr "Geçersiz"
 
@@ -3422,7 +3439,7 @@ msgstr "Geçersiz"
 msgid "Invalid address $0"
 msgstr "Geçersiz adres $0"
 
-#: pkg/lib/cockpit-components-shutdown.jsx:117 pkg/lib/serverTime.js:706
+#: pkg/lib/serverTime.js:706 pkg/lib/cockpit-components-shutdown.jsx:117
 msgid "Invalid date format"
 msgstr "Geçersiz tarih biçimi"
 
@@ -3430,7 +3447,7 @@ msgstr "Geçersiz tarih biçimi"
 msgid "Invalid date format and invalid time format"
 msgstr "Geçersiz tarih ve saat biçimi"
 
-#: pkg/users/expiration-dialogs.js:98
+#: pkg/users/expiration-dialogs.js:100
 msgid "Invalid expiration date"
 msgstr "Geçersiz süre dolma tarihi"
 
@@ -3446,7 +3463,7 @@ msgstr "Geçersiz anahtar"
 msgid "Invalid metric $0"
 msgstr "Geçersiz ölçüm $0"
 
-#: pkg/users/expiration-dialogs.js:203
+#: pkg/users/expiration-dialogs.js:205
 msgid "Invalid number of days"
 msgstr "Geçersiz gün sayısı"
 
@@ -3466,7 +3483,7 @@ msgstr "Geçersiz ön ek veya ağ maskesi $0"
 msgid "Invalid range"
 msgstr "Geçersiz aralık"
 
-#: pkg/lib/cockpit-components-shutdown.jsx:114 pkg/lib/serverTime.js:709
+#: pkg/lib/serverTime.js:709 pkg/lib/cockpit-components-shutdown.jsx:114
 #: pkg/packagekit/autoupdates.jsx:315
 msgid "Invalid time format"
 msgstr "Geçersiz saat biçimi"
@@ -3483,7 +3500,7 @@ msgstr "Geçersiz kullanıcı adı veya parola"
 msgid "IoT gateway"
 msgstr "IoT ağ geçidi"
 
-#: pkg/shell/hosts_dialog.jsx:355
+#: pkg/shell/hosts_dialog.jsx:356
 msgid "Is sshd running on a different port?"
 msgstr "sshd farklı bir bağlantı noktasında mı çalışıyor?"
 
@@ -3501,7 +3518,6 @@ msgid "Join a domain"
 msgstr "Bir etki alanına katıl"
 
 #: pkg/systemd/overview-cards/realmd.jsx:448
-#: pkg/systemd/overview-cards/realmd.jsx:470
 msgid "Join domain"
 msgstr "Etki alanına katıl"
 
@@ -3533,11 +3549,11 @@ msgstr "Günlük girişi"
 msgid "Journal entry not found"
 msgstr "Günlük girişi bulunamadı"
 
-#: pkg/metrics/metrics.jsx:1736
+#: pkg/metrics/metrics.jsx:1735
 msgid "Jump to"
 msgstr "Şuna atla"
 
-#: pkg/kdump/kdump-view.jsx:413
+#: pkg/kdump/kdump-view.jsx:402
 msgid ""
 "Kdump service not installed. Please ensure package kexec-tools is installed."
 msgstr ""
@@ -3548,7 +3564,7 @@ msgstr ""
 msgid "Keep connection"
 msgstr "Bağlantıyı koru"
 
-#: pkg/kdump/kdump-view.jsx:459
+#: pkg/kdump/kdump-view.jsx:448
 msgid "Kernel crash dump"
 msgstr "Çekirdek çökme dökümü"
 
@@ -3573,7 +3589,7 @@ msgstr "Çekirdek canlı yaması ayarları"
 msgid "Kernel live patching"
 msgstr "Çekirdek canlı yamalama"
 
-#: pkg/shell/hosts_dialog.jsx:781 pkg/shell/hosts_dialog.jsx:840
+#: pkg/shell/hosts_dialog.jsx:782 pkg/shell/hosts_dialog.jsx:841
 msgid "Key password"
 msgstr "Anahtar parolası"
 
@@ -3617,7 +3633,7 @@ msgstr "LVM2 üyesi"
 msgid "LVM2 volume group"
 msgstr "LVM2 birimi grubu"
 
-#: pkg/storaged/utils.js:255 pkg/storaged/vgroup-details.jsx:220
+#: pkg/storaged/vgroup-details.jsx:220 pkg/storaged/utils.js:255
 msgid "LVM2 volume group $0"
 msgstr "$0 LVM2 birimi grubu"
 
@@ -3637,7 +3653,7 @@ msgstr "Son 7 gün"
 msgid "Last active"
 msgstr "Son etkin olma"
 
-#: pkg/packagekit/updates.jsx:782
+#: pkg/packagekit/updates.jsx:783
 msgid "Last checked: $0"
 msgstr "Son denetleme: $0"
 
@@ -3653,12 +3669,11 @@ msgstr "Son değiştirilme: $0"
 msgid "Last successful login:"
 msgstr "Son başarılı oturum açma:"
 
-#: pkg/lib/cockpit-components-dialog.jsx:224
-#: pkg/lib/cockpit-components-dialog.jsx:231
-#: pkg/systemd/overview-cards/tuned-dialog.jsx:291
 #: pkg/systemd/overview-cards/cryptoPolicies.jsx:51
 #: pkg/systemd/overview-cards/cryptoPolicies.jsx:164
-#: pkg/networkmanager/bond.jsx:152
+#: pkg/systemd/overview-cards/tuned-dialog.jsx:291
+#: pkg/lib/cockpit-components-dialog.jsx:224
+#: pkg/lib/cockpit-components-dialog.jsx:231 pkg/networkmanager/bond.jsx:152
 msgid "Learn more"
 msgstr "Daha fazla bilgi edinin"
 
@@ -3724,7 +3739,7 @@ msgstr "Bağlantı açılma gecikmesi"
 msgid "Link watch"
 msgstr "Bağlantı izleme"
 
-#: pkg/systemd/services.jsx:252 pkg/systemd/services.jsx:253
+#: pkg/systemd/services.jsx:247 pkg/systemd/services.jsx:248
 msgid "Linked"
 msgstr "Bağlantılı"
 
@@ -3732,16 +3747,16 @@ msgstr "Bağlantılı"
 msgid "Listen"
 msgstr "Dinle"
 
-#: pkg/systemd/services.jsx:687
+#: pkg/systemd/services.jsx:682
 msgid "Listing units"
 msgstr "Birimleri listeleme"
 
-#: pkg/systemd/services.jsx:508
+#: pkg/systemd/services.jsx:503
 msgid "Listing units failed: $0"
 msgstr "Birimleri listeleme başarısız oldu: $0"
 
 #: pkg/metrics/metrics.jsx:114 pkg/metrics/metrics.jsx:115
-#: pkg/metrics/metrics.jsx:722 pkg/metrics/metrics.jsx:1774
+#: pkg/metrics/metrics.jsx:721 pkg/metrics/metrics.jsx:1773
 msgid "Load"
 msgstr "Yük"
 
@@ -3749,7 +3764,7 @@ msgstr "Yük"
 msgid "Load balancing"
 msgstr "Yük dengeleme"
 
-#: pkg/metrics/metrics.jsx:1804
+#: pkg/metrics/metrics.jsx:1803
 msgid "Load earlier data"
 msgstr "Daha önceki verileri yükle"
 
@@ -3757,11 +3772,11 @@ msgstr "Daha önceki verileri yükle"
 msgid "Load earlier entries"
 msgstr "Daha önceki girişleri yükle"
 
-#: pkg/packagekit/updates.jsx:101
+#: pkg/packagekit/updates.jsx:102
 msgid "Loading available updates failed"
 msgstr "Mevcut güncellemeleri yükleme başarısız oldu"
 
-#: pkg/packagekit/updates.jsx:95
+#: pkg/packagekit/updates.jsx:96
 msgid "Loading available updates, please wait..."
 msgstr "Mevcut güncellemeler yükleniyor, lütfen bekleyin..."
 
@@ -3769,15 +3784,15 @@ msgstr "Mevcut güncellemeler yükleniyor, lütfen bekleyin..."
 msgid "Loading earlier entries"
 msgstr "Daha önceki girişler yükleniyor"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:178
+#: pkg/systemd/overview-cards/configurationCard.jsx:179
 msgid "Loading keys..."
 msgstr "Anahtarlar yükleniyor..."
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:174
+#: pkg/systemd/overview-cards/configurationCard.jsx:175
 msgid "Loading of SSH keys failed"
 msgstr "SSH anahtarlarını yükleme başarısız oldu"
 
-#: pkg/systemd/services.jsx:668
+#: pkg/systemd/services.jsx:663
 msgid "Loading of units failed"
 msgstr "Birimlerin yüklenmesi başarısız oldu"
 
@@ -3793,12 +3808,12 @@ msgstr "Sistem değişiklikleri yükleniyor..."
 msgid "Loading unit failed"
 msgstr "Birimin yüklenmesi başarısız oldu"
 
-#: pkg/kdump/kdump-view.jsx:314 pkg/users/account-details.js:188
-#: pkg/users/accounts-list.js:327 pkg/users/accounts-list.js:351
-#: pkg/users/accounts-list.js:467 pkg/systemd/logDetails.jsx:176
-#: pkg/systemd/services.jsx:687 pkg/systemd/logsJournal.jsx:268
-#: pkg/systemd/service.jsx:133 pkg/storaged/storaged.jsx:68
-#: pkg/metrics/metrics.jsx:1803
+#: pkg/metrics/metrics.jsx:1802 pkg/systemd/logDetails.jsx:176
+#: pkg/systemd/logsJournal.jsx:268 pkg/systemd/service.jsx:133
+#: pkg/systemd/services.jsx:682 pkg/users/accounts-list.js:327
+#: pkg/users/accounts-list.js:351 pkg/users/accounts-list.js:467
+#: pkg/users/account-details.js:188 pkg/storaged/storaged.jsx:68
+#: pkg/kdump/kdump-view.jsx:303
 msgid "Loading..."
 msgstr "Yükleniyor..."
 
@@ -3806,7 +3821,7 @@ msgstr "Yükleniyor..."
 msgid "Local accounts"
 msgstr "Yerel hesaplar"
 
-#: pkg/kdump/kdump-view.jsx:166
+#: pkg/kdump/kdump-view.jsx:167
 msgid "Local filesystem"
 msgstr "Yerel dosya sistemi"
 
@@ -3814,8 +3829,8 @@ msgstr "Yerel dosya sistemi"
 msgid "Local mount point"
 msgstr "Yerel bağlama noktası"
 
-#: pkg/kdump/kdump-view.jsx:162 pkg/storaged/dialog.jsx:1063
-#: pkg/storaged/dialog.jsx:1141
+#: pkg/storaged/dialog.jsx:1062 pkg/storaged/dialog.jsx:1140
+#: pkg/kdump/kdump-view.jsx:163
 msgid "Location"
 msgstr "Konum"
 
@@ -3835,7 +3850,7 @@ msgstr "Hesabı kilitle"
 msgid "Locked devices"
 msgstr "Kilitli aygıtlar"
 
-#: pkg/storaged/stratis-details.jsx:806 pkg/storaged/stratis-panel.jsx:73
+#: pkg/storaged/stratis-panel.jsx:73 pkg/storaged/stratis-details.jsx:806
 msgid "Locked encrypted Stratis pool"
 msgstr "Kilitli şifrelenmiş Stratis havuzu"
 
@@ -3848,12 +3863,12 @@ msgstr "Kilitli şifrelenmiş veriler"
 msgid "Locking $target"
 msgstr "$target kilitleniyor"
 
-#: pkg/static/login.html:146 pkg/shell/failures.jsx:75
-#: pkg/shell/hosts_dialog.jsx:749 pkg/static/login.js:666
+#: pkg/static/login.html:146 pkg/shell/hosts_dialog.jsx:750
+#: pkg/shell/failures.jsx:75 pkg/static/login.js:666
 msgid "Log in"
 msgstr "Oturum aç"
 
-#: pkg/shell/hosts_dialog.jsx:748
+#: pkg/shell/hosts_dialog.jsx:749
 msgid "Log in to $0"
 msgstr "$0 üzerinde oturum aç"
 
@@ -3865,8 +3880,8 @@ msgstr "Sunucu kullanıcı hesabınızla oturum açın."
 msgid "Log messages"
 msgstr "Günlük iletileri"
 
-#: pkg/users/logout-account-dialog.js:36 pkg/shell/topnav.jsx:215
-#: pkg/metrics/metrics.jsx:1636
+#: pkg/metrics/metrics.jsx:1635 pkg/shell/topnav.jsx:215
+#: pkg/users/logout-account-dialog.js:36
 msgid "Log out"
 msgstr "Oturumu kapat"
 
@@ -3874,7 +3889,7 @@ msgstr "Oturumu kapat"
 msgid "Log user out"
 msgstr "Kullanıcı oturumunu kapat"
 
-#: pkg/users/account-details.js:225 pkg/users/accounts-list.js:170
+#: pkg/users/accounts-list.js:170 pkg/users/account-details.js:225
 msgid "Logged in"
 msgstr "Oturum açıldı"
 
@@ -3882,7 +3897,7 @@ msgstr "Oturum açıldı"
 msgid "Logical"
 msgstr "Mantıksal"
 
-#: pkg/storaged/content-views.jsx:954 pkg/storaged/vdo-details.jsx:224
+#: pkg/storaged/vdo-details.jsx:224 pkg/storaged/content-views.jsx:954
 msgid "Logical size"
 msgstr "Mantıksal boyut"
 
@@ -3946,7 +3961,7 @@ msgstr "Düşük profilli masaüstü"
 msgid "Lunch box"
 msgstr "Lunch box"
 
-#: pkg/networkmanager/bond.jsx:167 pkg/networkmanager/mac.jsx:73
+#: pkg/networkmanager/mac.jsx:73 pkg/networkmanager/bond.jsx:167
 msgid "MAC"
 msgstr "MAC"
 
@@ -3966,7 +3981,7 @@ msgstr "MTU pozitif bir sayı olmak zorundadır"
 msgid "Machine ID"
 msgstr "Makine kimliği"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:195
+#: pkg/systemd/overview-cards/configurationCard.jsx:196
 msgid "Machine SSH key fingerprints"
 msgstr "Makine SSH anahtarı parmak izleri"
 
@@ -3974,7 +3989,7 @@ msgstr "Makine SSH anahtarı parmak izleri"
 msgid "Main server chassis"
 msgstr "Ana sunucu kasası"
 
-#: pkg/systemd/services.jsx:243
+#: pkg/systemd/services.jsx:238
 msgid "Maintenance"
 msgstr "Bakım"
 
@@ -4069,8 +4084,8 @@ msgstr "$target hatalı olarak işaretleniyor"
 msgid "Mask service"
 msgstr "Hizmeti maskele"
 
-#: pkg/systemd/services.jsx:255 pkg/systemd/services.jsx:256
-#: pkg/systemd/service-details.jsx:433
+#: pkg/systemd/service-details.jsx:433 pkg/systemd/services.jsx:250
+#: pkg/systemd/services.jsx:251
 msgid "Masked"
 msgstr "Maskelendi"
 
@@ -4088,11 +4103,11 @@ msgstr ""
 msgid "Maximum message age $max_age"
 msgstr "En fazla ileti yaşı $max_age"
 
-#: pkg/systemd/hwinfo.jsx:306 pkg/systemd/hwinfo.jsx:355
-#: pkg/systemd/overview-cards/usageCard.jsx:144
-#: pkg/systemd/service-details.jsx:665 pkg/metrics/metrics.jsx:122
-#: pkg/metrics/metrics.jsx:748 pkg/metrics/metrics.jsx:1410
-#: pkg/metrics/metrics.jsx:1775
+#: pkg/metrics/metrics.jsx:122 pkg/metrics/metrics.jsx:747
+#: pkg/metrics/metrics.jsx:1409 pkg/metrics/metrics.jsx:1774
+#: pkg/systemd/service-details.jsx:665
+#: pkg/systemd/overview-cards/usageCard.jsx:144 pkg/systemd/hwinfo.jsx:306
+#: pkg/systemd/hwinfo.jsx:355
 msgid "Memory"
 msgstr "Bellek"
 
@@ -4104,11 +4119,11 @@ msgstr "Bellek teknolojisi"
 msgid "Memory usage"
 msgstr "Bellek kullanımı"
 
-#: pkg/metrics/metrics.jsx:1764
+#: pkg/metrics/metrics.jsx:1763
 msgid "Memory usage/swap"
 msgstr "Bellek kullanımı/takası"
 
-#: pkg/systemd/services.jsx:230
+#: pkg/systemd/services.jsx:225
 msgid "Merged"
 msgstr "Birleştirildi"
 
@@ -4132,15 +4147,15 @@ msgstr "Yöntem"
 msgid "Metric"
 msgstr "Ölçüm"
 
-#: pkg/metrics/index.html:20 pkg/metrics/metrics.jsx:1825
+#: pkg/metrics/index.html:20 pkg/metrics/metrics.jsx:1824
 msgid "Metrics and history"
 msgstr "Ölçümler ve geçmiş"
 
-#: pkg/metrics/metrics.jsx:1666
+#: pkg/metrics/metrics.jsx:1665
 msgid "Metrics history could not be loaded"
 msgstr "Ölçümler geçmişi yüklenemedi"
 
-#: pkg/metrics/metrics.jsx:1301 pkg/metrics/metrics.jsx:1395
+#: pkg/metrics/metrics.jsx:1300 pkg/metrics/metrics.jsx:1394
 msgid "Metrics settings"
 msgstr "Ölçümler ayarları"
 
@@ -4172,8 +4187,8 @@ msgstr "Risk azaltmaları"
 msgid "Mode"
 msgstr "Kip"
 
-#: pkg/systemd/hwinfo.jsx:293
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:118
+#: pkg/systemd/hwinfo.jsx:293
 msgid "Model"
 msgstr "Model"
 
@@ -4203,19 +4218,19 @@ msgstr "İzleme hedefleri"
 msgid "Monthly"
 msgstr "Aylık"
 
-#: pkg/packagekit/updates.jsx:938
+#: pkg/packagekit/updates.jsx:939
 msgid "More info..."
 msgstr "Daha fazla bilgi..."
 
 #: pkg/storaged/content-views.jsx:299 pkg/storaged/content-views.jsx:426
-#: pkg/storaged/stratis-details.jsx:637 pkg/storaged/stratis-details.jsx:638
-#: pkg/storaged/fsys-panel.jsx:179 pkg/storaged/fsys-tab.jsx:400
-#: pkg/storaged/nfs-details.jsx:295
+#: pkg/storaged/fsys-panel.jsx:179 pkg/storaged/nfs-details.jsx:295
+#: pkg/storaged/fsys-tab.jsx:400 pkg/storaged/stratis-details.jsx:637
+#: pkg/storaged/stratis-details.jsx:638
 msgid "Mount"
 msgstr "Bağla"
 
+#: pkg/storaged/format-dialog.jsx:378 pkg/storaged/fsys-tab.jsx:362
 #: pkg/storaged/stratis-details.jsx:397 pkg/storaged/stratis-details.jsx:548
-#: pkg/storaged/fsys-tab.jsx:362 pkg/storaged/format-dialog.jsx:379
 msgid "Mount after network becomes available, ignore failure"
 msgstr "Ağ kullanılabilir hale geldikten sonra bağla, hatayı yoksay"
 
@@ -4231,8 +4246,8 @@ msgstr "Önyüklemede bağla"
 msgid "Mount automatically on $0 on boot"
 msgstr "Önyüklemede $0 noktasına otomatik olarak bağla"
 
+#: pkg/storaged/format-dialog.jsx:370 pkg/storaged/fsys-tab.jsx:354
 #: pkg/storaged/stratis-details.jsx:389 pkg/storaged/stratis-details.jsx:540
-#: pkg/storaged/fsys-tab.jsx:354 pkg/storaged/format-dialog.jsx:371
 msgid "Mount before services start"
 msgstr "Hizmetler başlamadan önce bağla"
 
@@ -4252,16 +4267,16 @@ msgstr "Şimdi bağla"
 msgid "Mount on $0 now"
 msgstr "Şimdi $0 noktasına bağla"
 
-#: pkg/storaged/stratis-details.jsx:371 pkg/storaged/stratis-details.jsx:522
-#: pkg/storaged/fsys-tab.jsx:336 pkg/storaged/nfs-details.jsx:161
-#: pkg/storaged/format-dialog.jsx:387
+#: pkg/storaged/format-dialog.jsx:386 pkg/storaged/nfs-details.jsx:161
+#: pkg/storaged/fsys-tab.jsx:336 pkg/storaged/stratis-details.jsx:371
+#: pkg/storaged/stratis-details.jsx:522
 msgid "Mount options"
 msgstr "Bağlama seçenekleri"
 
-#: pkg/storaged/stratis-details.jsx:367 pkg/storaged/stratis-details.jsx:518
+#: pkg/storaged/format-dialog.jsx:292 pkg/storaged/nfs-details.jsx:317
 #: pkg/storaged/nfs-panel.jsx:103 pkg/storaged/fsys-tab.jsx:331
-#: pkg/storaged/fsys-tab.jsx:754 pkg/storaged/nfs-details.jsx:317
-#: pkg/storaged/format-dialog.jsx:293
+#: pkg/storaged/fsys-tab.jsx:754 pkg/storaged/stratis-details.jsx:367
+#: pkg/storaged/stratis-details.jsx:518
 msgid "Mount point"
 msgstr "Bağlama noktası"
 
@@ -4281,14 +4296,14 @@ msgstr "Bağlama noktası zaten $0 için kullanılıyor"
 msgid "Mount point must start with \"/\"."
 msgstr "Bağlama noktası \"/\" ile başlamak zorundadır."
 
-#: pkg/storaged/stratis-details.jsx:378 pkg/storaged/stratis-details.jsx:529
-#: pkg/storaged/fsys-tab.jsx:343 pkg/storaged/nfs-details.jsx:165
-#: pkg/storaged/format-dialog.jsx:395
+#: pkg/storaged/format-dialog.jsx:394 pkg/storaged/nfs-details.jsx:165
+#: pkg/storaged/fsys-tab.jsx:343 pkg/storaged/stratis-details.jsx:378
+#: pkg/storaged/stratis-details.jsx:529
 msgid "Mount read only"
 msgstr "Salt okunur bağla"
 
+#: pkg/storaged/format-dialog.jsx:374 pkg/storaged/fsys-tab.jsx:358
 #: pkg/storaged/stratis-details.jsx:393 pkg/storaged/stratis-details.jsx:544
-#: pkg/storaged/fsys-tab.jsx:358 pkg/storaged/format-dialog.jsx:375
 msgid "Mount without waiting, ignore failure"
 msgstr "Beklemeden bağla, hatayı yoksay"
 
@@ -4296,15 +4311,15 @@ msgstr "Beklemeden bağla, hatayı yoksay"
 msgid "Mounting $target"
 msgstr "$target bağlanıyor"
 
-#: pkg/storaged/format-dialog.jsx:105
+#: pkg/storaged/format-dialog.jsx:104
 msgid "Mounts before services start"
 msgstr "Hizmetler başlamadan önce bağlar"
 
-#: pkg/storaged/format-dialog.jsx:119
+#: pkg/storaged/format-dialog.jsx:118
 msgid "Mounts in parallel with services"
 msgstr "Hizmetlerle paralel olarak bağlar"
 
-#: pkg/storaged/format-dialog.jsx:130
+#: pkg/storaged/format-dialog.jsx:129
 msgid "Mounts in parallel with services, but after network is available"
 msgstr ""
 "Hizmetlerle paralel olarak bağlar, ancak ağ kullanılabilir olduktan sonra"
@@ -4338,24 +4353,24 @@ msgstr "NSNA ping"
 msgid "NTP server"
 msgstr "NTP sunucusu"
 
-#: pkg/users/group-create-dialog.js:38 pkg/users/authorized-keys-panel.js:130
-#: pkg/systemd/hwinfo.jsx:88 pkg/systemd/timer-dialog.jsx:156
-#: pkg/shell/credentials.jsx:101 pkg/networkmanager/dialogs-common.jsx:138
-#: pkg/networkmanager/network-main.jsx:183
-#: pkg/networkmanager/network-main.jsx:198 pkg/storaged/content-views.jsx:192
+#: pkg/systemd/timer-dialog.jsx:156 pkg/systemd/hwinfo.jsx:88
+#: pkg/shell/credentials.jsx:101 pkg/users/group-create-dialog.js:38
+#: pkg/users/authorized-keys-panel.js:130 pkg/storaged/format-dialog.jsx:287
+#: pkg/storaged/mdraids-panel.jsx:74 pkg/storaged/vgroup-details.jsx:162
+#: pkg/storaged/lvol-tabs.jsx:43 pkg/storaged/lvol-tabs.jsx:414
+#: pkg/storaged/lvol-tabs.jsx:475 pkg/storaged/lvol-tabs.jsx:533
+#: pkg/storaged/crypto-panel.jsx:84 pkg/storaged/content-views.jsx:192
 #: pkg/storaged/content-views.jsx:317 pkg/storaged/content-views.jsx:764
 #: pkg/storaged/content-views.jsx:896 pkg/storaged/content-views.jsx:1029
-#: pkg/storaged/stratis-details.jsx:271 pkg/storaged/stratis-details.jsx:363
-#: pkg/storaged/stratis-details.jsx:490 pkg/storaged/stratis-details.jsx:513
-#: pkg/storaged/stratis-details.jsx:697 pkg/storaged/stratis-details.jsx:830
-#: pkg/storaged/fsys-tab.jsx:527 pkg/storaged/fsys-tab.jsx:740
+#: pkg/storaged/stratis-panel.jsx:130 pkg/storaged/part-tab.jsx:35
 #: pkg/storaged/iscsi-panel.jsx:127 pkg/storaged/iscsi-panel.jsx:184
-#: pkg/storaged/vgroup-details.jsx:162 pkg/storaged/lvol-tabs.jsx:43
-#: pkg/storaged/lvol-tabs.jsx:414 pkg/storaged/lvol-tabs.jsx:475
-#: pkg/storaged/lvol-tabs.jsx:533 pkg/storaged/format-dialog.jsx:288
-#: pkg/storaged/part-tab.jsx:35 pkg/storaged/crypto-panel.jsx:84
-#: pkg/storaged/stratis-panel.jsx:130 pkg/storaged/vgroups-panel.jsx:73
-#: pkg/storaged/mdraids-panel.jsx:74 pkg/packagekit/updates.jsx:447
+#: pkg/storaged/vgroups-panel.jsx:73 pkg/storaged/fsys-tab.jsx:527
+#: pkg/storaged/fsys-tab.jsx:740 pkg/storaged/stratis-details.jsx:271
+#: pkg/storaged/stratis-details.jsx:363 pkg/storaged/stratis-details.jsx:490
+#: pkg/storaged/stratis-details.jsx:513 pkg/storaged/stratis-details.jsx:697
+#: pkg/storaged/stratis-details.jsx:830 pkg/networkmanager/network-main.jsx:183
+#: pkg/networkmanager/network-main.jsx:198
+#: pkg/networkmanager/dialogs-common.jsx:138 pkg/packagekit/updates.jsx:448
 msgid "Name"
 msgstr "Ad"
 
@@ -4391,8 +4406,8 @@ msgstr "Ad boşluk karakterleri içeremez."
 msgid "Need at least one NTP server"
 msgstr "En az bir NTP sunucusu gerekli"
 
-#: pkg/metrics/metrics.jsx:825 pkg/metrics/metrics.jsx:1410
-#: pkg/metrics/metrics.jsx:1764 pkg/metrics/metrics.jsx:1777
+#: pkg/metrics/metrics.jsx:824 pkg/metrics/metrics.jsx:1409
+#: pkg/metrics/metrics.jsx:1763 pkg/metrics/metrics.jsx:1776
 msgid "Network"
 msgstr "Ağ"
 
@@ -4412,7 +4427,7 @@ msgstr "Ağ aygıtları ve grafikleri için NetworkManager gerekir"
 msgid "Network logs"
 msgstr "Ağ günlükleri"
 
-#: pkg/metrics/metrics.jsx:834
+#: pkg/metrics/metrics.jsx:833
 msgid "Network usage"
 msgstr "Ağ kullanımı"
 
@@ -4435,11 +4450,11 @@ msgstr "Ağ"
 msgid "Never"
 msgstr "Yok"
 
-#: pkg/users/expiration-dialogs.js:41 pkg/users/account-details.js:84
+#: pkg/users/account-details.js:84 pkg/users/expiration-dialogs.js:41
 msgid "Never expire account"
 msgstr "Hesabın süresi asla dolmasın"
 
-#: pkg/users/expiration-dialogs.js:154 pkg/users/account-details.js:76
+#: pkg/users/account-details.js:76 pkg/users/expiration-dialogs.js:156
 msgid "Never expire password"
 msgstr "Parolanın süresi asla dolmasın"
 
@@ -4451,11 +4466,11 @@ msgstr "Hiç oturum açılmadı"
 msgid "New NFS mount"
 msgstr "Yeni NFS bağlama noktası"
 
-#: pkg/shell/hosts_dialog.jsx:456 pkg/static/login.js:761
+#: pkg/shell/hosts_dialog.jsx:457 pkg/static/login.js:761
 msgid "New host"
 msgstr "Yeni anamakine"
 
-#: pkg/shell/hosts_dialog.jsx:795
+#: pkg/shell/hosts_dialog.jsx:796
 msgid "New key password"
 msgstr "Yeni anahtar parolası"
 
@@ -4467,7 +4482,7 @@ msgstr "Yeni ad"
 msgid "New passphrase"
 msgstr "Yeni parola"
 
-#: pkg/users/password-dialogs.js:147 pkg/shell/credentials.jsx:265
+#: pkg/shell/credentials.jsx:265 pkg/users/password-dialogs.js:147
 msgid "New password"
 msgstr "Yeni parola"
 
@@ -4495,7 +4510,7 @@ msgstr "NFS bağlama noktası ayarlanmadı"
 msgid "No SELinux alerts."
 msgstr "SELinux uyarıları yok."
 
-#: pkg/apps/application-list.jsx:152
+#: pkg/apps/application-list.jsx:156
 msgid "No applications installed or available."
 msgstr "Yüklü veya kullanılabilir uygulamalar yok."
 
@@ -4511,15 +4526,15 @@ msgstr "Kullanılabilir blok aygıtlar yok."
 msgid "No carrier"
 msgstr "Taşıyıcı yok"
 
-#: pkg/kdump/kdump-view.jsx:349
+#: pkg/kdump/kdump-view.jsx:338
 msgid "No configuration found"
 msgstr "Bulunan yapılandırma yok"
 
-#: pkg/metrics/metrics.jsx:1694
+#: pkg/metrics/metrics.jsx:1693
 msgid "No data available"
 msgstr "Mevcut veri yok"
 
-#: pkg/metrics/metrics.jsx:1690
+#: pkg/metrics/metrics.jsx:1689
 msgid "No data available between $0 and $1"
 msgstr "$0 ile $1 arasında mevcut veri yok"
 
@@ -4539,9 +4554,9 @@ msgstr "Sağlanan açıklama yok."
 msgid "No devices"
 msgstr "Aygıtlar yok"
 
-#: pkg/storaged/stratis-details.jsx:138 pkg/storaged/vgroup-details.jsx:65
+#: pkg/storaged/mdraids-panel.jsx:128 pkg/storaged/vgroup-details.jsx:65
 #: pkg/storaged/mdraid-details.jsx:63 pkg/storaged/vgroups-panel.jsx:80
-#: pkg/storaged/mdraids-panel.jsx:128
+#: pkg/storaged/stratis-details.jsx:138
 msgid "No disks are available."
 msgstr "Kullanılabilir diskler yok."
 
@@ -4549,15 +4564,15 @@ msgstr "Kullanılabilir diskler yok."
 msgid "No drives attached"
 msgstr "Bağlı sürücüler yok"
 
-#: pkg/storaged/format-dialog.jsx:220
+#: pkg/storaged/format-dialog.jsx:219
 msgid "No encryption"
 msgstr "Şifreleme yok"
 
-#: pkg/metrics/metrics.jsx:1171
+#: pkg/metrics/metrics.jsx:1170
 msgid "No events"
 msgstr "Olaylar yok"
 
-#: pkg/storaged/format-dialog.jsx:202
+#: pkg/storaged/format-dialog.jsx:201
 msgid "No filesystem"
 msgstr "Dosya sistemi yok"
 
@@ -4577,7 +4592,7 @@ msgstr "Boş alan yok"
 msgid "No group name specified"
 msgstr "Belirtilen grup adı yok"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:180
+#: pkg/systemd/overview-cards/configurationCard.jsx:181
 msgid "No host keys found."
 msgstr "Bulunan anamakine anahtarları yok."
 
@@ -4593,7 +4608,7 @@ msgstr "Bu uygulama için kurulum paketi bulunamadı."
 msgid "No keys added"
 msgstr "Eklenen anahtarlar yok"
 
-#: pkg/systemd/service.jsx:172 pkg/metrics/metrics.jsx:991
+#: pkg/metrics/metrics.jsx:990 pkg/systemd/service.jsx:172
 msgid "No log entries"
 msgstr "Günlük girişleri yok"
 
@@ -4605,8 +4620,8 @@ msgstr "Mantıksal birimler yok"
 msgid "No logs found"
 msgstr "Bulunan günlükler yok"
 
-#: pkg/users/accounts-list.js:353 pkg/users/accounts-list.js:469
-#: pkg/systemd/services-list.jsx:58
+#: pkg/systemd/services-list.jsx:58 pkg/users/accounts-list.js:353
+#: pkg/users/accounts-list.js:469
 msgid "No matching results"
 msgstr "Eşleşen sonuçlar yok"
 
@@ -4614,7 +4629,7 @@ msgstr "Eşleşen sonuçlar yok"
 msgid "No media inserted"
 msgstr "Takılı ortam yok"
 
-#: pkg/kdump/kdump-view.jsx:398
+#: pkg/kdump/kdump-view.jsx:387
 msgid ""
 "No memory reserved. Append a crashkernel option to the kernel command line "
 "(e.g. in /etc/default/grub) to reserve memory at boot time. Example: "
@@ -4628,7 +4643,7 @@ msgstr ""
 msgid "No partitioning"
 msgstr "Bölümlendirme yok"
 
-#: pkg/users/account-create-dialog.js:130
+#: pkg/users/account-create-dialog.js:174
 msgid "No real name specified"
 msgstr "Belirtilen gerçek ad yok"
 
@@ -4647,8 +4662,8 @@ msgstr ""
 msgid "No rule hits"
 msgstr "Kural sonuçları yok"
 
-#: pkg/lib/cockpit-components-file-autocomplete.jsx:176
 #: pkg/lib/credentials.js:191
+#: pkg/lib/cockpit-components-file-autocomplete.jsx:180
 msgid "No such file or directory"
 msgstr "Böyle bir dosya ya da dizin yok"
 
@@ -4664,12 +4679,12 @@ msgstr "Sistem raporları yok."
 msgid "No updates"
 msgstr "Güncellemeler yok"
 
-#: pkg/users/account-create-dialog.js:113
+#: pkg/users/account-create-dialog.js:157
 msgid "No user name specified"
 msgstr "Belirtilen kullanıcı adı yok"
 
-#: pkg/kdump/kdump-view.jsx:369 pkg/systemd/overview-cards/tuned-dialog.jsx:232
-#: pkg/networkmanager/firewall.jsx:855
+#: pkg/systemd/overview-cards/tuned-dialog.jsx:232
+#: pkg/networkmanager/firewall.jsx:855 pkg/kdump/kdump-view.jsx:358
 msgid "None"
 msgstr "Yok"
 
@@ -4705,7 +4720,7 @@ msgstr "Anamakineye bağlı değil"
 msgid "Not enough space to grow."
 msgstr "Büyütmek için yeterli alan yok."
 
-#: pkg/systemd/services.jsx:227 pkg/storaged/details.jsx:135
+#: pkg/systemd/services.jsx:222 pkg/storaged/details.jsx:135
 msgid "Not found"
 msgstr "Bulunamadı"
 
@@ -4729,12 +4744,12 @@ msgstr "Bu eylemi gerçekleştirmeye izinli değil."
 msgid "Not ready"
 msgstr "Hazır değil"
 
-#: pkg/packagekit/updates.jsx:1354
+#: pkg/packagekit/updates.jsx:1355
 msgid "Not registered"
 msgstr "Kayıtlı değil"
 
-#: pkg/systemd/services.jsx:239 pkg/systemd/services.jsx:242
-#: pkg/systemd/services.jsx:701 pkg/systemd/service-details.jsx:473
+#: pkg/systemd/service-details.jsx:473 pkg/systemd/services.jsx:234
+#: pkg/systemd/services.jsx:237 pkg/systemd/services.jsx:696
 #: pkg/storaged/mdraid-details.jsx:348
 msgid "Not running"
 msgstr "Çalışmıyor"
@@ -4795,7 +4810,7 @@ msgstr "Eski parola"
 msgid "Old password not accepted"
 msgstr "Eski parola kabul edilmedi"
 
-#: pkg/kdump/kdump-view.jsx:341
+#: pkg/kdump/kdump-view.jsx:330
 msgid "On a mounted device"
 msgstr "Bağlı bir aygıt üzerinde"
 
@@ -4833,7 +4848,7 @@ msgstr ""
 msgid "Ooops!"
 msgstr "Eyvah!"
 
-#: pkg/metrics/metrics.jsx:1288
+#: pkg/metrics/metrics.jsx:1287
 msgid "Open the pmproxy service in the firewall to share metrics."
 msgstr "Ölçümleri paylaşmak için güvenlik duvarındaki pmproxy hizmetini açın."
 
@@ -4846,9 +4861,9 @@ msgctxt "storage"
 msgid "Optical drive"
 msgstr "Optik sürücü"
 
-#: pkg/users/account-details.js:282 pkg/networkmanager/bridge.jsx:103
+#: pkg/sosreport/sosreport.jsx:317 pkg/users/account-details.js:282
 #: pkg/storaged/content-views.jsx:964 pkg/storaged/crypto-tab.jsx:251
-#: pkg/sosreport/sosreport.jsx:317
+#: pkg/networkmanager/bridge.jsx:103
 msgid "Options"
 msgstr "Seçenekler"
 
@@ -4860,7 +4875,7 @@ msgstr "Veya paketlenmiş bir tarayıcı kullanın"
 msgid "Other"
 msgstr "Diğer"
 
-#: pkg/users/account-create-dialog.js:93 pkg/users/account-details.js:291
+#: pkg/users/account-create-dialog.js:137 pkg/users/account-details.js:291
 msgid ""
 "Other authentication methods are still available even when interactive "
 "password authentication is not allowed."
@@ -4881,20 +4896,20 @@ msgstr "Diğer aygıtlar"
 msgid "Other options"
 msgstr "Diğer seçenekler"
 
-#: pkg/metrics/metrics.jsx:835
+#: pkg/metrics/metrics.jsx:834
 msgid "Out"
 msgstr "Giden"
 
-#: pkg/systemd/hwinfo.jsx:324 pkg/metrics/metrics.jsx:1824
+#: pkg/metrics/metrics.jsx:1823 pkg/systemd/hwinfo.jsx:324
 #: pkg/systemd/manifest.json:0
 msgid "Overview"
 msgstr "Genel Bakış"
 
-#: pkg/storaged/content-views.jsx:711 pkg/storaged/format-dialog.jsx:309
+#: pkg/storaged/format-dialog.jsx:308 pkg/storaged/content-views.jsx:711
 msgid "Overwrite"
 msgstr "Üzerine yaz"
 
-#: pkg/storaged/content-views.jsx:714 pkg/storaged/format-dialog.jsx:312
+#: pkg/storaged/format-dialog.jsx:311 pkg/storaged/content-views.jsx:714
 msgid "Overwrite existing data with zeros (slower)"
 msgstr "Varolan verilerin üzerine sıfırlarla yaz (daha yavaş)"
 
@@ -4902,15 +4917,15 @@ msgstr "Varolan verilerin üzerine sıfırlarla yaz (daha yavaş)"
 msgid "PCI"
 msgstr "PCI"
 
-#: pkg/storaged/dialog.jsx:1211
+#: pkg/storaged/dialog.jsx:1210
 msgid "PID"
 msgstr "PID"
 
-#: pkg/metrics/metrics.jsx:1642
+#: pkg/metrics/metrics.jsx:1641
 msgid "Package cockpit-pcp is missing for metrics history"
 msgstr "Ölçüm geçmişi için cockpit-pcp paketi eksik"
 
-#: pkg/packagekit/updates.jsx:687 pkg/packagekit/updates.jsx:766
+#: pkg/packagekit/updates.jsx:688 pkg/packagekit/updates.jsx:767
 msgid "Package information"
 msgstr "Paket bilgileri"
 
@@ -4918,15 +4933,15 @@ msgstr "Paket bilgileri"
 msgid "PackageKit crashed"
 msgstr "PackageKit çöktü"
 
-#: pkg/packagekit/updates.jsx:1092
+#: pkg/packagekit/updates.jsx:1093
 msgid "PackageKit is not installed"
 msgstr "PackageKit yüklü değil"
 
-#: pkg/packagekit/updates.jsx:1293
+#: pkg/packagekit/updates.jsx:1294
 msgid "PackageKit reported error code $0"
 msgstr "PackageKit $0 hata kodunu bildirdi"
 
-#: pkg/packagekit/updates.jsx:363
+#: pkg/packagekit/updates.jsx:364
 msgid "Packages"
 msgstr "Paketler"
 
@@ -4974,11 +4989,11 @@ msgstr "Bölümler"
 msgid "Passive"
 msgstr "Pasif"
 
-#: pkg/storaged/content-views.jsx:279 pkg/storaged/stratis-details.jsx:131
-#: pkg/storaged/stratis-details.jsx:746 pkg/storaged/fsys-tab.jsx:374
-#: pkg/storaged/format-dialog.jsx:321 pkg/storaged/format-dialog.jsx:347
+#: pkg/storaged/format-dialog.jsx:320 pkg/storaged/format-dialog.jsx:346
+#: pkg/storaged/content-views.jsx:279 pkg/storaged/stratis-panel.jsx:141
 #: pkg/storaged/crypto-keyslots.jsx:483 pkg/storaged/crypto-keyslots.jsx:818
-#: pkg/storaged/stratis-panel.jsx:141
+#: pkg/storaged/fsys-tab.jsx:374 pkg/storaged/stratis-details.jsx:131
+#: pkg/storaged/stratis-details.jsx:746
 msgid "Passphrase"
 msgstr "Parola"
 
@@ -4986,11 +5001,11 @@ msgstr "Parola"
 msgid "Passphrase can not be empty"
 msgstr "Parola boş olamaz"
 
-#: pkg/storaged/stratis-details.jsx:134 pkg/storaged/fsys-tab.jsx:377
-#: pkg/storaged/format-dialog.jsx:325 pkg/storaged/format-dialog.jsx:351
-#: pkg/storaged/crypto-keyslots.jsx:204 pkg/storaged/crypto-keyslots.jsx:491
-#: pkg/storaged/crypto-keyslots.jsx:534 pkg/storaged/crypto-keyslots.jsx:537
-#: pkg/storaged/stratis-panel.jsx:145
+#: pkg/storaged/format-dialog.jsx:324 pkg/storaged/format-dialog.jsx:350
+#: pkg/storaged/stratis-panel.jsx:145 pkg/storaged/crypto-keyslots.jsx:204
+#: pkg/storaged/crypto-keyslots.jsx:491 pkg/storaged/crypto-keyslots.jsx:534
+#: pkg/storaged/crypto-keyslots.jsx:537 pkg/storaged/fsys-tab.jsx:377
+#: pkg/storaged/stratis-details.jsx:134
 msgid "Passphrase cannot be empty"
 msgstr "Parola boş olamaz"
 
@@ -5002,16 +5017,16 @@ msgstr "Başka bir anahtar yuvasından gelen parola"
 msgid "Passphrase removal may prevent unlocking $0."
 msgstr "Parolayı kaldırma, $0 kilidini açmayı engelleyebilir."
 
-#: pkg/storaged/format-dialog.jsx:333 pkg/storaged/crypto-keyslots.jsx:499
-#: pkg/storaged/crypto-keyslots.jsx:539 pkg/storaged/stratis-panel.jsx:153
+#: pkg/storaged/format-dialog.jsx:332 pkg/storaged/stratis-panel.jsx:153
+#: pkg/storaged/crypto-keyslots.jsx:499 pkg/storaged/crypto-keyslots.jsx:539
 msgid "Passphrases do not match"
 msgstr "Parolalar eşleşmiyor"
 
-#: pkg/static/login.html:106 pkg/users/account-create-dialog.js:101
-#: pkg/users/account-details.js:309 pkg/shell/superuser.jsx:144
-#: pkg/shell/credentials.jsx:119 pkg/shell/credentials.jsx:262
-#: pkg/shell/credentials.jsx:318 pkg/shell/hosts_dialog.jsx:825
-#: pkg/shell/hosts_dialog.jsx:834 pkg/storaged/iscsi-panel.jsx:50
+#: pkg/static/login.html:106 pkg/shell/hosts_dialog.jsx:826
+#: pkg/shell/hosts_dialog.jsx:835 pkg/shell/credentials.jsx:119
+#: pkg/shell/credentials.jsx:262 pkg/shell/credentials.jsx:318
+#: pkg/shell/superuser.jsx:144 pkg/users/account-create-dialog.js:145
+#: pkg/users/account-details.js:309 pkg/storaged/iscsi-panel.jsx:50
 #: pkg/storaged/iscsi-panel.jsx:156
 msgid "Password"
 msgstr "Parola"
@@ -5020,19 +5035,19 @@ msgstr "Parola"
 msgid "Password changed successfully"
 msgstr "Parola başarılı olarak değiştirildi"
 
-#: pkg/users/expiration-dialogs.js:212
+#: pkg/users/expiration-dialogs.js:214
 msgid "Password expiration"
 msgstr "Parolanın süresinin dolması"
 
-#: pkg/users/password-dialogs.js:194 pkg/users/account-create-dialog.js:283
+#: pkg/users/account-create-dialog.js:365 pkg/users/password-dialogs.js:194
 msgid "Password is longer than 256 characters"
 msgstr "Parola 256 karakterden uzun"
 
-#: pkg/lib/cockpit-components-password.jsx:44
+#: pkg/lib/cockpit-components-password.jsx:45
 msgid "Password is not acceptable"
 msgstr "Parola kabul edilebilir değil"
 
-#: pkg/lib/cockpit-components-password.jsx:38
+#: pkg/lib/cockpit-components-password.jsx:39
 msgid "Password is too weak"
 msgstr "Parola çok zayıf"
 
@@ -5060,7 +5075,7 @@ msgstr "Yapıştırma hatası"
 msgid "Paste the contents of your public SSH key file here"
 msgstr "Ortak SSH anahtar dosyanızın içeriğini buraya yapıştırın"
 
-#: pkg/systemd/service-details.jsx:660 pkg/systemd/abrtLog.jsx:128
+#: pkg/systemd/abrtLog.jsx:128 pkg/systemd/service-details.jsx:660
 msgid "Path"
 msgstr "Yol"
 
@@ -5084,8 +5099,12 @@ msgstr "Sunucu üzerindeki yol boş olamaz."
 msgid "Path on server must start with \"/\"."
 msgstr "Sunucu üzerindeki yol \"/\" ile başlamak zorundadır."
 
-#: pkg/lib/cockpit-components-file-autocomplete.jsx:163
+#: pkg/users/account-create-dialog.js:91
+msgid "Path to directory"
+msgstr "Dizine giden yol"
+
 #: pkg/shell/credentials.jsx:172
+#: pkg/lib/cockpit-components-file-autocomplete.jsx:167
 msgid "Path to file"
 msgstr "Dosyanın yolu"
 
@@ -5097,7 +5116,7 @@ msgstr "Yollar"
 msgid "Pause"
 msgstr "Duraklat"
 
-#: pkg/metrics/metrics.jsx:1304
+#: pkg/metrics/metrics.jsx:1303
 msgid ""
 "Performance Co-Pilot collects and analyzes performance metrics from your "
 "system."
@@ -5105,7 +5124,7 @@ msgstr ""
 "Performans Yardımcı Pilotu, sisteminizden performans ölçümlerini toplar ve "
 "çözümler."
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:84
+#: pkg/systemd/overview-cards/configurationCard.jsx:85
 msgid "Performance profile"
 msgstr "Performans profili"
 
@@ -5121,9 +5140,9 @@ msgstr "Kalıcı"
 msgid "Permanently delete $0 group?"
 msgstr "$0 grubu kalıcı olarak silinsin mi?"
 
-#: pkg/storaged/content-views.jsx:388 pkg/storaged/stratis-details.jsx:248
 #: pkg/storaged/vdo-details.jsx:198 pkg/storaged/vgroup-details.jsx:194
-#: pkg/storaged/mdraid-details.jsx:290
+#: pkg/storaged/content-views.jsx:388 pkg/storaged/mdraid-details.jsx:290
+#: pkg/storaged/stratis-details.jsx:248
 msgid "Permanently delete $0?"
 msgstr "$0 aygıtı kalıcı olarak silinsin mi?"
 
@@ -5147,8 +5166,9 @@ msgstr "Fiziksel birimler"
 msgid "Physical volumes can not be resized here."
 msgstr "Fiziksel birimler burada yeniden boyutlandırılamaz."
 
-#: pkg/lib/cockpit-components-shutdown.jsx:212 pkg/lib/serverTime.js:618
-#: pkg/users/expiration-dialogs.js:47 pkg/systemd/timer-dialog.jsx:353
+#: pkg/systemd/timer-dialog.jsx:353 pkg/lib/serverTime.js:618
+#: pkg/lib/cockpit-components-shutdown.jsx:212
+#: pkg/users/expiration-dialogs.js:47
 msgid "Pick date"
 msgstr "Tarih seçin"
 
@@ -5184,11 +5204,11 @@ msgstr "Web Konsolunu kullanmak için lütfen JavaScript'i etkinleştirin."
 msgid "Please install the $0 package"
 msgstr "Lütfen $0 paketini yükleyin"
 
-#: pkg/packagekit/updates.jsx:1486
-msgid "Please reload the page after resolving the issue."
-msgstr "Lütfen sorunu çözdükten sonra sayfayı yeniden yükleyin."
+#: pkg/packagekit/updates.jsx:1481
+msgid "Please resolve the issue and reload this page."
+msgstr "Lütfen sorunu çözün ve bu sayfayı yeniden yükleyin."
 
-#: pkg/users/expiration-dialogs.js:94
+#: pkg/users/expiration-dialogs.js:96
 msgid "Please specify an expiration date"
 msgstr "Lütfen bir süre dolma tarihi belirtin"
 
@@ -5212,7 +5232,7 @@ msgstr "İnce birimler için havuz"
 msgid "Pool for thinly provisioned volumes"
 msgstr "Ölçülü kaynak sağlanan birimler için havuz"
 
-#: pkg/shell/hosts_dialog.jsx:358 pkg/storaged/iscsi-panel.jsx:127
+#: pkg/shell/hosts_dialog.jsx:359 pkg/storaged/iscsi-panel.jsx:127
 msgid "Port"
 msgstr "Bağlantı noktası"
 
@@ -5224,9 +5244,8 @@ msgstr "Bağlantı noktası numarası ve türü eşleşmiyor"
 msgid "Portable"
 msgstr "Taşınabilir"
 
-#: pkg/networkmanager/bridge.jsx:100
 #: pkg/networkmanager/network-interface-members.jsx:216
-#: pkg/networkmanager/team.jsx:158
+#: pkg/networkmanager/bridge.jsx:100 pkg/networkmanager/team.jsx:158
 msgid "Ports"
 msgstr "Bağlantı noktaları"
 
@@ -5243,7 +5262,7 @@ msgstr "Ön ek uzunluğu veya ağ maskesi"
 msgid "Preparing"
 msgstr "Hazırlanıyor"
 
-#: pkg/lib/machine-info.js:247 pkg/systemd/hw-detect.js:114
+#: pkg/systemd/hw-detect.js:114 pkg/lib/machine-info.js:247
 msgid "Present"
 msgstr "Mevcut"
 
@@ -5251,7 +5270,7 @@ msgstr "Mevcut"
 msgid "Preserve"
 msgstr "Koru"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:287
+#: pkg/systemd/overview-cards/configurationCard.jsx:288
 msgid "Pretty host name"
 msgstr "Okunaklı anamakine adı"
 
@@ -5263,8 +5282,8 @@ msgstr "Önceki önyükleme"
 msgid "Primary"
 msgstr "Birincil"
 
-#: pkg/systemd/logs.jsx:208 pkg/networkmanager/teamport.jsx:84
-#: pkg/networkmanager/bridgeport.jsx:80
+#: pkg/systemd/logs.jsx:208 pkg/networkmanager/bridgeport.jsx:80
+#: pkg/networkmanager/teamport.jsx:84
 msgid "Priority"
 msgstr "Öncelik"
 
@@ -5285,7 +5304,7 @@ msgstr "Sorun ayrıntıları"
 msgid "Problem info"
 msgstr "Sorun bilgileri"
 
-#: pkg/storaged/dialog.jsx:1095
+#: pkg/storaged/dialog.jsx:1094
 msgid "Processes using the location"
 msgstr "Konumu kullanan işlemler"
 
@@ -5389,11 +5408,11 @@ msgstr "RAID 6 (çift dağıtılmış eşlik)"
 msgid "RAID chassis"
 msgstr "RAID kasası"
 
-#: pkg/storaged/pvol-tabs.jsx:62 pkg/storaged/mdraids-panel.jsx:39
+#: pkg/storaged/mdraids-panel.jsx:39 pkg/storaged/pvol-tabs.jsx:62
 msgid "RAID device"
 msgstr "RAID aygıtı"
 
-#: pkg/storaged/utils.js:249 pkg/storaged/mdraid-details.jsx:312
+#: pkg/storaged/mdraid-details.jsx:312 pkg/storaged/utils.js:249
 msgid "RAID device $0"
 msgstr "RAID aygıtı $0"
 
@@ -5410,7 +5429,7 @@ msgstr "RAID seviyesi"
 msgid "RAID member"
 msgstr "RAID üyesi"
 
-#: pkg/metrics/metrics.jsx:756
+#: pkg/metrics/metrics.jsx:755
 msgid "RAM"
 msgstr "RAM"
 
@@ -5434,15 +5453,15 @@ msgstr "Aralık kesin bir şekilde sıralı olmalıdır"
 msgid "Rank"
 msgstr "Sıra"
 
-#: pkg/kdump/kdump-view.jsx:337
+#: pkg/kdump/kdump-view.jsx:326
 msgid "Raw to a device"
 msgstr "Bir aygıta ham olarak"
 
-#: pkg/metrics/metrics.jsx:674 pkg/metrics/metrics.jsx:785
+#: pkg/metrics/metrics.jsx:673 pkg/metrics/metrics.jsx:784
 msgid "Read"
 msgstr "Okuma"
 
-#: pkg/systemd/hwinfo.jsx:215 pkg/metrics/metrics.jsx:1310
+#: pkg/metrics/metrics.jsx:1309 pkg/systemd/hwinfo.jsx:215
 msgid "Read more..."
 msgstr "Daha fazlasını okuyun..."
 
@@ -5454,7 +5473,7 @@ msgstr "Salt-okunur"
 msgid "Reading"
 msgstr "Okunuyor"
 
-#: pkg/kdump/kdump-view.jsx:363
+#: pkg/kdump/kdump-view.jsx:352
 msgid "Reading..."
 msgstr "Okunuyor..."
 
@@ -5467,11 +5486,11 @@ msgctxt "verb"
 msgid "Ready"
 msgstr "Hazırla"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:290
+#: pkg/systemd/overview-cards/configurationCard.jsx:291
 msgid "Real host name"
 msgstr "Gerçek anamakine adı"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:257
+#: pkg/systemd/overview-cards/configurationCard.jsx:258
 msgid ""
 "Real host name can only contain lower-case characters, digits, dashes, and "
 "periods (with populated subdomains)"
@@ -5479,7 +5498,7 @@ msgstr ""
 "Gerçek anamakine adı sadece küçük harf, rakam, kısa çizgi ve nokta "
 "karakterlerini (doldurulmuş alt etki alanlarıyla) içerebilir"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:255
+#: pkg/systemd/overview-cards/configurationCard.jsx:256
 msgid "Real host name must be 64 characters or less"
 msgstr "Gerçek anamakine adı 64 karakter veya daha kısa olmak zorundadır"
 
@@ -5487,29 +5506,30 @@ msgstr "Gerçek anamakine adı 64 karakter veya daha kısa olmak zorundadır"
 msgid "Reapply and reboot"
 msgstr "Yeniden uygula ve yeniden başlat"
 
+#: pkg/systemd/overview.jsx:109 pkg/systemd/overview.jsx:128
+#: pkg/lib/cockpit-components-logs-panel.jsx:114
 #: pkg/lib/cockpit-components-shutdown.jsx:189
 #: pkg/lib/cockpit-components-shutdown.jsx:191
-#: pkg/lib/cockpit-components-logs-panel.jsx:114 pkg/systemd/overview.jsx:109
-#: pkg/systemd/overview.jsx:128
 msgid "Reboot"
 msgstr "Yeniden başlat"
 
-#: pkg/packagekit/updates.jsx:611
+#: pkg/packagekit/updates.jsx:612
 msgid "Reboot after completion"
 msgstr "Tamamlandıktan sonra yeniden başlat"
 
-#: pkg/packagekit/updates.jsx:1512
+#: pkg/packagekit/updates.jsx:1514
 msgid "Reboot recommended"
 msgstr "Yeniden başlatma önerilir"
 
-#: pkg/packagekit/updates.jsx:682 pkg/packagekit/updates.jsx:757
-#: pkg/packagekit/updates.jsx:821
+#: pkg/packagekit/updates.jsx:683 pkg/packagekit/updates.jsx:758
+#: pkg/packagekit/updates.jsx:822
 msgid "Reboot system..."
 msgstr "Sistemi yeniden başlat..."
 
 #: pkg/networkmanager/network-main.jsx:186
-#: pkg/networkmanager/network-main.jsx:201 pkg/networkmanager/plots.js:44
+#: pkg/networkmanager/network-main.jsx:201
 #: pkg/networkmanager/network-interface-members.jsx:218
+#: pkg/networkmanager/plots.js:44
 msgid "Receiving"
 msgstr "Alınan"
 
@@ -5533,7 +5553,7 @@ msgstr "Kurtarılıyor"
 msgid "Recovering RAID device $target"
 msgstr "RAID aygıtı $target kurtarılıyor"
 
-#: pkg/packagekit/updates.jsx:97
+#: pkg/packagekit/updates.jsx:98
 msgid "Refreshing package information"
 msgstr "Paket bilgileri yenileniyor"
 
@@ -5553,19 +5573,19 @@ msgstr "Bağlanmayı reddediyor. Anamakine anahtarı bilinmiyor"
 msgid "Regenerating initrd"
 msgstr "initrd yeniden oluşturuluyor"
 
-#: pkg/packagekit/updates.jsx:1366
+#: pkg/packagekit/updates.jsx:1367
 msgid "Register…"
 msgstr "Kaydol…"
 
-#: pkg/storaged/dialog.jsx:1167
+#: pkg/storaged/dialog.jsx:1166
 msgid "Related processes and services will be forcefully stopped."
 msgstr "İlgili işlemler ve hizmetler zorla durdurulacaktır."
 
-#: pkg/storaged/dialog.jsx:1169
+#: pkg/storaged/dialog.jsx:1168
 msgid "Related processes will be forcefully stopped."
 msgstr "İlgili işlemler zorla durdurulacaktır."
 
-#: pkg/storaged/dialog.jsx:1171
+#: pkg/storaged/dialog.jsx:1170
 msgid "Related services will be forcefully stopped."
 msgstr "İlgili hizmetler zorla durdurulacaktır."
 
@@ -5577,31 +5597,31 @@ msgstr "Yeniden yükle"
 msgid "Reload propagated from"
 msgstr "Yeniden yükleme şuradan yayıldı"
 
-#: pkg/systemd/services.jsx:238
+#: pkg/systemd/services.jsx:233
 msgid "Reloading"
 msgstr "Yeniden yükleniyor"
 
-#: pkg/packagekit/updates.jsx:508
+#: pkg/packagekit/updates.jsx:509
 msgid "Reloading the state of remaining services"
 msgstr "Kalan hizmetlerin durumu yeniden yükleniyor"
 
-#: pkg/kdump/kdump-view.jsx:347
+#: pkg/kdump/kdump-view.jsx:336
 msgid "Remote over CIFS/SMB"
 msgstr "CIFS/SMB üzerinden uzak"
 
-#: pkg/kdump/kdump-view.jsx:343
+#: pkg/kdump/kdump-view.jsx:332
 msgid "Remote over FTP"
 msgstr "FTP üzerinden uzak"
 
-#: pkg/kdump/kdump-view.jsx:170 pkg/kdump/kdump-view.jsx:334
+#: pkg/kdump/kdump-view.jsx:171 pkg/kdump/kdump-view.jsx:323
 msgid "Remote over NFS"
 msgstr "NFS üzerinden uzak"
 
-#: pkg/kdump/kdump-view.jsx:345
+#: pkg/kdump/kdump-view.jsx:334
 msgid "Remote over SFTP"
 msgstr "SFTP üzerinden uzak"
 
-#: pkg/kdump/kdump-view.jsx:168 pkg/kdump/kdump-view.jsx:331
+#: pkg/kdump/kdump-view.jsx:169 pkg/kdump/kdump-view.jsx:320
 msgid "Remote over SSH"
 msgstr "SSH üzerinden uzak"
 
@@ -5614,12 +5634,12 @@ msgstr "Çıkarılabilir sürücü"
 msgid "Removals:"
 msgstr "Kaldırılanlar:"
 
-#: pkg/users/authorized-keys-panel.js:145
-#: pkg/users/authorized-keys-panel.js:171 pkg/systemd/timer-dialog.jsx:367
-#: pkg/shell/hosts.jsx:170 pkg/storaged/vgroup-details.jsx:117
+#: pkg/systemd/timer-dialog.jsx:367 pkg/shell/hosts.jsx:170
+#: pkg/apps/application.jsx:50 pkg/users/authorized-keys-panel.js:145
+#: pkg/users/authorized-keys-panel.js:171 pkg/storaged/vgroup-details.jsx:117
 #: pkg/storaged/nfs-details.jsx:302 pkg/storaged/mdraid-details.jsx:141
 #: pkg/storaged/crypto-keyslots.jsx:687 pkg/storaged/crypto-keyslots.jsx:722
-#: pkg/storaged/crypto-keyslots.jsx:803 pkg/apps/application.jsx:50
+#: pkg/storaged/crypto-keyslots.jsx:803
 msgid "Remove"
 msgstr "Kaldır"
 
@@ -5712,10 +5732,10 @@ msgstr ""
 msgid "Removing the zone will remove all services within it."
 msgstr "Bölgenin kaldırılması, içindeki tüm hizmetleri kaldıracak."
 
-#: pkg/users/rename-group-dialog.jsx:69 pkg/storaged/stratis-details.jsx:278
-#: pkg/storaged/stratis-details.jsx:440 pkg/storaged/stratis-details.jsx:497
-#: pkg/storaged/stratis-details.jsx:643 pkg/storaged/vgroup-details.jsx:169
+#: pkg/users/rename-group-dialog.jsx:69 pkg/storaged/vgroup-details.jsx:169
 #: pkg/storaged/vgroup-details.jsx:222 pkg/storaged/lvol-tabs.jsx:47
+#: pkg/storaged/stratis-details.jsx:278 pkg/storaged/stratis-details.jsx:440
+#: pkg/storaged/stratis-details.jsx:497 pkg/storaged/stratis-details.jsx:643
 msgid "Rename"
 msgstr "Yeniden adlandır"
 
@@ -5804,7 +5824,7 @@ msgstr "Bildirmeler"
 msgid "Reports:"
 msgstr "Bildirmeler:"
 
-#: pkg/users/expiration-dialogs.js:178
+#: pkg/users/expiration-dialogs.js:180
 msgid "Require password change every $0 days"
 msgstr "Her $0 günde bir parola değişikliği gerektir"
 
@@ -5812,7 +5832,7 @@ msgstr "Her $0 günde bir parola değişikliği gerektir"
 msgid "Require password change on $0"
 msgstr "$0 tarihinde parola değişikliği gerektir"
 
-#: pkg/users/account-create-dialog.js:81
+#: pkg/users/account-create-dialog.js:125
 msgid "Require password change on first login"
 msgstr "İlk oturum açıldığında parola değişikliği gerektir"
 
@@ -5840,11 +5860,11 @@ msgstr "Gereklilik"
 msgid "Requisite of"
 msgstr "Gerekliliği"
 
-#: pkg/kdump/kdump-view.jsx:482
+#: pkg/kdump/kdump-view.jsx:471
 msgid "Reserved memory"
 msgstr "Ayrılan bellek"
 
-#: pkg/systemd/terminal.jsx:184 pkg/systemd/logs.jsx:405
+#: pkg/systemd/logs.jsx:405 pkg/systemd/terminal.jsx:184
 msgid "Reset"
 msgstr "Sıfırla"
 
@@ -5869,15 +5889,15 @@ msgstr ""
 msgid "Restart"
 msgstr "Yeniden başlat"
 
-#: pkg/packagekit/updates.jsx:522 pkg/packagekit/updates.jsx:536
+#: pkg/packagekit/updates.jsx:523 pkg/packagekit/updates.jsx:537
 msgid "Restart services"
 msgstr "Hizmetleri yeniden başlat"
 
-#: pkg/packagekit/updates.jsx:758 pkg/packagekit/updates.jsx:833
+#: pkg/packagekit/updates.jsx:759 pkg/packagekit/updates.jsx:834
 msgid "Restart services..."
 msgstr "Hizmetleri yeniden başlat..."
 
-#: pkg/packagekit/updates.jsx:1560
+#: pkg/packagekit/updates.jsx:1562
 msgid "Restarting"
 msgstr "Yeniden başlatılıyor"
 
@@ -5889,11 +5909,11 @@ msgstr "Bağlantı geri yükleniyor"
 msgid "Resume"
 msgstr "Devam"
 
-#: pkg/storaged/format-dialog.jsx:228
+#: pkg/storaged/format-dialog.jsx:227
 msgid "Reuse existing encryption"
 msgstr "Varolan şifrelemeyi yeniden kullan"
 
-#: pkg/storaged/format-dialog.jsx:225
+#: pkg/storaged/format-dialog.jsx:224
 msgid "Reuse existing encryption ($0)"
 msgstr "Varolan şifrelemeyi yeniden kullan ($0)"
 
@@ -5933,13 +5953,13 @@ msgstr "Raporu çalıştır"
 msgid "Runner"
 msgstr "Çalıştırıcı"
 
-#: pkg/systemd/services.jsx:237 pkg/systemd/services.jsx:241
-#: pkg/systemd/services.jsx:700 pkg/systemd/service-details.jsx:465
+#: pkg/systemd/service-details.jsx:465 pkg/systemd/services.jsx:232
+#: pkg/systemd/services.jsx:236 pkg/systemd/services.jsx:695
 #: pkg/storaged/mdraid-details.jsx:348
 msgid "Running"
 msgstr "Çalışıyor"
 
-#: pkg/storaged/dialog.jsx:1214 pkg/storaged/dialog.jsx:1233
+#: pkg/storaged/dialog.jsx:1213 pkg/storaged/dialog.jsx:1232
 msgid "Runtime"
 msgstr "Çalışma zamanı"
 
@@ -5991,7 +6011,7 @@ msgstr ""
 "SOS raporlaması, sorunların teşhis edilmesine yardımcı olmak için sistem "
 "bilgilerini toplar."
 
-#: pkg/kdump/kdump-view.jsx:214 pkg/shell/hosts_dialog.jsx:830
+#: pkg/shell/hosts_dialog.jsx:831 pkg/kdump/kdump-view.jsx:215
 msgid "SSH key"
 msgstr "SSH anahtarı"
 
@@ -6031,12 +6051,12 @@ msgstr ""
 msgid "Saturdays"
 msgstr "Cumartesi günleri"
 
-#: pkg/systemd/timer-dialog.jsx:147 pkg/networkmanager/dialogs-common.jsx:156
-#: pkg/storaged/fsys-tab.jsx:402 pkg/storaged/fsys-tab.jsx:534
-#: pkg/storaged/crypto-tab.jsx:156 pkg/storaged/crypto-tab.jsx:200
-#: pkg/storaged/nfs-details.jsx:181 pkg/storaged/crypto-keyslots.jsx:542
-#: pkg/storaged/crypto-keyslots.jsx:561 pkg/packagekit/kpatch.jsx:307
-#: pkg/metrics/metrics.jsx:1316
+#: pkg/metrics/metrics.jsx:1315 pkg/systemd/timer-dialog.jsx:147
+#: pkg/storaged/nfs-details.jsx:181 pkg/storaged/crypto-tab.jsx:156
+#: pkg/storaged/crypto-tab.jsx:200 pkg/storaged/crypto-keyslots.jsx:542
+#: pkg/storaged/crypto-keyslots.jsx:561 pkg/storaged/fsys-tab.jsx:402
+#: pkg/storaged/fsys-tab.jsx:534 pkg/networkmanager/dialogs-common.jsx:156
+#: pkg/packagekit/kpatch.jsx:307
 msgid "Save"
 msgstr "Kaydet"
 
@@ -6044,7 +6064,7 @@ msgstr "Kaydet"
 msgid "Save and reboot"
 msgstr "Kaydet ve yeniden başlat"
 
-#: pkg/kdump/kdump-view.jsx:149 pkg/systemd/overview-cards/motdCard.jsx:61
+#: pkg/systemd/overview-cards/motdCard.jsx:61 pkg/kdump/kdump-view.jsx:149
 #: pkg/packagekit/autoupdates.jsx:261
 msgid "Save changes"
 msgstr "Değişiklikleri kaydet"
@@ -6102,7 +6122,7 @@ msgstr "Saniyenin 0 ile 59 arasında bir sayı olması gerekir"
 msgid "Seconds"
 msgstr "Saniye"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:91
+#: pkg/systemd/overview-cards/configurationCard.jsx:92
 msgid "Secure shell keys"
 msgstr "Güvenli kabuk anahtarları"
 
@@ -6114,7 +6134,7 @@ msgstr "$target güvenli bir şekilde siliniyor"
 msgid "Security Enhanced Linux configuration and troubleshooting"
 msgstr "Güvenlik Gelişmiş Linux yapılandırması ve sorun giderme"
 
-#: pkg/packagekit/updates.jsx:1423
+#: pkg/packagekit/updates.jsx:1424
 msgid "Security updates available"
 msgstr "Güvenlik güncellemeleri mevcut"
 
@@ -6153,13 +6173,13 @@ msgctxt "storage"
 msgid "Serial number"
 msgstr "Seri numarası"
 
-#: pkg/static/login.html:166 pkg/kdump/kdump-view.jsx:186
-#: pkg/kdump/kdump-view.jsx:208 pkg/networkmanager/ip-settings.jsx:245
-#: pkg/storaged/nfs-panel.jsx:102 pkg/storaged/nfs-details.jsx:312
+#: pkg/static/login.html:166 pkg/storaged/nfs-details.jsx:312
+#: pkg/storaged/nfs-panel.jsx:102 pkg/networkmanager/ip-settings.jsx:245
+#: pkg/kdump/kdump-view.jsx:187 pkg/kdump/kdump-view.jsx:209
 msgid "Server"
 msgstr "Sunucu"
 
-#: pkg/storaged/iscsi-panel.jsx:47 pkg/storaged/nfs-details.jsx:129
+#: pkg/storaged/nfs-details.jsx:129 pkg/storaged/iscsi-panel.jsx:47
 msgid "Server address"
 msgstr "Sunucu adresi"
 
@@ -6179,28 +6199,28 @@ msgstr "Sunucu bağlantıyı kapattı."
 msgid "Server software"
 msgstr "Sunucu yazılımı"
 
-#: pkg/networkmanager/firewall.jsx:211 pkg/storaged/dialog.jsx:1230
-#: pkg/metrics/metrics.jsx:739 pkg/metrics/metrics.jsx:772
+#: pkg/metrics/metrics.jsx:738 pkg/metrics/metrics.jsx:771
+#: pkg/storaged/dialog.jsx:1229 pkg/networkmanager/firewall.jsx:211
 msgid "Service"
 msgstr "Hizmet"
 
-#: pkg/kdump/kdump-view.jsx:392
+#: pkg/kdump/kdump-view.jsx:381
 msgid "Service has an error"
 msgstr "Hizmette bir hata var"
 
-#: pkg/kdump/kdump-view.jsx:388
+#: pkg/kdump/kdump-view.jsx:377
 msgid "Service is running"
 msgstr "Hizmet çalışıyor"
 
-#: pkg/kdump/kdump-view.jsx:394
+#: pkg/kdump/kdump-view.jsx:383
 msgid "Service is starting"
 msgstr "Hizmet başlatılıyor"
 
-#: pkg/kdump/kdump-view.jsx:390
+#: pkg/kdump/kdump-view.jsx:379
 msgid "Service is stopped"
 msgstr "Hizmet durduruldu"
 
-#: pkg/kdump/kdump-view.jsx:396
+#: pkg/kdump/kdump-view.jsx:385
 msgid "Service is stopping"
 msgstr "Hizmet durduruluyor"
 
@@ -6214,7 +6234,7 @@ msgstr "Hizmet günlükleri"
 msgid "Services"
 msgstr "Hizmetler"
 
-#: pkg/storaged/dialog.jsx:1081
+#: pkg/storaged/dialog.jsx:1080
 msgid "Services using the location"
 msgstr "Konumu kullanan hizmetler"
 
@@ -6226,16 +6246,16 @@ msgstr "Oturum"
 msgid "Session is about to expire"
 msgstr "Oturumun süresi dolmak üzere"
 
-#: pkg/shell/hosts_dialog.jsx:246
+#: pkg/shell/hosts_dialog.jsx:247
 msgid "Set"
 msgstr "Ayarla"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:54
+#: pkg/systemd/overview-cards/configurationCard.jsx:55
 msgid "Set hostname"
 msgstr "Anamakine adını ayarla"
 
-#: pkg/users/password-dialogs.js:226 pkg/users/password-dialogs.js:233
-#: pkg/users/account-details.js:314
+#: pkg/users/account-details.js:314 pkg/users/password-dialogs.js:226
+#: pkg/users/password-dialogs.js:233
 msgid "Set password"
 msgstr "Parola ayarla"
 
@@ -6247,7 +6267,7 @@ msgstr "Saati ayarla"
 msgid "Set to"
 msgstr "Şuna ayarla"
 
-#: pkg/packagekit/updates.jsx:112
+#: pkg/packagekit/updates.jsx:113
 msgid "Set up"
 msgstr "Ayarlandı"
 
@@ -6262,7 +6282,7 @@ msgstr ""
 "Ayar, yapılandırılmış durumdan farklı ve bir sonraki önyüklemede geri "
 "döndürülecek."
 
-#: pkg/packagekit/updates.jsx:106
+#: pkg/packagekit/updates.jsx:107
 msgid "Setting up"
 msgstr "Ayarlanıyor"
 
@@ -6270,11 +6290,11 @@ msgstr "Ayarlanıyor"
 msgid "Setting up loop device $target"
 msgstr "Döngü aygıtı $target ayarlanıyor"
 
-#: pkg/packagekit/updates.jsx:916
+#: pkg/packagekit/updates.jsx:917
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: pkg/packagekit/updates.jsx:374 pkg/packagekit/updates.jsx:449
+#: pkg/packagekit/updates.jsx:375 pkg/packagekit/updates.jsx:450
 msgid "Severity"
 msgstr "Önem derecesi"
 
@@ -6282,7 +6302,7 @@ msgstr "Önem derecesi"
 msgid "Shared"
 msgstr "Paylaşılan"
 
-#: pkg/users/account-details.js:342
+#: pkg/users/account-create-dialog.js:95 pkg/users/account-details.js:342
 msgid "Shell"
 msgstr "Kabuk"
 
@@ -6314,7 +6334,7 @@ msgstr "Tümünü göster"
 msgid "Show all threads"
 msgstr "Tüm iş parçacıklarını göster"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:95
+#: pkg/systemd/overview-cards/configurationCard.jsx:96
 msgid "Show fingerprints"
 msgstr "Parmak izlerini göster"
 
@@ -6363,39 +6383,39 @@ msgstr "Kapat"
 msgid "Since"
 msgstr "Başlangıç"
 
-#: pkg/lib/machine-info.js:238 pkg/systemd/hw-detect.js:90
+#: pkg/systemd/hw-detect.js:90 pkg/lib/machine-info.js:238
 msgid "Single rank"
 msgstr "Tek sıra"
 
-#: pkg/systemd/hwinfo.jsx:307 pkg/storaged/content-views.jsx:197
+#: pkg/systemd/hwinfo.jsx:307 pkg/storaged/format-dialog.jsx:300
+#: pkg/storaged/lvol-tabs.jsx:237 pkg/storaged/lvol-tabs.jsx:304
+#: pkg/storaged/lvol-tabs.jsx:424 pkg/storaged/lvol-tabs.jsx:485
+#: pkg/storaged/lvol-tabs.jsx:538 pkg/storaged/content-views.jsx:197
 #: pkg/storaged/content-views.jsx:764 pkg/storaged/content-views.jsx:939
 #: pkg/storaged/content-views.jsx:947 pkg/storaged/content-views.jsx:1029
+#: pkg/storaged/fsys-panel.jsx:180 pkg/storaged/nfs-details.jsx:322
+#: pkg/storaged/part-tab.jsx:40 pkg/storaged/nfs-panel.jsx:104
 #: pkg/storaged/stratis-details.jsx:697 pkg/storaged/stratis-details.jsx:830
-#: pkg/storaged/fsys-panel.jsx:180 pkg/storaged/nfs-panel.jsx:104
-#: pkg/storaged/nfs-details.jsx:322 pkg/storaged/lvol-tabs.jsx:237
-#: pkg/storaged/lvol-tabs.jsx:304 pkg/storaged/lvol-tabs.jsx:424
-#: pkg/storaged/lvol-tabs.jsx:485 pkg/storaged/lvol-tabs.jsx:538
-#: pkg/storaged/format-dialog.jsx:301 pkg/storaged/part-tab.jsx:40
 msgid "Size"
 msgstr "Boyut"
 
-#: pkg/storaged/dialog.jsx:998
+#: pkg/storaged/dialog.jsx:997
 msgid "Size cannot be negative"
 msgstr "Boyut sıfırdan küçük olamaz"
 
-#: pkg/storaged/dialog.jsx:996
+#: pkg/storaged/dialog.jsx:995
 msgid "Size cannot be zero"
 msgstr "Boyut sıfır olamaz"
 
-#: pkg/storaged/dialog.jsx:1000
+#: pkg/storaged/dialog.jsx:999
 msgid "Size is too large"
 msgstr "Boyut çok büyük"
 
-#: pkg/storaged/dialog.jsx:994
+#: pkg/storaged/dialog.jsx:993
 msgid "Size must be a number"
 msgstr "Boyut bir sayı olmak zorundadır"
 
-#: pkg/storaged/dialog.jsx:1002
+#: pkg/storaged/dialog.jsx:1001
 msgid "Size must be at least $0"
 msgstr "Boyut en az $0 olmak zorundadır"
 
@@ -6449,14 +6469,14 @@ msgstr "Çözüm başarısız oldu"
 msgid "Solutions"
 msgstr "Çözümler"
 
-#: pkg/packagekit/updates.jsx:96
+#: pkg/packagekit/updates.jsx:97
 msgid ""
 "Some other program is currently using the package manager, please wait..."
 msgstr ""
 "Şu anda başka bir program paket yöneticisini kullanıyor, lütfen bekleyin..."
 
-#: pkg/packagekit/updates.jsx:734 pkg/packagekit/updates.jsx:841
-#: pkg/packagekit/updates.jsx:1523
+#: pkg/packagekit/updates.jsx:735 pkg/packagekit/updates.jsx:842
+#: pkg/packagekit/updates.jsx:1525
 msgid "Some software needs to be restarted manually"
 msgstr "Bazı yazılımların el ile yeniden başlatılması gerekiyor"
 
@@ -6496,8 +6516,8 @@ msgstr "Hız"
 msgid "Stable"
 msgstr "Kararlı"
 
-#: pkg/systemd/service-details.jsx:144 pkg/storaged/content-views.jsx:354
-#: pkg/storaged/vdo-details.jsx:264 pkg/storaged/mdraid-details.jsx:316
+#: pkg/systemd/service-details.jsx:144 pkg/storaged/vdo-details.jsx:264
+#: pkg/storaged/content-views.jsx:354 pkg/storaged/mdraid-details.jsx:316
 msgid "Start"
 msgstr "Başlat"
 
@@ -6535,8 +6555,8 @@ msgstr "RAID aygıtı $target başlatılıyor"
 msgid "Starting swapspace $target"
 msgstr "Takas alanı $target başlatılıyor"
 
-#: pkg/systemd/hwinfo.jsx:307 pkg/systemd/services-list.jsx:40
-#: pkg/systemd/services-list.jsx:46
+#: pkg/systemd/services-list.jsx:40 pkg/systemd/services-list.jsx:46
+#: pkg/systemd/hwinfo.jsx:307
 msgid "State"
 msgstr "Durum"
 
@@ -6545,13 +6565,14 @@ msgctxt "storage"
 msgid "State"
 msgstr "Durum"
 
-#: pkg/systemd/services.jsx:257 pkg/systemd/services.jsx:692
-#: pkg/systemd/service-details.jsx:483
+#: pkg/systemd/service-details.jsx:483 pkg/systemd/services.jsx:252
+#: pkg/systemd/services.jsx:687
 msgid "Static"
 msgstr "Sabit"
 
-#: pkg/kdump/kdump-view.jsx:472 pkg/systemd/service-details.jsx:654
-#: pkg/networkmanager/network-interface.jsx:266 pkg/packagekit/updates.jsx:905
+#: pkg/systemd/service-details.jsx:654
+#: pkg/networkmanager/network-interface.jsx:266 pkg/kdump/kdump-view.jsx:461
+#: pkg/packagekit/updates.jsx:906
 msgid "Status"
 msgstr "Durum"
 
@@ -6563,8 +6584,8 @@ msgstr "Çubuk PC"
 msgid "Sticky"
 msgstr "Yapışkan"
 
-#: pkg/systemd/service-details.jsx:140 pkg/storaged/content-views.jsx:352
-#: pkg/storaged/vdo-details.jsx:141 pkg/storaged/vdo-details.jsx:263
+#: pkg/systemd/service-details.jsx:140 pkg/storaged/vdo-details.jsx:141
+#: pkg/storaged/vdo-details.jsx:263 pkg/storaged/content-views.jsx:352
 #: pkg/storaged/mdraid-details.jsx:315
 msgid "Stop"
 msgstr "Durdur"
@@ -6615,7 +6636,7 @@ msgstr "Bu sistemde depolama yönetilemez."
 msgid "Storage logs"
 msgstr "Depolama günlükleri"
 
-#: pkg/storaged/format-dialog.jsx:344
+#: pkg/storaged/format-dialog.jsx:343
 msgid "Store passphrase"
 msgstr "Parolayı sakla"
 
@@ -6637,7 +6658,7 @@ msgstr "Stratis havuzu"
 msgid "Stratis pool $0"
 msgstr "$0 Stratis havuzu"
 
-#: pkg/systemd/services.jsx:225
+#: pkg/systemd/services.jsx:220
 msgid "Stub"
 msgstr "Kalıntı"
 
@@ -6653,7 +6674,7 @@ msgstr "Alt Kasa"
 msgid "Sub-Notebook"
 msgstr "Alt Dizüstü"
 
-#: pkg/systemd/services.jsx:293
+#: pkg/systemd/services.jsx:288
 msgid "Subscribing to systemd signals failed: $0"
 msgstr "systemd sinyallerine abone olma başarısız oldu: $0"
 
@@ -6669,12 +6690,12 @@ msgstr "Başarılı olarak panoya kopyalandı!"
 msgid "Sundays"
 msgstr "Pazar günleri"
 
-#: pkg/storaged/optional-panel.jsx:102
+#: pkg/storaged/optional-panel.jsx:99
 msgid "Support is installed."
 msgstr "Destek yüklendi."
 
-#: pkg/storaged/content-views.jsx:238 pkg/metrics/metrics.jsx:129
-#: pkg/metrics/metrics.jsx:608 pkg/metrics/metrics.jsx:1775
+#: pkg/metrics/metrics.jsx:129 pkg/metrics/metrics.jsx:607
+#: pkg/metrics/metrics.jsx:1774 pkg/storaged/content-views.jsx:238
 msgid "Swap"
 msgstr "Takas"
 
@@ -6691,13 +6712,13 @@ msgstr "Takas alanı"
 msgid "Switch of $0"
 msgstr "$0 anahtarı"
 
-#: pkg/networkmanager/network-interface.jsx:164
 #: pkg/networkmanager/network-interface-members.jsx:94
+#: pkg/networkmanager/network-interface.jsx:164
 msgid "Switch off $0"
 msgstr "$0 arayüzünü kapat"
 
-#: pkg/networkmanager/network-interface.jsx:143
 #: pkg/networkmanager/network-interface-members.jsx:82
+#: pkg/networkmanager/network-interface.jsx:143
 msgid "Switch on $0"
 msgstr "$0 arayüzünü aç"
 
@@ -6709,8 +6730,8 @@ msgstr "Yönetimsel erişime geç"
 msgid "Switch to limited access"
 msgstr "Sınırlı erişime geç"
 
-#: pkg/networkmanager/network-interface.jsx:163
 #: pkg/networkmanager/network-interface-members.jsx:93
+#: pkg/networkmanager/network-interface.jsx:163
 msgid ""
 "Switching off $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
@@ -6718,8 +6739,8 @@ msgstr ""
 "$0 kapatmak sunucuyla bağlantıyı kesecek ve yönetim kullanıcı arayüzünü "
 "kullanılamaz hale getirecektir."
 
-#: pkg/networkmanager/network-interface.jsx:142
 #: pkg/networkmanager/network-interface-members.jsx:81
+#: pkg/networkmanager/network-interface.jsx:142
 msgid ""
 "Switching on $0 will break the connection to the server, and will make the "
 "administration UI unavailable."
@@ -6743,7 +6764,7 @@ msgstr "Eşitleniyor"
 msgid "Synchronizing RAID device $target"
 msgstr "RAID aygıtı $target eşitleniyor"
 
-#: pkg/systemd/services.jsx:915 pkg/shell/nav.jsx:46 pkg/shell/indexes.jsx:343
+#: pkg/systemd/services.jsx:910 pkg/shell/nav.jsx:46 pkg/shell/indexes.jsx:343
 msgid "System"
 msgstr "Sistem"
 
@@ -6751,12 +6772,12 @@ msgstr "Sistem"
 msgid "System diagnostics"
 msgstr "Sistem tanılamaları"
 
-#: pkg/systemd/hwinfo.jsx:332
 #: pkg/systemd/overview-cards/systemInformationCard.jsx:113
+#: pkg/systemd/hwinfo.jsx:332
 msgid "System information"
 msgstr "Sistem bilgileri"
 
-#: pkg/packagekit/updates.jsx:98
+#: pkg/packagekit/updates.jsx:99
 msgid "System is up to date"
 msgstr "Sistem güncel"
 
@@ -6764,7 +6785,7 @@ msgstr "Sistem güncel"
 msgid "System modifications"
 msgstr "Sistem değişiklikleri"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:74
+#: pkg/systemd/overview-cards/configurationCard.jsx:75
 msgid "System time"
 msgstr "Sistem saati"
 
@@ -6814,15 +6835,15 @@ msgstr "Terminal"
 msgid "Terminate session"
 msgstr "Oturumu sonlandır"
 
-#: pkg/kdump/kdump-view.jsx:429 pkg/kdump/kdump-view.jsx:437
+#: pkg/kdump/kdump-view.jsx:418 pkg/kdump/kdump-view.jsx:426
 msgid "Test configuration"
 msgstr "Yapılandırmayı dene"
 
-#: pkg/kdump/kdump-view.jsx:433
+#: pkg/kdump/kdump-view.jsx:422
 msgid "Test is only available while the kdump service is running."
 msgstr "Deneme sadece kdump hizmeti çalışırken kullanılabilir."
 
-#: pkg/kdump/kdump-view.jsx:275
+#: pkg/kdump/kdump-view.jsx:270
 msgid "Test kdump settings"
 msgstr "kdump ayarlarını dene"
 
@@ -6846,7 +6867,7 @@ msgstr "$0 paketi yüklenmek zorundadır."
 msgid "The $0 package will be installed to create VDO devices."
 msgstr "VDO aygıtları oluşturmak için $0 paketi yüklenecektir."
 
-#: pkg/shell/hosts_dialog.jsx:146
+#: pkg/shell/hosts_dialog.jsx:147
 msgid "The IP address or hostname cannot contain whitespace."
 msgstr "IP adresi veya anamakine adı boşluk karakteri içeremez."
 
@@ -6862,13 +6883,13 @@ msgstr "Yedek diskler eklemek için RAID aygıtı çalışıyor olmak zorundadı
 msgid "The RAID device must be running in order to remove disks."
 msgstr "Diskleri kaldırmak için RAID aygıtı çalışıyor olmak zorundadır."
 
-#: pkg/shell/hosts_dialog.jsx:808
+#: pkg/shell/hosts_dialog.jsx:809
 msgid "The SSH key $0 of $1 on $2 will be added to the $3 file of $4 on $5."
 msgstr ""
 "$2 üzerindeki $1 kullanıcısının $0 SSH anahtarı, $5 üzerindeki $4 "
 "kullanıcısının $3 dosyasına eklenecektir."
 
-#: pkg/shell/hosts_dialog.jsx:840
+#: pkg/shell/hosts_dialog.jsx:841
 msgid ""
 "The SSH key $0 will be made available for the remainder of the session and "
 "will be available for login to other hosts as well."
@@ -6876,7 +6897,7 @@ msgstr ""
 "$0 SSH anahtarı, oturumun geri kalanı için kullanılabilir olacak ve diğer "
 "anamakinelerde oturum açmak için de kullanılabilecektir."
 
-#: pkg/shell/hosts_dialog.jsx:758
+#: pkg/shell/hosts_dialog.jsx:759
 msgid ""
 "The SSH key for logging in to $0 is protected by a password, and the host "
 "does not allow logging in with a password. Please provide the password of "
@@ -6886,7 +6907,7 @@ msgstr ""
 "bir parola ile oturum açmaya izin vermiyor. Lütfen $1 konumundaki anahtarın "
 "parolasını sağlayın."
 
-#: pkg/shell/hosts_dialog.jsx:763
+#: pkg/shell/hosts_dialog.jsx:764
 msgid ""
 "The SSH key for logging in to $0 is protected. You can log in with either "
 "your login password or by providing the password of the key at $1."
@@ -6921,7 +6942,7 @@ msgstr ""
 "Şu anda oturum açmış olan kullanıcının anahtarlar hakkındaki bilgileri "
 "görmesine izin verilmiyor."
 
-#: pkg/storaged/format-dialog.jsx:354
+#: pkg/storaged/format-dialog.jsx:353
 msgid ""
 "The disk needs to be unlocked before formatting.  Please provide a existing "
 "passphrase."
@@ -6994,13 +7015,13 @@ msgstr ""
 "Dosya sisteminin kilidi açılacak ve bir sonraki önyüklemeye bağlanacaktır. "
 "Bu bir parola girmeyi gerektirebilir."
 
-#: pkg/packagekit/updates.jsx:512
+#: pkg/packagekit/updates.jsx:513
 msgid "The following service will be restarted:"
 msgid_plural "The following services will be restarted:"
 msgstr[0] "Aşağıdaki hizmet yeniden başlatılacaktır:"
 msgstr[1] "Aşağıdaki hizmetler yeniden başlatılacaktır:"
 
-#: pkg/users/account-create-dialog.js:134
+#: pkg/users/account-create-dialog.js:178
 msgid "The full name must not contain colons."
 msgstr "Ad soyad iki nokta üst üste içermemek zorundadır."
 
@@ -7016,15 +7037,22 @@ msgstr ""
 "Grup adı sadece a-z arasındaki harf, rakam, nokta, tire ve alt çizgi "
 "karakterlerinden oluşabilir"
 
+#: pkg/users/account-create-dialog.js:394
+msgid ""
+"The home directory $0 already exists. Its ownership will be changed to the "
+"new user."
+msgstr ""
+"$0 ana dizini zaten var. Sahipliği yeni kullanıcı olarak değiştirilecektir."
+
 #: pkg/storaged/crypto-keyslots.jsx:318
 msgid "The initrd must be regenerated."
 msgstr "initrd yeniden oluşturulmak zorundadır."
 
-#: pkg/shell/hosts_dialog.jsx:680
+#: pkg/shell/hosts_dialog.jsx:681
 msgid "The key password can not be empty"
 msgstr "Anahtar parolası boş olamaz"
 
-#: pkg/shell/hosts_dialog.jsx:683 pkg/shell/hosts_dialog.jsx:689
+#: pkg/shell/hosts_dialog.jsx:684 pkg/shell/hosts_dialog.jsx:690
 msgid "The key passwords do not match"
 msgstr "Anahtar parolaları eşleşmiyor"
 
@@ -7044,15 +7072,15 @@ msgstr "Son anahtar yuvası kaldırılamaz"
 msgid "The last physical volume of a volume group cannot be removed."
 msgstr "Bir birim grubunun son fiziksel birimi kaldırılamaz."
 
-#: pkg/storaged/dialog.jsx:1248
+#: pkg/storaged/dialog.jsx:1247
 msgid "The listed processes and services will be forcefully stopped."
 msgstr "Listelenen işlemler ve hizmetler zorla durdurulacaktır."
 
-#: pkg/storaged/dialog.jsx:1250
+#: pkg/storaged/dialog.jsx:1249
 msgid "The listed processes will be forcefully stopped."
 msgstr "Listelenen işlemler zorla durdurulacaktır."
 
-#: pkg/storaged/dialog.jsx:1252
+#: pkg/storaged/dialog.jsx:1251
 msgid "The listed services will be forcefully stopped."
 msgstr "Listelenen hizmetler zorla durdurulacaktır."
 
@@ -7066,23 +7094,23 @@ msgstr ""
 msgid "The machine is rebooting"
 msgstr "Makine yeniden başlatılıyor"
 
-#: pkg/storaged/dialog.jsx:1207
+#: pkg/storaged/dialog.jsx:1206
 msgid "The mount point $0 is in use by these processes:"
 msgstr "$0 bağlama noktası şu işlemler tarafından kullanılmakta:"
 
-#: pkg/storaged/dialog.jsx:1226
+#: pkg/storaged/dialog.jsx:1225
 msgid "The mount point $0 is in use by these services:"
 msgstr "$0 bağlama noktası şu hizmetler tarafından kullanılmakta:"
 
-#: pkg/shell/hosts_dialog.jsx:686
+#: pkg/shell/hosts_dialog.jsx:687
 msgid "The new key password can not be empty"
 msgstr "Yeni anahtar parolası boş olamaz"
 
-#: pkg/shell/hosts_dialog.jsx:664
+#: pkg/shell/hosts_dialog.jsx:665
 msgid "The password can not be empty"
 msgstr "Parola boş olamaz"
 
-#: pkg/users/password-dialogs.js:191 pkg/users/account-create-dialog.js:280
+#: pkg/users/account-create-dialog.js:214 pkg/users/password-dialogs.js:191
 msgid "The passwords do not match"
 msgstr "Parolalar eşleşmiyor"
 
@@ -7090,8 +7118,8 @@ msgstr "Parolalar eşleşmiyor"
 msgid "The passwords do not match."
 msgstr "Parolalar eşleşmiyor."
 
-#: pkg/static/login.html:96 pkg/shell/hosts_dialog.jsx:470
-#: pkg/shell/hosts_dialog.jsx:481
+#: pkg/static/login.html:96 pkg/shell/hosts_dialog.jsx:471
+#: pkg/shell/hosts_dialog.jsx:482
 msgid ""
 "The resulting fingerprint is fine to share via public methods, including "
 "email."
@@ -7147,7 +7175,7 @@ msgstr ""
 "Yeni yapılandırmanın etkili olması için kullanıcı oturumu kapatmak ve tekrar "
 "oturum açmak zorundadır."
 
-#: pkg/users/account-create-dialog.js:117
+#: pkg/users/account-create-dialog.js:161
 msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
@@ -7198,7 +7226,7 @@ msgstr "Makineye bağlanırken beklenmeyen bir hata oldu."
 msgid "These additional steps are necessary:"
 msgstr "Şu ek adımlar gereklidir:"
 
-#: pkg/storaged/dialog.jsx:1137
+#: pkg/storaged/dialog.jsx:1136
 msgid "These changes will be made:"
 msgstr "Şu değişiklikler yapılacaktır:"
 
@@ -7219,7 +7247,7 @@ msgstr "Bu VDO aygıtı, yedek aygıtlarının tümünü kullanmıyor."
 msgid "This device cannot be managed here."
 msgstr "Bu aygıt burada yönetilemez."
 
-#: pkg/storaged/dialog.jsx:1059
+#: pkg/storaged/dialog.jsx:1058
 msgid "This device is currently in use."
 msgstr "Bu aygıt şu anda kullanımda."
 
@@ -7248,7 +7276,7 @@ msgstr "Bu bilgiler sadece sistemde saklanır."
 msgid "This logical volume is not completely used by its content."
 msgstr "Bu mantıksal birim, içeriği tarafından tamamen kullanılmıyor."
 
-#: pkg/shell/hosts_dialog.jsx:152
+#: pkg/shell/hosts_dialog.jsx:153
 msgid "This machine has already been added."
 msgstr "Bu makine zaten eklenmiş."
 
@@ -7264,7 +7292,7 @@ msgstr ""
 "Anahtar açıklaması beklenen biçimde olmadığından, bu havuzun kilidi burada "
 "açılamaz."
 
-#: pkg/packagekit/updates.jsx:1361
+#: pkg/packagekit/updates.jsx:1362
 msgid "This system is not registered"
 msgstr "Bu sistem kayıtlı değil"
 
@@ -7327,7 +7355,7 @@ msgstr ""
 msgid "This unit is not designed to be enabled explicitly."
 msgstr "Bu birim açıkça etkinleştirilecek şekilde tasarlanmadı."
 
-#: pkg/users/account-create-dialog.js:122
+#: pkg/users/account-create-dialog.js:166
 msgid "This user name already exists"
 msgstr "Bu kullanıcı adı zaten var"
 
@@ -7368,11 +7396,11 @@ msgstr ""
 "'COREDUMP_UNIT=' ve 'UNIT=' için eşleşme ekleyecek. Virgülle ayrılmış daha "
 "fazla birim içerebilir. "
 
-#: pkg/shell/hosts_dialog.jsx:809
+#: pkg/shell/hosts_dialog.jsx:810
 msgid "This will allow you to log in without password in the future."
 msgstr "Bu, gelecekte parola olmadan oturum açmanıza izin verecek."
 
-#: pkg/kdump/kdump-view.jsx:277
+#: pkg/kdump/kdump-view.jsx:272
 msgid ""
 "This will test kdump settings by crashing the kernel and thereby the system. "
 "Depending on the settings, the system may not automatically reboot and the "
@@ -7382,7 +7410,7 @@ msgstr ""
 "Ayarlara bağlı olarak, sistem otomatik olarak yeniden başlamayabilir ve "
 "işlem biraz zaman alabilir."
 
-#: pkg/kdump/kdump-view.jsx:442
+#: pkg/kdump/kdump-view.jsx:431
 msgid "This will test the kdump configuration by crashing the kernel."
 msgstr "Bu, çekirdeği çöktürerek kdump yapılandırmasını deneyecek."
 
@@ -7430,8 +7458,8 @@ msgstr ""
 "İpucu: Diğer sistemlerde otomatik olarak kimlik doğrulaması yapmak için "
 "anahtar parolanızın oturum açma parolanızla eşleşmesini sağlayın."
 
-#: pkg/static/login.html:91 pkg/shell/hosts_dialog.jsx:465
-#: pkg/shell/hosts_dialog.jsx:476
+#: pkg/static/login.html:91 pkg/shell/hosts_dialog.jsx:466
+#: pkg/shell/hosts_dialog.jsx:477
 msgid ""
 "To ensure that your connection is not intercepted by a malicious third-"
 "party, please verify the host key fingerprint:"
@@ -7439,7 +7467,7 @@ msgstr ""
 "Bağlantınızın kötü niyetli bir üçüncü tarafça engellenmediğinden emin olmak "
 "için lütfen anamakine anahtar parmak izini doğrulayın:"
 
-#: pkg/packagekit/updates.jsx:1364
+#: pkg/packagekit/updates.jsx:1365
 msgid ""
 "To get software updates, this system needs to be registered with Red Hat, "
 "either using the Red Hat Customer Portal or a local subscription server."
@@ -7447,7 +7475,7 @@ msgstr ""
 "Yazılım güncellemelerini almak için bu sistemin Red Hat Müşteri Portalı veya "
 "yerel bir abonelik sunucusu kullanılarak Red Hat'e kaydedilmesi gerekir."
 
-#: pkg/shell/hosts_dialog.jsx:468 pkg/shell/hosts_dialog.jsx:479
+#: pkg/shell/hosts_dialog.jsx:469 pkg/shell/hosts_dialog.jsx:480
 #: pkg/static/login.js:766
 msgid ""
 "To verify a fingerprint, run the following on $0 while physically sitting at "
@@ -7456,7 +7484,7 @@ msgstr ""
 "Bir parmak izini doğrulamak için makinede fiziksel olarak bulunurken veya "
 "güvenilir bir ağ aracılığıyla 0$ üzerinde aşağıdakileri çalıştırın:"
 
-#: pkg/metrics/metrics.jsx:1700
+#: pkg/metrics/metrics.jsx:1699
 msgid "Today"
 msgstr "Bugün"
 
@@ -7468,12 +7496,13 @@ msgstr "Değiştir"
 msgid "Toggle bitmap"
 msgstr "Bit eşlemi aç/kapat"
 
-#: pkg/lib/cockpit-components-shutdown.jsx:213 pkg/lib/serverTime.js:619
-#: pkg/users/expiration-dialogs.js:48 pkg/systemd/timer-dialog.jsx:354
+#: pkg/systemd/timer-dialog.jsx:354 pkg/lib/serverTime.js:619
+#: pkg/lib/cockpit-components-shutdown.jsx:213
+#: pkg/users/expiration-dialogs.js:48
 msgid "Toggle date picker"
 msgstr "Tarihi seçiciyi aç/kapat"
 
-#: pkg/systemd/services.jsx:819 pkg/systemd/logs.jsx:190
+#: pkg/systemd/logs.jsx:190 pkg/systemd/services.jsx:814
 msgid "Toggle filters"
 msgstr "Süzgeçleri aç/kapat"
 
@@ -7485,11 +7514,11 @@ msgstr "Çok fazla veri"
 msgid "Tools"
 msgstr "Araçlar"
 
-#: pkg/metrics/metrics.jsx:738
+#: pkg/metrics/metrics.jsx:737
 msgid "Top 5 CPU services"
 msgstr "En iyi 5 CPU hizmeti"
 
-#: pkg/metrics/metrics.jsx:771
+#: pkg/metrics/metrics.jsx:770
 msgid "Top 5 memory services"
 msgstr "En iyi 5 bellek hizmeti"
 
@@ -7501,7 +7530,7 @@ msgstr "Toplam boyut: $0"
 msgid "Tower"
 msgstr "Tower"
 
-#: pkg/systemd/services.jsx:261
+#: pkg/systemd/services.jsx:256
 msgid "Transient"
 msgstr "Geçici"
 
@@ -7521,7 +7550,7 @@ msgstr "Tetikleyen"
 msgid "Triggers"
 msgstr "Tetikleyiciler"
 
-#: pkg/metrics/metrics.jsx:1661
+#: pkg/metrics/metrics.jsx:1660
 msgid "Troubleshoot"
 msgstr "Sorun gider"
 
@@ -7580,9 +7609,9 @@ msgid "Turn on administrative access"
 msgstr "Yönetimsel erişimi aç"
 
 #: pkg/systemd/hwinfo.jsx:83 pkg/systemd/hwinfo.jsx:307
-#: pkg/shell/credentials.jsx:199 pkg/storaged/content-views.jsx:764
-#: pkg/storaged/content-views.jsx:1029 pkg/storaged/fsys-panel.jsx:178
-#: pkg/storaged/format-dialog.jsx:299 pkg/storaged/part-tab.jsx:50
+#: pkg/shell/credentials.jsx:199 pkg/storaged/format-dialog.jsx:298
+#: pkg/storaged/content-views.jsx:764 pkg/storaged/content-views.jsx:1029
+#: pkg/storaged/fsys-panel.jsx:178 pkg/storaged/part-tab.jsx:50
 #: pkg/storaged/unrecognized-tab.jsx:36 pkg/packagekit/autoupdates.jsx:271
 msgid "Type"
 msgstr "Tür"
@@ -7599,8 +7628,8 @@ msgstr "UDP"
 msgid "UUID"
 msgstr "UUID"
 
-#: pkg/storaged/stratis-details.jsx:447 pkg/storaged/stratis-details.jsx:814
 #: pkg/storaged/vgroup-details.jsx:230 pkg/storaged/mdraid-details.jsx:330
+#: pkg/storaged/stratis-details.jsx:447 pkg/storaged/stratis-details.jsx:814
 msgctxt "storage"
 msgid "UUID"
 msgstr "UUID"
@@ -7613,11 +7642,11 @@ msgstr "Bu çözüm otomatik olarak uygulanamıyor"
 msgid "Unable to connect to that address"
 msgstr "Bu adrese bağlanılamıyor"
 
-#: pkg/shell/hosts_dialog.jsx:354
+#: pkg/shell/hosts_dialog.jsx:355
 msgid "Unable to contact $0."
 msgstr "$0 ile bağlantı kurulamıyor."
 
-#: pkg/shell/hosts_dialog.jsx:230
+#: pkg/shell/hosts_dialog.jsx:231
 msgid ""
 "Unable to contact the given host $0. Make sure it has ssh running on port "
 "$1, or specify another port in the address."
@@ -7635,7 +7664,7 @@ msgstr "Uyarı ayrıntıları alınamıyor."
 msgid "Unable to get alert: $0"
 msgstr "Uyarı alınamıyor: $0"
 
-#: pkg/shell/hosts_dialog.jsx:755
+#: pkg/shell/hosts_dialog.jsx:756
 msgid ""
 "Unable to log in to $0 using SSH key authentication. Please provide the "
 "password. You may want to set up your SSH keys for automatic login."
@@ -7644,7 +7673,7 @@ msgstr ""
 "Lütfen parolayı girin. Otomatik oturum açma için SSH anahtarlarınızı "
 "ayarlamak isteyebilirsiniz."
 
-#: pkg/shell/hosts_dialog.jsx:753
+#: pkg/shell/hosts_dialog.jsx:754
 msgid ""
 "Unable to log in to $0. The host does not accept password login or any of "
 "your SSH keys."
@@ -7692,26 +7721,26 @@ msgstr "Kullanılamayan paketler"
 msgid "Undo"
 msgstr "Geri al"
 
-#: pkg/users/dialog-utils.js:65 pkg/shell/shell-modals.jsx:167
+#: pkg/shell/shell-modals.jsx:167 pkg/users/dialog-utils.js:65
 #: pkg/networkmanager/interfaces.js:50
 msgid "Unexpected error"
 msgstr "Beklenmeyen hata"
 
-#: pkg/systemd/services-list.jsx:39 pkg/systemd/services-list.jsx:44
-#: pkg/systemd/logs.jsx:367
+#: pkg/systemd/logs.jsx:367 pkg/systemd/services-list.jsx:39
+#: pkg/systemd/services-list.jsx:44
 msgid "Unit"
 msgstr "Birim"
 
+#: pkg/systemd/hw-detect.js:85 pkg/systemd/hw-detect.js:94
+#: pkg/systemd/hw-detect.js:101 pkg/systemd/hw-detect.js:104
+#: pkg/systemd/hw-detect.js:111 pkg/systemd/hw-detect.js:112
 #: pkg/lib/machine-info.js:61 pkg/lib/machine-info.js:226
 #: pkg/lib/machine-info.js:234 pkg/lib/machine-info.js:236
 #: pkg/lib/machine-info.js:243 pkg/lib/machine-info.js:245
-#: pkg/lib/machine-info.js:249 pkg/systemd/hw-detect.js:85
-#: pkg/systemd/hw-detect.js:94 pkg/systemd/hw-detect.js:101
-#: pkg/systemd/hw-detect.js:104 pkg/systemd/hw-detect.js:111
-#: pkg/systemd/hw-detect.js:112 pkg/networkmanager/network-interface.jsx:200
-#: pkg/networkmanager/network-interface.jsx:202
+#: pkg/lib/machine-info.js:249 pkg/storaged/swap-tab.jsx:57
 #: pkg/networkmanager/interfaces.js:504 pkg/networkmanager/interfaces.js:979
-#: pkg/storaged/swap-tab.jsx:57
+#: pkg/networkmanager/network-interface.jsx:200
+#: pkg/networkmanager/network-interface.jsx:202
 msgid "Unknown"
 msgstr "Bilinmiyor"
 
@@ -7779,8 +7808,8 @@ msgstr "Disk kilidi açılıyor"
 msgid "Unmanaged interfaces"
 msgstr "Yönetilmeyen arayüzler"
 
-#: pkg/storaged/content-views.jsx:424 pkg/storaged/stratis-details.jsx:642
-#: pkg/storaged/fsys-tab.jsx:401 pkg/storaged/nfs-details.jsx:294
+#: pkg/storaged/content-views.jsx:424 pkg/storaged/nfs-details.jsx:294
+#: pkg/storaged/fsys-tab.jsx:401 pkg/storaged/stratis-details.jsx:642
 msgid "Unmount"
 msgstr "Bağlantıyı kaldır"
 
@@ -7829,36 +7858,36 @@ msgstr "Bitiş"
 msgid "Untrusted host"
 msgstr "Güvenilmeyen anamakine"
 
-#: pkg/shell/hosts_dialog.jsx:350
+#: pkg/shell/hosts_dialog.jsx:351
 msgid "Update"
 msgstr "Güncelle"
 
-#: pkg/packagekit/updates.jsx:751
+#: pkg/packagekit/updates.jsx:752
 msgid "Update Success Table"
 msgstr "Başarı Tablosunu Güncelle"
 
-#: pkg/packagekit/updates.jsx:954
+#: pkg/packagekit/updates.jsx:955
 msgid "Update history"
 msgstr "Güncelleme geçmişi"
 
-#: pkg/apps/application-list.jsx:125
+#: pkg/apps/application-list.jsx:129
 msgid "Update package information"
 msgstr "Paket bilgilerini güncelle"
 
-#: pkg/packagekit/updates.jsx:676 pkg/packagekit/updates.jsx:746
+#: pkg/packagekit/updates.jsx:677 pkg/packagekit/updates.jsx:747
 msgid "Update was successful"
 msgstr "Güncelleme başarılı oldu"
 
-#: pkg/packagekit/updates.jsx:111
+#: pkg/packagekit/updates.jsx:112
 msgid "Updated"
 msgstr "Güncellendi"
 
-#: pkg/packagekit/updates.jsx:679
+#: pkg/packagekit/updates.jsx:680
 msgid "Updated packages may require a reboot to take effect."
 msgstr ""
 "Güncellenen paketlerin etkili olması için yeniden başlatma gerekebilir."
 
-#: pkg/packagekit/updates.jsx:1429
+#: pkg/packagekit/updates.jsx:1430
 msgid "Updates available"
 msgstr "Güncellemeler mevcut"
 
@@ -7870,7 +7899,7 @@ msgstr "Güncellemelerin geçmişi"
 msgid "Updates will be applied $0 at $1"
 msgstr "Güncellemeler, $0 saat $1'da uygulanacaktır"
 
-#: pkg/packagekit/updates.jsx:105
+#: pkg/packagekit/updates.jsx:106
 msgid "Updating"
 msgstr "Güncellenen"
 
@@ -7882,10 +7911,10 @@ msgstr "Durum güncelleniyor..."
 msgid "Uptime"
 msgstr "Çalışma süresi"
 
-#: pkg/systemd/overview-cards/usageCard.jsx:127
-#: pkg/storaged/unrecognized-tab.jsx:32 pkg/metrics/metrics.jsx:1774
+#: pkg/metrics/metrics.jsx:1773 pkg/metrics/metrics.jsx:1774
 #: pkg/metrics/metrics.jsx:1775 pkg/metrics/metrics.jsx:1776
-#: pkg/metrics/metrics.jsx:1777
+#: pkg/systemd/overview-cards/usageCard.jsx:127
+#: pkg/storaged/unrecognized-tab.jsx:32
 msgid "Usage"
 msgstr "Kullanım"
 
@@ -7898,8 +7927,8 @@ msgstr "Kullanım"
 msgid "Usage of $0"
 msgstr "$0 kullanımı"
 
-#: pkg/networkmanager/dialogs-common.jsx:99 pkg/storaged/dialog.jsx:581
-#: pkg/storaged/dialog.jsx:1064
+#: pkg/storaged/dialog.jsx:581 pkg/storaged/dialog.jsx:1063
+#: pkg/networkmanager/dialogs-common.jsx:99
 msgid "Use"
 msgstr "Kullan"
 
@@ -7915,7 +7944,7 @@ msgstr "Tekilleştirme kullan"
 msgid "Use key"
 msgstr "Anahtar kullan"
 
-#: pkg/users/account-create-dialog.js:76
+#: pkg/users/account-create-dialog.js:120
 msgid "Use password"
 msgstr "Parola kullan"
 
@@ -7927,7 +7956,7 @@ msgstr "Diğer sistemlerde kimlik doğrulamak için aşağıdaki anahtarları ku
 msgid "Use verbose logging"
 msgstr "Ayrıntılı günlükleme kullan"
 
-#: pkg/storaged/swap-tab.jsx:65 pkg/metrics/metrics.jsx:772
+#: pkg/metrics/metrics.jsx:771 pkg/storaged/swap-tab.jsx:65
 msgid "Used"
 msgstr "Kullanılan"
 
@@ -7936,47 +7965,39 @@ msgstr "Kullanılan"
 msgid "Used for"
 msgstr "Kullanılma"
 
-#: pkg/storaged/format-dialog.jsx:144
+#: pkg/storaged/format-dialog.jsx:143
 msgid ""
 "Useful for mounts that are optional or need interaction (such as passphrases)"
 msgstr ""
 "İsteğe bağlı olan veya etkileşim gerektiren bağlamalar için kullanışlıdır "
 "(parolalar gibi)"
 
-#: pkg/systemd/services.jsx:919 pkg/storaged/dialog.jsx:1213
+#: pkg/systemd/services.jsx:914 pkg/storaged/dialog.jsx:1212
 msgid "User"
 msgstr "Kullanıcı"
 
-#: pkg/users/account-create-dialog.js:65
-#, fuzzy
-#| msgid "User"
+#: pkg/users/account-create-dialog.js:109
 msgid "User ID"
-msgstr "Kullanıcı"
+msgstr "Kullanıcı kimliği"
 
-#: pkg/users/account-create-dialog.js:153
-#, fuzzy
-#| msgid "This volume is already used by another VM."
+#: pkg/users/account-create-dialog.js:197
 msgid "User ID is already used by another user"
-msgstr "Bu birim zaten başka bir sanal makine tarafından kullanılıyor."
+msgstr "Kullanıcı kimliği zaten başka bir kullanıcı tarafından kullanılıyor"
 
-#: pkg/users/account-create-dialog.js:143
-#, fuzzy
-#| msgid "The group ID must be positive integer"
+#: pkg/users/account-create-dialog.js:187
 msgid "User ID must be a positive integer"
-msgstr "Grup kimliği pozitif tamsayı olmak zorundadır"
+msgstr "Kullanıcı kimliği bir pozitif tamsayı olmak zorundadır"
 
-#: pkg/users/account-create-dialog.js:149
+#: pkg/users/account-create-dialog.js:193
 msgid "User ID must not be higher than $0"
-msgstr ""
+msgstr "Kullanıcı kimliği $0 değerinden yüksek olmamak zorundadır"
 
-#: pkg/users/account-create-dialog.js:146
-#, fuzzy
-#| msgid "Name cannot be longer than $0 bytes"
+#: pkg/users/account-create-dialog.js:190
 msgid "User ID must not be lower than $0"
-msgstr "Ad $0 bayt'tan uzun olamaz"
+msgstr "Kullanıcı kimliği $0 değerinden düşük olmamak zorundadır"
 
-#: pkg/static/login.html:101 pkg/users/account-create-dialog.js:56
-#: pkg/users/account-details.js:275 pkg/shell/hosts_dialog.jsx:258
+#: pkg/static/login.html:101 pkg/shell/hosts_dialog.jsx:259
+#: pkg/users/account-create-dialog.js:76 pkg/users/account-details.js:275
 msgid "User name"
 msgstr "Kullanıcı adı"
 
@@ -8010,7 +8031,7 @@ msgstr "VDO yedek aygıtları küçültülemez"
 msgid "VDO device"
 msgstr "VDO aygıtı"
 
-#: pkg/storaged/utils.js:260 pkg/storaged/vdo-details.jsx:260
+#: pkg/storaged/vdo-details.jsx:260 pkg/storaged/utils.js:260
 msgid "VDO device $0"
 msgstr "VDO aygıtı $0"
 
@@ -8048,7 +8069,7 @@ msgstr "Kimlik doğrulama belirteci doğrulanıyor"
 msgid "Vendor"
 msgstr "Satıcı"
 
-#: pkg/packagekit/updates.jsx:113
+#: pkg/packagekit/updates.jsx:114
 msgid "Verified"
 msgstr "Doğrulandı"
 
@@ -8056,11 +8077,11 @@ msgstr "Doğrulandı"
 msgid "Verify key"
 msgstr "Anahtarı doğrula"
 
-#: pkg/packagekit/updates.jsx:107
+#: pkg/packagekit/updates.jsx:108
 msgid "Verifying"
 msgstr "Doğrulanıyor"
 
-#: pkg/systemd/hwinfo.jsx:93 pkg/packagekit/updates.jsx:448
+#: pkg/systemd/hwinfo.jsx:93 pkg/packagekit/updates.jsx:449
 msgid "Version"
 msgstr "Sürüm"
 
@@ -8068,11 +8089,11 @@ msgstr "Sürüm"
 msgid "Very securely erasing $target"
 msgstr "$target çok güvenli bir şekilde siliniyor"
 
-#: pkg/metrics/metrics.jsx:649 pkg/metrics/metrics.jsx:650
+#: pkg/metrics/metrics.jsx:648 pkg/metrics/metrics.jsx:649
 msgid "View all CPUs"
 msgstr "Tüm CPU'ları görüntüle"
 
-#: pkg/metrics/metrics.jsx:683
+#: pkg/metrics/metrics.jsx:682
 msgid "View all disks"
 msgstr "Tüm diskleri görüntüle"
 
@@ -8088,7 +8109,7 @@ msgstr "Tüm hizmetleri görüntüle"
 msgid "View automation script"
 msgstr "Otomatikleştirme betiğini görüntüle"
 
-#: pkg/metrics/metrics.jsx:989
+#: pkg/metrics/metrics.jsx:988
 msgid "View detailed logs"
 msgstr "Ayrıntılı günlükleri görüntüle"
 
@@ -8104,7 +8125,7 @@ msgstr "Oturum açma geçmişini görüntüle"
 msgid "View metrics and history"
 msgstr "Ölçümleri ve geçmişi görüntüle"
 
-#: pkg/metrics/metrics.jsx:684
+#: pkg/metrics/metrics.jsx:683
 msgid "View per-disk throughput"
 msgstr "Disk başına aktarım hızını görüntüle"
 
@@ -8116,7 +8137,7 @@ msgstr "Proje web sitesini görüntüle"
 msgid "View report"
 msgstr "Raporu görüntüle"
 
-#: pkg/packagekit/updates.jsx:616
+#: pkg/packagekit/updates.jsx:617
 msgid "View update log"
 msgstr "Güncelleme günlüğünü görüntüle"
 
@@ -8181,7 +8202,7 @@ msgstr "İstenen"
 msgid "Warning and above"
 msgstr "Uyarı ve üstü"
 
-#: pkg/shell/topnav.jsx:152 pkg/shell/shell-modals.jsx:63
+#: pkg/shell/shell-modals.jsx:63 pkg/shell/topnav.jsx:152
 msgid "Web Console"
 msgstr "Web Konsolu"
 
@@ -8189,7 +8210,7 @@ msgstr "Web Konsolu"
 msgid "Web Console for Linux servers"
 msgstr "Linux sunucuları için Web Konsolu"
 
-#: pkg/packagekit/updates.jsx:527 pkg/packagekit/updates.jsx:932
+#: pkg/packagekit/updates.jsx:528 pkg/packagekit/updates.jsx:933
 msgid "Web Console will restart"
 msgstr "Web Konsolu yeniden başlayacak"
 
@@ -8217,11 +8238,11 @@ msgstr "Haftalar"
 msgid "When"
 msgstr "Zamanı"
 
-#: pkg/shell/hosts_dialog.jsx:258
+#: pkg/shell/hosts_dialog.jsx:259
 msgid "When empty, connect with the current user"
 msgstr "Boş olduğunda, şu anki kullanıcıyla bağlan"
 
-#: pkg/packagekit/updates.jsx:530 pkg/packagekit/updates.jsx:937
+#: pkg/packagekit/updates.jsx:531 pkg/packagekit/updates.jsx:938
 msgid ""
 "When the Web Console is restarted, you will no longer see progress "
 "information. However, the update process will continue in the background. "
@@ -8240,7 +8261,7 @@ msgctxt "storage"
 msgid "World wide name"
 msgstr "Dünya geneli ad (WWN)"
 
-#: pkg/metrics/metrics.jsx:674 pkg/metrics/metrics.jsx:789
+#: pkg/metrics/metrics.jsx:673 pkg/metrics/metrics.jsx:788
 msgid "Write"
 msgstr "Yazma"
 
@@ -8268,7 +8289,7 @@ msgstr "Yıllık"
 msgid "Yes"
 msgstr "Evet"
 
-#: pkg/shell/hosts_dialog.jsx:475 pkg/static/login.js:763
+#: pkg/shell/hosts_dialog.jsx:476 pkg/static/login.js:763
 msgid "You are connecting to $0 for the first time."
 msgstr "İlk kez $0 için bağlanıyorsunuz."
 
@@ -8291,7 +8312,7 @@ msgstr "Etkinlik olmamasından dolayı oturumunuz kapatıldı."
 msgid "You may try to load older entries."
 msgstr "Daha eski girişleri yüklemeyi deneyebilirsiniz."
 
-#: pkg/shell/hosts_dialog.jsx:759 pkg/shell/hosts_dialog.jsx:764
+#: pkg/shell/hosts_dialog.jsx:760 pkg/shell/hosts_dialog.jsx:765
 msgid "You may want to change the password of the key for automatic login."
 msgstr ""
 "Otomatik oturum açmak için anahtarın parolasını değiştirmek isteyebilirsiniz."
@@ -8300,7 +8321,7 @@ msgstr ""
 msgid "You must wait longer to change your password"
 msgstr "Parolanızı değiştirmek için daha uzun süre beklemek zorundasınız"
 
-#: pkg/metrics/metrics.jsx:1635
+#: pkg/metrics/metrics.jsx:1634
 msgid "You need to relogin to be able to see metrics history"
 msgstr "Ölçümler geçmişini görebilmek için yeniden oturum açmanız gerekli"
 
@@ -8328,7 +8349,7 @@ msgstr ""
 msgid "Your browser will remember your access level across sessions."
 msgstr "Tarayıcınız, oturumlar arasında erişim seviyenizi hatırlayacaktır."
 
-#: pkg/packagekit/updates.jsx:1563
+#: pkg/packagekit/updates.jsx:1565
 msgid ""
 "Your server will close the connection soon. You can reconnect after it has "
 "restarted."
@@ -8406,11 +8427,11 @@ msgstr "saat"
 msgid "avc"
 msgstr "avc"
 
-#: pkg/metrics/metrics.jsx:635
+#: pkg/metrics/metrics.jsx:634
 msgid "average: $0%"
 msgstr "ortalama: %$0"
 
-#: pkg/storaged/dialog.jsx:1040
+#: pkg/storaged/dialog.jsx:1039
 msgid "backing device for VDO device"
 msgstr "VDO aygıtı için aygıt yedekleniyor"
 
@@ -8434,7 +8455,7 @@ msgstr "önyükleme"
 msgid "bridge"
 msgstr "köprü"
 
-#: pkg/packagekit/updates.jsx:214 pkg/packagekit/updates.jsx:318
+#: pkg/packagekit/updates.jsx:215 pkg/packagekit/updates.jsx:319
 msgid "bug fix"
 msgstr "hata düzeltme"
 
@@ -8447,7 +8468,7 @@ msgstr "bayt"
 msgid "cgroups"
 msgstr "cgruplar"
 
-#: pkg/metrics/metrics.jsx:520
+#: pkg/metrics/metrics.jsx:519
 msgid "cockpit-podman is not installed"
 msgstr "cockpit-podman yüklü değil"
 
@@ -8467,11 +8488,11 @@ msgstr "çekirdek dökümü"
 msgid "cpu"
 msgstr "cpu"
 
-#: pkg/kdump/manifest.json:0 pkg/systemd/manifest.json:0
+#: pkg/systemd/manifest.json:0 pkg/kdump/manifest.json:0
 msgid "crash"
 msgstr "çökme"
 
-#: pkg/kdump/kdump-view.jsx:450
+#: pkg/kdump/kdump-view.jsx:439
 msgid "crashkernel not configured in the kernel command line"
 msgstr "crashkernel, çekirdek komut satırında yapılandırılmamış"
 
@@ -8483,10 +8504,10 @@ msgstr "tarih"
 msgid "debug"
 msgstr "hata ayıklama"
 
-#: pkg/storaged/content-views.jsx:377 pkg/storaged/content-views.jsx:685
+#: pkg/storaged/vdo-details.jsx:159 pkg/storaged/format-dialog.jsx:232
+#: pkg/storaged/vgroup-details.jsx:182 pkg/storaged/content-views.jsx:377
+#: pkg/storaged/content-views.jsx:685 pkg/storaged/mdraid-details.jsx:279
 #: pkg/storaged/stratis-details.jsx:236 pkg/storaged/stratis-details.jsx:581
-#: pkg/storaged/vdo-details.jsx:159 pkg/storaged/vgroup-details.jsx:182
-#: pkg/storaged/format-dialog.jsx:233 pkg/storaged/mdraid-details.jsx:279
 msgid "delete"
 msgstr "sil"
 
@@ -8518,13 +8539,13 @@ msgstr "etki alanı"
 msgid "drive"
 msgstr "sürücü"
 
+#: pkg/systemd/overview-cards/configurationCard.jsx:55
 #: pkg/users/account-details.js:304 pkg/users/account-details.js:334
-#: pkg/systemd/overview-cards/configurationCard.jsx:54
+#: pkg/storaged/lvol-tabs.jsx:418 pkg/storaged/lvol-tabs.jsx:479
+#: pkg/storaged/crypto-tab.jsx:246 pkg/storaged/crypto-tab.jsx:255
+#: pkg/storaged/fsys-tab.jsx:747 pkg/storaged/fsys-tab.jsx:762
 #: pkg/networkmanager/dialogs-common.jsx:237
-#: pkg/networkmanager/network-interface.jsx:361 pkg/storaged/fsys-tab.jsx:747
-#: pkg/storaged/fsys-tab.jsx:762 pkg/storaged/crypto-tab.jsx:246
-#: pkg/storaged/crypto-tab.jsx:255 pkg/storaged/lvol-tabs.jsx:418
-#: pkg/storaged/lvol-tabs.jsx:479
+#: pkg/networkmanager/network-interface.jsx:361
 msgid "edit"
 msgstr "düzenle"
 
@@ -8536,7 +8557,7 @@ msgstr "etkinleştir"
 msgid "encryption"
 msgstr "şifreleme"
 
-#: pkg/packagekit/updates.jsx:216 pkg/packagekit/updates.jsx:318
+#: pkg/packagekit/updates.jsx:217 pkg/packagekit/updates.jsx:319
 msgid "enhancement"
 msgstr "iyileştirme"
 
@@ -8580,7 +8601,7 @@ msgstr "her gün"
 msgid "extension"
 msgstr "uzantı"
 
-#: pkg/systemd/overview-cards/configurationCard.jsx:152
+#: pkg/systemd/overview-cards/configurationCard.jsx:153
 msgid "failed to list ssh host keys: $0"
 msgstr "ssh anamakine anahtarlarını listeleme başarısız oldu: $0"
 
@@ -8604,7 +8625,7 @@ msgstr "şu anki ve gelecek çekirdekler için"
 msgid "for current kernel only"
 msgstr "sadece şu anki çekirdek için"
 
-#: pkg/storaged/format-dialog.jsx:233 pkg/storaged/manifest.json:0
+#: pkg/storaged/format-dialog.jsx:232 pkg/storaged/manifest.json:0
 msgid "format"
 msgstr "biçim"
 
@@ -8670,7 +8691,7 @@ msgstr "yükle"
 msgid "interface"
 msgstr "arayüz"
 
-#: pkg/kdump/kdump-view.jsx:322
+#: pkg/kdump/kdump-view.jsx:311
 msgid "invalid: multiple targets defined"
 msgstr "geçersiz: birden fazla hedef tanımlandı"
 
@@ -8698,7 +8719,7 @@ msgstr "journalctl kılavuz sayfası"
 msgid "kdump"
 msgstr "kdump"
 
-#: pkg/kdump/kdump-view.jsx:446
+#: pkg/kdump/kdump-view.jsx:435
 msgid "kdump status"
 msgstr "kdump durumu"
 
@@ -8706,7 +8727,7 @@ msgstr "kdump durumu"
 msgid "keys"
 msgstr "anahtarlar"
 
-#: pkg/kdump/kdump-view.jsx:326 pkg/kdump/kdump-view.jsx:328
+#: pkg/kdump/kdump-view.jsx:315 pkg/kdump/kdump-view.jsx:317
 msgid "locally in $0"
 msgstr "$0 içinde yerel olarak"
 
@@ -8734,15 +8755,15 @@ msgstr "makine"
 msgid "mask"
 msgstr "maskele"
 
-#: pkg/metrics/metrics.jsx:636
+#: pkg/metrics/metrics.jsx:635
 msgid "max: $0%"
 msgstr "en fazla: $0%"
 
-#: pkg/storaged/dialog.jsx:1039
+#: pkg/storaged/dialog.jsx:1038
 msgid "member of RAID device"
 msgstr "RAID aygıtı üyesi"
 
-#: pkg/storaged/dialog.jsx:1041
+#: pkg/storaged/dialog.jsx:1040
 msgid "member of Stratis pool"
 msgstr "Stratis havuzu üyesi"
 
@@ -8762,7 +8783,7 @@ msgstr "risk azaltması"
 msgid "mkfs"
 msgstr "mkfs"
 
-#: pkg/kdump/kdump-view.jsx:409
+#: pkg/kdump/kdump-view.jsx:398
 msgid "more details"
 msgstr "daha fazla ayrıntı"
 
@@ -8846,11 +8867,11 @@ msgstr "passwd"
 msgid "password"
 msgstr "parola"
 
-#: pkg/lib/cockpit-components-password.jsx:112
+#: pkg/lib/cockpit-components-password.jsx:113
 msgid "password quality"
 msgstr "parola kalitesi"
 
-#: pkg/packagekit/updates.jsx:343
+#: pkg/packagekit/updates.jsx:344
 msgid "patches"
 msgstr "yamalar"
 
@@ -8870,7 +8891,7 @@ msgstr "pcp"
 msgid "performance"
 msgstr "performans"
 
-#: pkg/storaged/dialog.jsx:1038
+#: pkg/storaged/dialog.jsx:1037
 msgid "physical volume of LVM2 volume group"
 msgstr "LVM2 birim grubunun fiziksel birimi"
 
@@ -8878,19 +8899,19 @@ msgstr "LVM2 birim grubunun fiziksel birimi"
 msgid "plugin"
 msgstr "eklenti"
 
-#: pkg/metrics/metrics.jsx:1658
+#: pkg/metrics/metrics.jsx:1657
 msgid "pmlogger.service has failed"
 msgstr "pmlogger.service başarısız oldu"
 
-#: pkg/metrics/metrics.jsx:1660
+#: pkg/metrics/metrics.jsx:1659
 msgid "pmlogger.service is failing to collect data"
 msgstr "pmlogger.service veri toplamada başarısız oluyor"
 
-#: pkg/metrics/metrics.jsx:1651
+#: pkg/metrics/metrics.jsx:1650
 msgid "pmlogger.service is not running"
 msgstr "pmlogger.service çalışmıyor"
 
-#: pkg/metrics/metrics.jsx:514
+#: pkg/metrics/metrics.jsx:513
 msgid "pod"
 msgstr "bölme"
 
@@ -8938,7 +8959,7 @@ msgstr "roller"
 msgid "running $0"
 msgstr "$0 çalışıyor"
 
-#: pkg/packagekit/updates.jsx:212 pkg/packagekit/updates.jsx:310
+#: pkg/packagekit/updates.jsx:213 pkg/packagekit/updates.jsx:311
 #: pkg/packagekit/manifest.json:0
 msgid "security"
 msgstr "güvenlik"
@@ -8996,7 +9017,7 @@ msgstr "çözüm ayrıntıları"
 msgid "sos"
 msgstr "sos"
 
-#: pkg/users/manifest.json:0 pkg/systemd/manifest.json:0
+#: pkg/systemd/manifest.json:0 pkg/users/manifest.json:0
 msgid "ssh"
 msgstr "ssh"
 
@@ -9064,8 +9085,8 @@ msgstr "udp"
 msgid "unit"
 msgstr "birim"
 
-#: pkg/systemd/services.jsx:560 pkg/systemd/services.jsx:570
-#: pkg/systemd/hw-detect.js:129
+#: pkg/systemd/hw-detect.js:129 pkg/systemd/services.jsx:555
+#: pkg/systemd/services.jsx:565
 msgid "unknown"
 msgstr "bilinmeyen"
 

@@ -283,10 +283,14 @@ class TestHistoryMetrics(MachineCase):
         b.wait_in_text("#metrics-hour-1597662000000:not(.metrics-hour-compressed) .metrics-events-hour-header-expanded .spikes_count", "3 spikes")
         b.wait_in_text("#metrics-hour-1597662000000:not(.metrics-hour-compressed) .metrics-events-hour-header-expanded .spikes_info", "1 Memory, 1 Disk I/O, 1 Network I/O")
 
+        b.assert_pixels(".metrics", "metrics-history-expanded-hour")
+
         b.click("#metrics-hour-1597662000000 button.metrics-events-expander")
         b.wait_in_text("#metrics-hour-1597662000000.metrics-hour-compressed", "1:00")
         b.wait_in_text("#metrics-hour-1597662000000.metrics-hour-compressed .spikes_count", "3 spikes")
         b.wait_in_text("#metrics-hour-1597662000000.metrics-hour-compressed .spikes_info", "1 Memory, 1 Disk I/O, 1 Network I/O")
+
+        b.assert_pixels(".metrics", "metrics-history-compressed-hour")
 
         # Check that events are not visible for compressed hours
         b.wait_not_present("#metrics-hour-1597662000000 div.metrics-minute[data-minute=28] .metrics-events")
@@ -1470,8 +1474,8 @@ class TestGrafanaClient(MachineCase):
             # Select PCP redis, HTTP URL http://10.111.112.1:44322
             redis_url = 'http://10.111.112.1:44322'
             bg.open("/datasources/new")
-            bg.wait_visible("[aria-label='Add data source PCP Redis']")
-            bg.click("[aria-label='Add data source PCP Redis']")
+            bg.wait_visible("[aria-label='Add new data source PCP Redis']")
+            bg.click("[aria-label='Add new data source PCP Redis']")
             bg.set_input_text("input[placeholder='http://localhost:44322']", redis_url)
             bg.click("button:contains('Save &')")  # Save & [tT]est
             bg.wait_in_text(".page-body", "Data source is working")
@@ -1485,7 +1489,10 @@ class TestGrafanaClient(MachineCase):
 
             # Switch to "Dashboards" tab, import "Host Overview"
             bg.click(".page-header__tabs a[href$='/dashboards']")
-            bg.click("tr:contains('PCP Redis: Host Overview') button")
+            with bg.wait_timeout(60):
+                bg.wait_not_in_text(".page-header__title", "Loading")
+            bg.click("tr:contains('PCP Redis: Host Overview') button:contains('Import')")
+            bg.wait_visible("tr:contains('PCP Redis: Host Overview') button:contains('Re-import')")
 
             # .. and the dashboard name becomes clickable
             bg.click("a:contains('PCP Redis: Host Overview')")
