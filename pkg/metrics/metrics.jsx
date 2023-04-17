@@ -1099,7 +1099,7 @@ class MetricsHour extends React.Component {
                     return;
                 const value = samples[type];
                 // either high enough slope, or crossing the 80% threshold
-                if (prev_val !== null && (value - prev_val > 0.25 || (prev_val < 0.75 && value >= 0.8)) || (type === "reboot")) {
+                if ((prev_val !== null && (value - prev_val > 0.25 || (prev_val < 0.75 && value >= 0.8))) || (type === "reboot")) {
                     const minute = Math.floor(i / SAMPLES_PER_MIN);
                     if (minute_events[minute] === undefined)
                         minute_events[minute] = { events: [], start: i - 1 };
